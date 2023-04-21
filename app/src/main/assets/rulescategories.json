@@ -1,0 +1,38 @@
+[
+  {
+    "uid" : "1",
+    "name" : "Basic rolls"
+  },
+  {
+    "uid" : "2",
+    "name" : "Combat"
+  },
+  {
+    "uid" : "3",
+    "name" : "Character"
+  },
+  {
+    "uid" : "4",
+    "name" : "Skills"
+  },
+  {
+    "uid" : "5",
+    "name" : "Magic & Spells"
+  },
+  {
+    "uid" : "6",
+    "name" : "Armors & Weapons"
+  },
+  {
+    "uid" : "7",
+    "name" : "Ancestors"
+  },
+  {
+    "uid" : "8",
+    "name" : "Katas & Kihos"
+  },
+  {
+    "uid" : "9",
+    "name" : "Shadowlands Taint"
+  }
+]

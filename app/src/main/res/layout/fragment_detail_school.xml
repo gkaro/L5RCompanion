@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/fond"
+    android:textColor="@color/black"
+    tools:context=".DetailSchoolFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16sp"
+            android:scrollbars="vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="UselessParent">
+            <TextView
+                android:id="@+id/schoolName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+
+                android:textSize="28sp"
+                android:text="Title School"
+                />
+            <TextView
+                android:id="@+id/schoolBenefit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/schoolName"
+                app:layout_constraintStart_toStartOf="@id/schoolName"
+                android:textSize="24sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:text="Benefit"
+                />
+            <TextView
+                android:id="@+id/schoolDiscipline"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/schoolBenefit"
+                app:layout_constraintStart_toStartOf="@id/schoolBenefit"
+                android:textSize="24sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:text="Discipline"
+                />
+            <TextView
+                android:id="@+id/schoolHonor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/schoolDiscipline"
+                app:layout_constraintStart_toStartOf="@id/schoolDiscipline"
+
+                android:textSize="24sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:text="Honor"
+                />
+            <TextView
+                android:id="@+id/schoolSkills"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/schoolSkills"
+                app:layout_constraintStart_toStartOf="@id/schoolSkills"
+                android:textSize="20sp"
+                app:fontFamily="@font/mirzaregular"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:text="Skills"
+                />
+
+            <TextView
+                android:id="@+id/schoolOutfit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/schoolHonor"
+                app:layout_constraintStart_toStartOf="@id/schoolHonor"
+                android:textSize="20sp"
+                app:fontFamily="@font/mirzaregular"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:text="Outfit"
+                />
+
+            <Button
+                android:id="@+id/seemore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Show Description" />
+
+            <TextView
+                android:id="@+id/schoolDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:text="Description"
+                android:textSize="20sp"
+                app:fontFamily="@font/mirzaregular"
+                android:justificationMode="inter_word"
+                android:animateLayoutChanges="true"
+                app:layout_constraintStart_toStartOf="@id/schoolOutfit"
+                app:layout_constraintTop_toBottomOf="@id/schoolOutfit" />
+            <Button
+                android:id="@+id/seeless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hide Description" />
+
+
+            <ImageView
+                android:id="@+id/mon1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/minimon" />
+
+            <TextView
+                android:id="@+id/schoolTitleRank1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:layout_constraintTop_toBottomOf="@id/mon1"
+                app:layout_constraintStart_toStartOf="@id/mon1"
+                android:textSize="24sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:text="Title Rank 1"
+                />
+            <TextView
+                android:id="@+id/schoolRank1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/schoolTitleRank1"
+                app:layout_constraintStart_toStartOf="@id/schoolTitleRank1"
+                android:textSize="20sp"
+                app:fontFamily="@font/mirzaregular"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:text="Content Rank 1"
+                />
+            <ImageView
+                android:id="@+id/mon2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/minimon2" />
+            <TextView
+                android:id="@+id/schoolTitleRank2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:layout_constraintTop_toBottomOf="@id/mon2"
+                app:layout_constraintStart_toStartOf="@id/mon2"
+                android:textSize="24sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:text="Title Rank 2"
+                />
+            <TextView
+                android:id="@+id/schoolRank2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/schoolTitleRank2"
+                app:layout_constraintStart_toStartOf="@id/schoolTitleRank2"
+                android:textSize="20sp"
+                app:fontFamily="@font/mirzaregular"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:text="Content Rank 2"
+                />
+            <ImageView
+                android:id="@+id/mon3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/minimon3" />
+            <TextView
+                android:id="@+id/schoolTitleRank3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:layout_constraintTop_toBottomOf="@id/mon3"
+                app:layout_constraintStart_toStartOf="@id/mon3"
+                android:textSize="24sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:text="Title Rank 3"
+                />
+            <TextView
+                android:id="@+id/schoolRank3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/schoolTitleRank3"
+                app:layout_constraintStart_toStartOf="@id/schoolTitleRank3"
+                android:textSize="20sp"
+                app:fontFamily="@font/mirzaregular"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:text="Content Rank 3"
+                />
+            <ImageView
+                android:id="@+id/mon4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/minimon4" />
+            <TextView
+                android:id="@+id/schoolTitleRank4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:layout_constraintTop_toBottomOf="@id/mon4"
+                app:layout_constraintStart_toStartOf="@id/mon4"
+                android:text="title Rank 4"
+                android:textSize="24sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                />
+            <TextView
+                android:id="@+id/schoolRank4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/schoolTitleRank4"
+                app:layout_constraintStart_toStartOf="@id/schoolTitleRank4"
+                android:textSize="20sp"
+                app:fontFamily="@font/mirzaregular"
+                android:justificationMode="inter_word"
+                android:text="Content Rank 4"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                />
+            <ImageView
+                android:id="@+id/mon5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/minimon5" />
+            <TextView
+                android:id="@+id/schoolTitleRank5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/mon5"
+                app:layout_constraintStart_toStartOf="@id/mon5"
+                android:textSize="24sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:text="Title Rank 5"
+                />
+            <TextView
+                android:id="@+id/schoolRank5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/schoolTitleRank5"
+                app:layout_constraintStart_toStartOf="@id/schoolTitleRank5"
+                android:textSize="20sp"
+                app:fontFamily="@font/mirzaregular"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:text="Content Rank 5"
+                />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

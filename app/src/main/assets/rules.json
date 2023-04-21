@@ -1,0 +1,158 @@
+[
+  {
+    "uid" : "1",
+    "name" : "Void Points",
+    "content" : "The expenditure of a Voice point enhances a roll or the character's abilities in one of a number of different ways. A character may normally only spend one Void point per round for one of the following effects, although some abilities may allow them to spend more than one under certain circumstances. By spending more than one Void point a Void point, a character may: \n- Gain a bonus of a +1k1 to a Skill, Trait, Ring or Spell Casting roll (the Void point expenditures mau be declared prior to the roll being made). Damage rolls may not be enhanced in this manner.\n- Temporarily increase his rank in a Skill from 0 to 1, avoiding unskilled roll penalities.\n- Reduce the amount of wounds suffered from one source of damage to another by 10 (this must be done immediately after the damage total is done).\n- Increase his Armor TN by 10 for one round. This is done at the beginning of the combat round.\n- Exchange his initiative score with one willing target for the remainder of the current skirmish. This is done at the beginning of the combat round. Only one of the two characters needs to spend a Void for this effect to take place.\n- Increase his Initiative score by 10 for the duration of the current skirmish. This is done at the beginning of the combat round.",
+    "category" : "1"
+  },
+  {
+    "uid" : "2",
+    "name" : "Raises",
+    "content" : "A character can make a maximum number of Raises per roll equal to his Void Ring. Some mechanical effects  grant a character free Raises. These give the benefit of having made a Raise without actually increasing the TN of the roll in question, and do not count against the acutal number of Raises that may be made per roll. Free Raises may also be used to reduce the TN of the task being attempted by 5 instead of augmenting the roll in the same way of a normal Raise.",
+    "category" : "1"
+  },
+  {
+    "uid" : "3",
+    "name" : "Unskilled Rolls",
+    "content" : "It is possible for a character to attempt a roll when a Skill Roll is called for, even if they have no rank in that Skill. In this case, they are effectively making a Trait Roll against a Skill Roll TN, which is typically higher than most Trait Rolls can realistically achieve. When making an Unskilled Roll, the following two conditions apply: \n\n- Dice never explode on an Unskilled Roll.\n- Unskilled Rolls may not benefit from Raises, either called Raises or Free Raises.",
+    "category" : "1"
+  },
+  {
+    "uid" : "4",
+    "name" : "Failed Rolls",
+    "content" : "When a character fails a Skill Roll, it is often possible to make a second attempt (unless the GM rules that circumstances make a second attempt impossible). When making a second attempt at the same Skill Roll, the TN for the Skill Roll increases by +10. Second attemtps on Skill Rolls utilizing Perception or Intelligence usually cannot be made without a change in the situation, such as new information becoming available to the character. Skill Rolls made as attacks may not make a second attempt at +10 TN; an attack roll that fails simply misses, and the character may not make another attack unless he has an ability that confers multiple attacks.",
+    "category" : "1"
+  },
+  {
+    "uid" : "5",
+    "name" : "Cooperative Rolls",
+    "content" : "Cooperative Skill Rolls involve multiple individuals working together to achive a single result. There are two different types of Cooperative Rolls. The first involves a group working together towards one end, without significant consequences for failure., In these cases, one individual is chosen from those participating  to make the Skill Roll. He receives a bonus to the total of his roll equal to the combined Ranks of all other participants in the Skill in question.\n\nThe second manner of Cooperative Roll is one wherein the circumstances of the roll allow for one participant with poor performance to impede the entire group. In this case, an indvidual Skill Roll is required from each participant, but the participant with the single highest rank in the Skill being used grants a bonus equal to his Skill Rank to all others making the roll.",
+    "category" : "1"
+  },
+  {
+    "uid" : "6",
+    "name" : "Cumulative Rolls",
+    "content" : "Cumulative Skill Rolls require multiple successes over time in order for the task at hand to be completed satisfactorily. The TN for Cumulative Skill Rolls is typically very high, but can be achived through multiple Skill Rolls over time. Each time an individualmakes a successful Skill Roll, the total of the Skill Roll is deducted from the total of the TN. Individual Cumulative Skill Rolls typically list how long a character must allow to pass between rolls.\n\nIt xhould be noted that Cumulative Skill Rolls could be av=bused by the unscrupulous if the GM is not careful. In general, suche methods can only be used in situations where it makes sense to do so. The GM is also justified in requiring the individual Skill rolls to hit a minimum TN in order for them to count against the cumulative total. Potentially, a very low \"flubbed\" Skill Roll might even substract from the cumulative total, reprensenting a mistake that must be corrected.\n\nIt is possible to have a Cumulative Skill Roll required that is also a Cumulative Skill Roll, in which case the Cooperative Skill Roll is generated as described, and the total is deducted from the Cumulative's Roll TN.",
+    "category" : "1"
+  },
+  {
+    "uid" : "7",
+    "name" : "Ambush",
+    "content" : "Under certain circumstances, it is possible for one group of combatant to surprise another. If the GM rules that one group is unaware of another's presence, the hidden group may attempt to make a surprise attack. They make a Contested Stealth (Ambush)/Agility roll opposed by the unaware group's Investigation (Notice)/Perception before the first Stage of the skirmish begins. This roll may either use the Cumulative Skill Rolls rule or, if the GM prefers, be made by the group leader. If the ambushing party wins, all characters in the surprise party suffer a penalty of -10 to their Initiative Score for the duration of the skirmish. If the party being ambushed wins the Contester Roll, then nothing happens and the Skirmish immediately proceeds to Stage 1.\n\nSome GMs may find the global Initiative penalty inappropriate for ambush situations. If that is the case, an alternative that some might prefer would be to allow only the ambushing party to act during the first round of the skirmish, or to disallow the surprised party to use certain Stances, particularly Full Defense. The GM might also rule that a surprised character is easier to hit, depending on whether that seems appropriate to the circumstances. Be aware, however, that removing the actions of the surprised party or making them overly vulnerable to attack, even for one round, could quite possibly lead to multiple fatalities.",
+    "category" : "2"
+  },
+  {
+    "uid" : "8",
+    "name" : "Falling & Drowning",
+    "content" : "Falling from a height will inflict Wounds equal to 1k1 for every ten feet of distance fallen. Falls of less than about 10 feet will typically not inflict meaningful damage, although th GM can use discretion for unusual circumstances.\n\nA character that falls into deep water must roll Athletics (Swimming)/Strength at TN 15 each minute to stay afloat. The GM may increase this TN to reflect difficult circumstances such as a storm-tossed sea. If the PC must tread water for a long time, not only will the TN increase but also the Trait for the roll may be changed to Stamina. Once the character fails the roll, he can hold his breath for  a number of Rounds equal to his Stamina, during which time he can continue trying to make the Athletics roll to resume swimming. If he is still underwater when his Stamina runs out, he begins drowning, taking 2k2 Wounds per Round. A drowning character is helpless and cannot take any Actions until rescued.",
+    "category" : "1"
+  },
+  {
+    "uid" : "9",
+    "name" : "Fear",
+    "content" : "Fear effects are given a Rank, ranging from 1 to 10, to represent their severity. To resist a Fear effect, a character must roll Raw Willpower at a TN equal to 5 + (5 x Fear Rank). Those of high Honor, however, are better able to overcome this test -  all characters must add their Honor Rank to the total of their roll.\n\nA character who fails to resist a Fear effect suffers a penalty to all of his die rolls equal to -Xk0, where is the Rank of the Fear effect. This penalty lasts until the end of the encounter, unless the source of the Fear is removed prior to that time. Characters who catastrophically fail to resist Fear may actually lose control of themselves and completely succumb to terror. If a character fails a roll to resist Fear by 15 or more, he is overwhelmed by fear and either flees or cowers helplessly.",
+    "category" : "1"
+  },
+  {
+    "uid" : "10",
+    "name" : "Honor, glory & Status",
+    "content" : "",
+    "category" : "1"
+  },
+  {
+    "uid" : "11",
+    "name" : "Combat turn",
+    "content" : "Stage 1 : Initiative\nDuring the first round of a skirmish, all participants make an Initiative Roll, rolling Reflexes and Insight Rank, keeping Reflexes. The result of this roll, called the Initiative Score, determines the order in which all characters will act. An Initiative Roll is only made on the character's first Round of participation in the skirmish, and the resulting Initiative Score is used for the remainder of the skirmish. However, in subsequent Rounds, the Initiative Scores may potentially change as a result of different character abilities or situational modifiers. During the first Round of combat, characters also select their Stance immediately before they make their Initiative Roll.\n\nStage 2 : Turns\nThe bulk of a combat Round involves each individual participant taking their Turn. When this stage begins, the character with the highest Initiative Score takes their Turn first, and may take any legal Action. A character may choose to delay taking their Turn, and instead allow the character with the next highest Initiative Score to take their Turn. After that,  the character who delayed their Turn has the chance to take it or delay again, and so on. Delaying a Turn has no effect on a character's Initiative Score the following Round, and Turns cannot be \"saved\" form one Round to the Next. If every participant delays their Turn, when the participant with the lowest Initiative Score is reached he must take his Turn, then the Round ends. After the first Round of a skirmish, characters may change their Stances at the beginning of their Turn, before taking any Actions. A character only ever has one Turn per Round, regardless of how many Actions he may take during the Round.\n\nStage 3 : Reactions.\nAt the end of a Round, when all characters have taken their Turn, there are certain abilities that take effect as a result of the events of the Round. All such effets happen simultaneously during Stage 3. Reaction effects, typically generated by Techniques, Spells or Advantages, are always clearly labeled as such.",
+    "category" : "2"
+  },
+  {
+    "uid" : "12",
+    "name" : "Stances",
+    "content" : "A character's Stance determines what actions they may or may not take during their Turn in a combat Round. Stances reflect the basic postures every samurai is taught to prepare them for combat, and event the most pious Shugenja or effete courtier is familiar with them. During nthe first Round of a skirmish, characters assume their Stance during Stage 1. On every subsequent round, they can change their Stance or choose to maintain it at the begining of their Turn in Stage 2.\n\n- Attack\nAttack is the standard Stance adopted by most bushi in a combat situation, and is tied closely wioth the Ring of Water in that it is fluid and versatile. A character in the Attack Stance has no restrictions on the kind of action he may take.\n\n- Full Attack\nFull Attack is the Ring of Fire, raging and consuming all in its path. A character in the Full Attack Stance may take no Simple or Complex Actions other than those used to make attacks, and may only use Move Actions to get closer to his enemies. Characters may not use the Full Attack Stance to deliver ranged attacks. A character in the Full Attack Stance gains a bonus of +2k1 to attack rolls made that round, but his Armor TN is reduced by 10 to reflect the all-or-nothing nature of the attack. A character in the Full Attack Stance who takes a Move Action during his turn may move an additional 5 feet beyond the normal amount allowed for the Move Action. This bonus movement is granted only once per Round, and the character may still not exceed the normal maximum distance he may normally move in one Round. Full Attack may not be used while mounted.\n\n- Defense\nDefense is the Ring of Air, adaptable and reactive. Defense allows for the greatest freedom of action. Characters in the Defense Stance add their Air Ring plus their Defense Skill Rank to their Armor TN. There are no restrictions on what kind of Actions a character in the Defense Stance may take, other than that they may not attack. The Defense Stance is useful for making oneself less vulnerable while making Skill Rolls or Spell Casting Rolls during skirmishes.\n\n- Full Defense\nThe Full Defense Stance is the Ring of Earth, reserved, unmoving, and unassailable. Upon declaring his Stance, a character in the Full Defense Stance makes a Defense/Reflexes roll and adds half of the total (rounding up) to his Armor TN until his following Turn. This Skill Roll is considered a Complex Action, so a character in this Stance may only take Free Actions.\n\n- Center\nThe Center Stance is the Ring of Void. The principle function of Center Stance is related to the benefits it offers in iaijutsu dueling, but it has benefits in skirmishes as well. Characters in the Center Stance take no Actions, instead focusing their energy in preparation for action the following round. A character in the Center Stance forfeits all Actions while in that Stance. On the Round following his adoption of the Center Stance, the character gains a bonus of +1k1 plus his Void Ring on any one roll made during his Turn. The character also adds 10 to the total of his Initiative Score for that Round only.",
+    "category" : "2"
+  },
+  {
+    "uid" : "13",
+    "name" : "Combat Actions",
+    "content" : "During a combat Round, every character may take Actions on their Turn. Although a character's Stance may limit what kind of actionsthey may take, in general a character may take one of the following options:\n\nOne complex action + Free Actions or Two Simple Actions + Free Actions.\n\nFree Actions are minor activities that do not disrupt a character's ability to perform other tasks during the course of their Turn. Unless otherwise specified, a character may only perform each Free Action a maximum of once per Round.\n\nSimple Actions are more complicated tasks that require more of the character's attention, but not so much that he is not capable of taking more than one action at a time.\n\nComplex Actions are elaborate or time-consuming efforts that require all of a character's attention in order to complete.",
+    "category" : "2"
+  },
+  {
+    "uid" : "14",
+    "name" : "Maneuvers",
+    "content" : "Called Shot (variable Raises)\nA called shot is an attack that specifically target one section of the body. Without the Called Shot Maneuver, it is assumed that an attack will strike the target's torso, but with an increasing number of Raises, smaller or more specific parts of the body can be targeted. A specific limb can be targeted with 1 Raise, a hand or foot with 2 Raises, the head with 3 Raises, or an eye, ear, finger, or other similarly small parts with 4 Raises. There is no specific mechanical effect for striking a particular part of the body in this manner, altnhough individual GMs may rule that a certain amount of damage may sever or destroy the body part in question, and any item held or worn on that part may be dropped or destroyed.\n\nDisarm (3 Raises)\nThe Disarm Maneuver targets a weapon held by the target, with the intention of knocking it out of the target's grasp. A successful Disarm attack inflicts only 2k1 damage from the jarring impact of the strike, regardless of the weapon used, and characters executing this Maneuver do not add their Strength to the number of rolled damage dice. If the maneuver is successful, the character and its target make a Contested Strength Roll. If the attacking character wins, the target drops the weapon in question. Weapons with wooden components that are the target of a Disarm Maneuver by weapons with a steel blade may be broken, at the GM's discretion. Recovering a dropped weapon requires a Simple Action on the part of the character who has been disarmed.\n\nExtra Attack (5 Raises)\nThe ability to make multiple attacks per Turn is normally granted by powerful School Techniques. This Maneuver allows anyone to gain an extra attack per Turn, however, as long as they have the skill necessary to pull it off. To gain an additional attack, a character must make 5 successful Raises on the first attack roll. These Raises confer no benefits, but if they succeed, the character may immediately make a second attack roll as soon as the first attack has been resolved (including damage). The Extra Attack Maneuver may only be used once per turn. The initial attack in this Maneuver must be succesful, but the second may missed without any negative effects.\n\nFeint (2 Raises)\nA Feint is an attack that contains, as its first component, a deceptive movement intended to make a target believe that the attack will come fromn one direction, and then the actual attack comes from another direction, exploiting a hole in the target's defenses opened by their attempt to  defend against the initial attack. If the Feint Maneuver is successful, half the amount by which the character's attack roll exceeded the target's Armor TN (taking the two Raises  for this Maneuver into account) is added to the damage roll for that attack, to a maxum amount equal to five times the character's Insight Rank.\n\nGuard (0 Raises)\nGuard is a unique combat Action that does not actually require an attack roll. However, it has been placed here with Maneuvers for convenience, since it is used only in combat. During a skirmish, a character can choose to dedicate himself to protecting another character, making it harder to enemies to attack that person. Guarding is a Simple Action, and you may not take the Guard Action while in the Full Attack Stance. When you declare a Guard Action, you must designate one person wihtin 5 feet of you. Until your next Turn, any time that person is within 5 feet of you,  their Armor TN is increased by 10 and your Armor TN is decreasd by 5.\n\nIncreased Damage (1 or more Raises)\nThe simplest of all Maneuvers, an Increased Damage Maneuver  adds a bonus of 1k0 to the total of the damage roll that corresponds to the attack. Multiple Raises can be made to gain a larger amount of Increased Damage, but all Raises made in one combat Round count as one effect for the purposes of any mechanics that decrease the number of Raises required.\n\nKnockdown (2 or 4 Raises)\nThe Knockdown Maneuver is a specialized attack intended to damage an opponent and make them prone. Because this attack generally targets the legs, it is only useable against two- or four-legged opponents (requiring 2 and 4 Raises respectively).If successful, the attack deals normal damage and forces a Contested Strength Roll between the character and the target. If the character is successful, the target is knocked prone.\n\n",
+    "category" : "2"
+  },
+  {
+    "uid" : "15",
+    "name" : "Move Actions",
+    "content" : "Characters can move a certain amount per round depending upon the Action or Actions devote to that task.\n\nFree Action :  A number of feet equal to five times the character's Water Ring.\n\nSimple Action :  A number of feet equal to ten times the character's Water Ring.\n\nComplex Action : These are not normally available.\n\nComplex Action : These are not normally available, but some mechanics can require a character to perform specific tasks as Complex Move Actions.\n\nA character may not move more than twenty times his Water Ring in feet per round unless he has an ability that increases his maximum possible movement per round.\n\nMovement is also modified by the type of terrain where characters are located :\n\n- Basic : City streets, plains, sparse forests, etc. No movement penalties.\n\n- Moderate: Tall grass, foothills, beaches, etc. A character's Water Ring is considered one Rank lower for the purposes of determining how far he can move.\n\n- Difficult : Mountains, dense forests, hip-deep water, etc.A character's Water Ring is considered two Ranks lower for the purposes of determining how far he can move. GMs may optionally choose to assign penalties to physical rolls made in Difficult terrain if it seems appropriate.",
+    "category" : "2"
+  },
+  {
+    "uid" :"16",
+    "name" :"Iaijutsu Dueling",
+    "content" : "Once a challenge has been issued and accepted, the process takes place over the course of two combat rounds. In a iaijutsu duel, both duelists are considered to be in Center Stance throughout the duel, and mayn not take any actions other than the ones listed below.\n\nAssessment\nOn the first Round of the duel, both characters enter the Assessment stage on the Initiative turn of the faster duelist. During the Assessment stage, each participant assumes the Center Stance and makes an Iaijutsu (Assessment) / Awareness roll against a TN equal to 10 plus their opponent's Insight Rank x 5. If successful, a duelist's roll reveals any one of the following pieces of information, plus an additional piece of information per Raises.\nThe Opponent's Void\nThe opponent's Reflexes\nThe opponent's Iaijutsu Skill\nAny Iaijutsu emphases  the opponent may possess\nThe current number of Void  points the opponent has available\nThe opponent's current Wound Level\nIf a character's Assessment roll exceeds the total of their opponent's roll by 10 or more, whether or not it gained any information, the winning character gains a bonus of +1k1 on his subsequent Focus Roll. At this point, it is possible for either of the duelists to concede defeat, recognizing his opponent as superior.\n\nFocus\nDuring the second Round of the Duel, both characters enter the Focus stage on the Initiative Turn of the faster duelist. The opponents study one another carefully, looking for any weakness. The duelists make a Contested Roll of Iaijutsu (Focus) / Void Roll. If one duelist beats the other's roll by 5 or more, that duelist earns the right to make the first strike. He gains a Free Raise towards his Strike Roll for every additional increment of 5 by which he beats his opponent's roll. If neither duelists beat the other's roll by at least 5, then a simultaneous \"kharmic strike\" takes place.\n\nStrike\nOn the third Round of the duel, both characters enter the Strike stage on the Initiative Turn of the slower duelist. The duelist who won first strike makes an Iaijutsu / Reflexes attack roll against his opponent normal Armor TN. Any Free Raises gained during the Focus stage apply to this roll. The attack is resolved normally, including Wounds being applied. The second duelist may then make his Iaijutsu / Reflexes roll, assuming he still lives. In a duel to first blood, the second duelist has lost the duel if his opponent struck him, and striking after first blood is considered extremely dishonorable. In the event that neither opponent won the Contested Roll during the Focus stage, both make their attack roll simultaneously, an event known as a Kharmic Strike. Destiny has intervened, and the cause of the duel is considered dropped by both parties. Neither is the victor nor the defeated.\nIf neither duelist is dead at the end  of the Strike phase, and if the duel is to the death, the duel becomes a standard skirmish, continuing until one combatant is dead. Regardless of the result of the duel, the act of striking counts as each character's actions for this round.",
+    "category": "2"
+  },
+  {
+    "uid" :"17",
+    "name" :"Grappling",
+    "content" : "A character may initiate a grapple by making an attack roll using JiuJutsu / Agility. This is always a Complex Action unless the character possesses an ability that specifically identifies renders grapples a Simple or Free Action. To successfully initiate a grapple, the attacking character must hit the target's Armor TN with his attack roll. This attack roll ignores the benefits of the armor to the Armor TN. The attack is successful, both the attacker and the target are considered to be in a grapple.\n\nWhen characters are involved in a grapple, one of them is in control. Initially this is the character who initiates the attack the grapple, but it can change every round. A grappled character must try to control the grapple at the beginning of his Turn. All characters involved in the grapple must make a Contested Jiujutsu / Strength Roll. The character with the highest result on this roll is considered to be in control of the grapple until the next character's Turn.\n\nA character who has the control of the grapple may do one of the following things on his Turn : \n\nHit : As a Complex Action, the character may inflict normal unarmed damage on any one other participant in the grapple. This damage cannot benefit from Raises, as there is no attack roll being made. Free Raises can still be applied however.\n\nThrow : As a Complex Action, the character may throw one opponent, causing them to become prone anywhere within five feet of the character performing the throw. This remove the thrown character from the grapple.\n\nBreak : As a Simple Action, the character may immediately remove himself from the grapple.\n\nPass : As a Free Action, the character may do nothing, choosing to maintain the grapple and retain control.\n\nCertain weapons, primarily Chain Weapons and certain polearms, may be used to grapple opponents. Thees types of grapple are identical to normal grapples, except that the attack rolls and control rolls use the appropriate Weapon Skill in place of Jiujutsu, and a Hit inflicts damage based on the weapon instead of unarmed damage. There is a risk associated with this, however. If the character using a weapon loses control of the grapple, his opponent gains two Free Raises on his next Turn to use the Disarm maneuver against him.",
+    "category": "2"
+  },
+  {
+    "uid" :"18",
+    "name" :"Conditional effects",
+    "content" : "- Blinded\nA character who has been struck blind or who suffers from the Blind Disadvantage suffers a penalty of -3k3 to all ranged attack rolls and -1k1 to melee attack rolls. A blind character's base Armor TN is equal to his Reflexes Trait plus five (armor adds bonuses as normal). The character's Water Ring is considered two ranks lower for the purposes of determining how far he can move as part of a Move Action. Any attempt at a Simple Move Action requires an Athetics / Agiity roll (TN 20) or the character is knocked prone.\n\n- Dazed\nA character who has been dazed suffers a penalty of -3k0 to all actions. Dazed characters can only use the Defense and Full Defense Stances and cannot perform a Iaijutsu duel. The character may recover from this Status Effect by making a successful Earth Ring Roll versus a TN of 20 during the Reaction Stage. The target may attempt this roll once each Round, and the TN decreases by 5 each time he fails the roll.\n\n- Entangled\nA character who has become Entangled can take no Actions other than attempting to break free. This is a Strength Roll against a TN determined by the GM based on the nature of the entanglement : it is a Contester Roll if someone is actively trying to keep the character entangled. Opponents may initiate a grapple with an entagled character without an attack roll.\n\n- Fasting\nA character who goes without food and water for 24 hours loses the ability to regain Void  points from rest, although they can still be regained from meditation. After two days of fasting, a character suffers a +5 TN penalty to all his Skills Rolls until he gets food and drink. This increases by +5 for each additionel day of fasting. After a number of days of fasting equal to his Stamina, he begins losing 2k1 Wounds per day until he gets food or drink or dies.\n\n- Fatigued\nA character who goes without rest for 24 hours suffers a +5 TN penalty to all his Skill Rolls, physical Trait Rolls, and Spell Casting Rolls until he rests. This penalty increases by an additional +5 for every day that passes without rest. After a number of days equal to the character's Stamina Trait, he must begin making Willpower Rolls at TN 20 every two hours to avoir falling asleep. A fatigued character may not take the Full Attack Stance.\n\n- Grappled\nA character who is participating in a grapple is considered Grappled. Characters who are grappled are much easier to hit with attacks, and have their Armor TN reduced to 5 plus any bonuses from armor they are wearing.\n\n- Mounted/Higher\nA character sitting atop a horse or other mount, or who is on higher ground (at least a four feet height advantage), gains a bonus of +1k0 on attack rolls against un-mounted/lower characters. A mounted character may not use the Full Attack Stance.\n\n- Prone\nA prone character is lying flat on his back, side or stomach, and cannot move, attack or defend himself to full effect. A prone character immediately suffers a -10 penalty to his Armor TN against melee attacks. This penalty lasts until he stands up. He cannot use Move Actions, and may only adopt the Defense or Attack Stances. He cannot attack with large weapons, and suffers a -2k0 penalty to attacks with medium and small weapons. It requires a Simple Action to stand up from the prone position.\n\n- Stunned\nA character who is stunned may take no actions. Such a character has an Armor TN equal to 5 plus any bonuses from aror worn. The character mau recover from this Status Effect by making a successful Earth Ring Roll at TN 20 during the Reaction Stage. If he fails this roll, the status ends at the end of the next Combat Round.",
+    "category": "2"
+  },
+  {
+    "uid" :"19",
+    "name" :"Improving your character",
+    "content" : "",
+    "category": "3"
+  },
+  {
+    "uid" :"20",
+    "name" :"Reduction",
+    "content" : "",
+    "category": "6"
+  },
+  {
+    "uid" :"21",
+    "name" :"Mastery Abilities",
+    "content" : "",
+    "category": "4"
+  },
+  {
+    "uid" :"21",
+    "name" :"Emphases",
+    "content" : "",
+    "category": "4"
+  },
+  {
+    "uid" :"22",
+    "name" :"Off-hand attacks",
+    "content" : "",
+    "category": "2"
+  },
+  {
+    "uid" :"23",
+    "name" :"Advanced Schools",
+    "content" : "",
+    "category": "3"
+  },
+  {
+    "uid" :"24",
+    "name" :"Alternate Paths",
+    "content" : "",
+    "category": "3"
+  },
+  {
+    "uid" :"25",
+    "name" :"Crafting",
+    "content" : "",
+    "category": "4"
+  }
+]

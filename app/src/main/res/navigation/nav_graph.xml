@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/firstFragment">
+
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.rpg.l5rcompanion.FirstFragment"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_first" >
+        <action
+            android:id="@+id/action_firstFragment_to_listClansFragment"
+            app:destination="@id/listClansFragment" />
+        <action
+            android:id="@+id/action_firstFragment_to_listRulesFragment"
+            app:destination="@id/listRulesFragment" />
+        <action
+            android:id="@+id/action_firstFragment_to_listSkillsFragment"
+            app:destination="@id/listSkillsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listClansFragment"
+        android:name="com.rpg.l5rcompanion.ListClansFragment"
+        android:label="fragment_list_clans"
+        tools:layout="@layout/fragment_list_clans" >
+        <argument
+            android:name="uid"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_listClansFragment_to_detailClanFragment"
+            app:destination="@id/detailClanFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listFamiliesFragment"
+        android:name="com.rpg.l5rcompanion.ListFamiliesFragment"
+        android:label="fragment_list_families"
+        tools:layout="@layout/fragment_list_families" >
+        <argument
+            android:name="uid"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/listSchoolsFragment"
+        android:name="com.rpg.l5rcompanion.ListSchoolsFragment"
+        android:label="fragment_list_schools"
+        tools:layout="@layout/fragment_list_schools" >
+        <argument android:name="uid"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_listSchoolsFragment_to_detailSchoolFragment"
+            app:destination="@id/detailSchoolFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailClanFragment"
+        android:name="com.rpg.l5rcompanion.DetailClanFragment"
+        android:label="fragment_detail_clan"
+        tools:layout="@layout/fragment_detail_clan" >
+        <action
+            android:id="@+id/action_detailClanFragment_to_listSchoolsFragment"
+            app:destination="@id/listSchoolsFragment" />
+        <action
+            android:id="@+id/action_detailClanFragment_to_listFamiliesFragment"
+            app:destination="@id/listFamiliesFragment" />
+        <argument
+            android:name="uid"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_detailClanFragment_to_listAdvSchoolsFragment"
+            app:destination="@id/listAdvSchoolsFragment" />
+        <action
+            android:id="@+id/action_detailClanFragment_to_listPathsFragment"
+            app:destination="@id/listPathsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailSchoolFragment"
+        android:name="com.rpg.l5rcompanion.DetailSchoolFragment"
+        android:label="fragment_detail_school"
+        tools:layout="@layout/fragment_detail_school" >
+        <argument
+            android:name="uid"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/listAdvSchoolsFragment"
+        android:name="com.rpg.l5rcompanion.ListAdvSchoolsFragment"
+        android:label="fragment_list_adv_schools"
+        tools:layout="@layout/fragment_list_adv_schools" >
+        <argument
+            android:name="uid"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_listAdvSchoolsFragment_to_detailAdvSchoolFragment"
+            app:destination="@id/detailAdvSchoolFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailAdvSchoolFragment"
+        android:name="com.rpg.l5rcompanion.DetailAdvSchoolFragment"
+        android:label="fragment_detail_adv_school"
+        tools:layout="@layout/fragment_detail_adv_school" >
+        <argument
+            android:name="uid"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/listPathsFragment"
+        android:name="com.rpg.l5rcompanion.ListPathsFragment"
+        android:label="fragment_list_paths"
+        tools:layout="@layout/fragment_list_paths" >
+        <argument
+            android:name="uid"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_listPathsFragment_to_detailPathFragment"
+            app:destination="@id/detailPathFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailPathFragment"
+        android:name="com.rpg.l5rcompanion.DetailPathFragment"
+        android:label="fragment_detail_path"
+        tools:layout="@layout/fragment_detail_path" >
+        <argument
+            android:name="uid"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/listRulesFragment"
+        android:name="com.rpg.l5rcompanion.ListRulesFragment"
+        android:label="fragment_list_rules"
+        tools:layout="@layout/fragment_list_rules" >
+        <argument
+            android:name="uid"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_listRulesFragment_to_rulesFragment"
+            app:destination="@id/rulesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailRulesFragment"
+        android:name="com.rpg.l5rcompanion.DetailRulesFragment"
+        android:label="fragment_detail_rules"
+        tools:layout="@layout/fragment_detail_rules" >
+        <argument android:name="uid"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/rulesFragment"
+        android:name="com.rpg.l5rcompanion.RulesFragment"
+        android:label="fragment_rules"
+        tools:layout="@layout/fragment_rules" >
+        <action
+            android:id="@+id/action_rulesFragment_to_detailRulesFragment"
+            app:destination="@id/detailRulesFragment" />
+        <argument
+            android:name="uid"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/listSkillsFragment"
+        android:name="com.rpg.l5rcompanion.ListSkillsFragment"
+        android:label="fragment_list_skills"
+        tools:layout="@layout/fragment_list_skills" >
+        <action
+            android:id="@+id/action_listSkillsFragment_to_skillsFragment"
+            app:destination="@id/skillsFragment" />
+        <argument
+            android:name="uid"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/skillsFragment"
+        android:name="com.rpg.l5rcompanion.SkillsFragment"
+        android:label="fragment_skills"
+        tools:layout="@layout/fragment_skills" >
+        <argument
+            android:name="uid"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_skillsFragment_to_detailSkillsFragment"
+            app:destination="@id/detailSkillsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailSkillsFragment"
+        android:name="com.rpg.l5rcompanion.DetailSkillsFragment"
+        android:label="fragment_detail_skills"
+        tools:layout="@layout/fragment_detail_skills" >
+        <argument
+            android:name="uid"
+            app:argType="integer" />
+    </fragment>
+</navigation>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/fond"
+    android:textColor="@color/black"
+    tools:context=".DetailPathFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16sp"
+            android:scrollbars="vertical"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="UselessParent">
+            <TextView
+                android:id="@+id/schoolName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+
+                android:textSize="28sp"
+                android:text="Title School"
+                />
+            <TextView
+                android:id="@+id/replaces"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/schoolName"
+                app:layout_constraintStart_toStartOf="@id/schoolName"
+                android:textSize="24sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:text="Benefit"
+                />
+            <TextView
+                android:id="@+id/schoolRingsRequired"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/replaces"
+                app:layout_constraintStart_toStartOf="@id/replaces"
+                app:fontFamily="@font/mirzaregular"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:text="Benefit"
+                />
+            <TextView
+                android:id="@+id/schoolSkillsRequired"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/schoolRingsRequired"
+                app:layout_constraintStart_toStartOf="@id/schoolRingsRequired"
+                app:fontFamily="@font/mirzaregular"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:text="Discipline"
+                />
+            <TextView
+                android:id="@+id/schoolOtherRequired"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/schoolSkillsRequired"
+                app:layout_constraintStart_toStartOf="@id/schoolSkillsRequired"
+                app:fontFamily="@font/mirzaregular"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:text="Honor"
+                />
+
+            <Button
+                android:id="@+id/seemore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Show Description" />
+            <TextView
+                android:id="@+id/pathDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:text="Description"
+                android:textSize="20sp"
+                app:fontFamily="@font/mirzaregular"
+                android:justificationMode="inter_word"
+                app:layout_constraintStart_toStartOf="@id/schoolOtherRequired"
+                app:layout_constraintTop_toBottomOf="@id/schoolOtherRequired" />
+            <Button
+                android:id="@+id/seeless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hide Description" />
+
+            <ImageView
+                android:id="@+id/mon1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/minimon" />
+
+            <TextView
+                android:id="@+id/pathTechniqueTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:layout_constraintTop_toBottomOf="@id/mon1"
+                app:layout_constraintStart_toStartOf="@id/mon1"
+                android:textSize="24sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:text="Title Rank 1"
+                />
+            <TextView
+                android:id="@+id/pathTechnique"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/pathTechniqueTitle"
+                app:layout_constraintStart_toStartOf="@id/pathTechniqueTitle"
+                android:textSize="20sp"
+                app:fontFamily="@font/mirzaregular"
+                android:justificationMode="inter_word"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:text="Content Rank 1"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
