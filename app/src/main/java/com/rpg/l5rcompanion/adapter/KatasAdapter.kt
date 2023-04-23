@@ -7,12 +7,11 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.rpg.l5rcompanion.R
-import com.rpg.l5rcompanion.database.CategoriesRules
-import com.rpg.l5rcompanion.database.Rules
+import com.rpg.l5rcompanion.database.Katas
 
-class RulesAdapter: RecyclerView.Adapter<RulesAdapter.RulesViewHolder>() {
+class KatasAdapter: RecyclerView.Adapter<KatasAdapter.KatasViewHolder>() {
 
-    var dataset = ArrayList<Rules>()
+    var dataset = ArrayList<Katas>()
     private lateinit var mListener : OnItemClickListener
 
     interface OnItemClickListener {
@@ -23,7 +22,8 @@ class RulesAdapter: RecyclerView.Adapter<RulesAdapter.RulesViewHolder>() {
         mListener = listener
     }
 
-    class RulesViewHolder(view: View, listener: OnItemClickListener) : RecyclerView.ViewHolder(view) {
+
+    class KatasViewHolder(view: View, listener: OnItemClickListener) : RecyclerView.ViewHolder(view) {
         val textView: TextView = view.findViewById(R.id.item_title)
 
         init{
@@ -33,19 +33,19 @@ class RulesAdapter: RecyclerView.Adapter<RulesAdapter.RulesViewHolder>() {
         }
     }
 
-    fun setDataList(rules: List<Rules>) {
-        this.dataset= rules.toMutableList() as ArrayList<Rules>
+    fun setDataList(katas: List<Katas>) {
+        this.dataset= katas.toMutableList() as ArrayList<Katas>
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RulesViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): KatasViewHolder {
         val adapterLayout = LayoutInflater.from(parent.context)
             .inflate(R.layout.list_item, parent, false)
 
-        return RulesViewHolder(adapterLayout, mListener)
+        return KatasViewHolder(adapterLayout, mListener)
     }
 
     @SuppressLint("SetTextI18n")
-    override fun onBindViewHolder(holder: RulesViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: KatasViewHolder, position: Int) {
         val item = dataset[position]
         holder.textView.text =  item.name
     }

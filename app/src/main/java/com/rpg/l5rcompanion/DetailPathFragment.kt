@@ -86,19 +86,19 @@ class DetailPathFragment : Fragment() {
         }
 
         /**display or hide description*/
-        val seedesc :TextView = view.findViewById(R.id.pathDescription)
-        seedesc.visibility = View.GONE
+
+        description.visibility = View.GONE
         val show: Button = view.findViewById(R.id.seemore)
         val hide: Button = view.findViewById(R.id.seeless)
         hide.visibility = View.GONE
 
         show.setOnClickListener {
-            seedesc.visibility = View.VISIBLE
+            description.visibility = View.VISIBLE
             hide.visibility = View.VISIBLE
             show.visibility = View.GONE
         }
         hide.setOnClickListener {
-            seedesc.visibility = View.GONE
+            description.visibility = View.GONE
             hide.visibility = View.GONE
             show.visibility = View.VISIBLE
         }

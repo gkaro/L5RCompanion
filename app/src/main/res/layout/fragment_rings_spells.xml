@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fond"
+    tools:context=".RingsSpellsFragment">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/airRing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:layout_marginBottom="1dp"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:text="Air Ring"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            app:srcCompat="@drawable/separation" />
+
+        <TextView
+            android:id="@+id/earthRing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:layout_marginBottom="1dp"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:text="Earth Ring"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            app:srcCompat="@drawable/separation" />
+        <TextView
+            android:id="@+id/fireRing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:layout_marginBottom="1dp"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:text="Fire Ring"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            app:srcCompat="@drawable/separation" />
+        <TextView
+            android:id="@+id/waterRing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:layout_marginBottom="1dp"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:text="Water Ring"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            app:srcCompat="@drawable/separation" />
+        <TextView
+            android:id="@+id/voidRing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:layout_marginBottom="1dp"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:text="Void Ring"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            app:srcCompat="@drawable/separation" />
+    </LinearLayout>
+
+</FrameLayout>

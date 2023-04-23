@@ -6,28 +6,28 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.fragment.findNavController
+import androidx.navigation.findNavController
 import androidx.navigation.fragment.navArgs
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.room.Room
-import com.rpg.l5rcompanion.adapter.SchoolsAdapter
-import com.rpg.l5rcompanion.adapter.SkillsAdapter
+import com.rpg.l5rcompanion.adapter.CategoriesRulesAdapter
+import com.rpg.l5rcompanion.adapter.SpellsAdapter
 import com.rpg.l5rcompanion.database.MyDatabase
+import com.rpg.l5rcompanion.databinding.FragmentListRulesBinding
 import com.rpg.l5rcompanion.databinding.FragmentListSkillsBinding
-import com.rpg.l5rcompanion.databinding.FragmentSkillsBinding
+import com.rpg.l5rcompanion.databinding.FragmentListSpellsBinding
 
+class ListSpellsFragment : Fragment() {
 
-class SkillsFragment : Fragment() {
-
-    private var adapter = SkillsAdapter()
-    private lateinit var binding: FragmentSkillsBinding
-    private val args: SkillsFragmentArgs by this.navArgs()
+    private lateinit var binding: FragmentListSpellsBinding
+    private var adapter = SpellsAdapter()
+    private val args: ListSpellsFragmentArgs by navArgs()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FragmentSkillsBinding.inflate(layoutInflater)
+        binding = FragmentListSpellsBinding.inflate(layoutInflater)
         binding.recyclerView.layoutManager = LinearLayoutManager(context)
         binding.recyclerView.adapter = adapter
 
@@ -37,19 +37,23 @@ class SkillsFragment : Fragment() {
         )
             .allowMainThreadQueries()
             .build()
-
-        val idCategory = args.uid
-        val itemList = db.l5rCompanionDao().getSkillsByCategory(uid = idCategory)
+        val uid = args.mastery
+        val ring = args.ring
+        val itemList = db.l5rCompanionDao().getSpellsByMasteryandRing(uid,ring)
         adapter.setDataList(itemList)
 
-        adapter.setOnItemClickListener(object : SkillsAdapter.OnItemClickListener {
+        return binding.root
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        adapter.setOnItemClickListener(object : SpellsAdapter.OnItemClickListener {
 
             override fun onItemClick(position: Int) {
                 val uid = adapter.dataset[position].uid
-                findNavController().navigate(SkillsFragmentDirections.actionSkillsFragmentToDetailSkillsFragment(uid))
+                view.findNavController().navigate(ListSpellsFragmentDirections.actionListSpellsFragmentToDetailSpellsFragment(uid))
             }
         })
-
-        return binding.root
     }
 }

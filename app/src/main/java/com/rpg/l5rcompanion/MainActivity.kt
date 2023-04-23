@@ -190,5 +190,41 @@ class MainActivity: AppCompatActivity() {
             val modelSkills = Skills(uid.toInt(),skillName,skillType,skillCategory,emphases,trait,skillContent,mastery)
             dao.insertSkills(modelSkills)
         }
+
+        /*JSON fo Spells*/
+        val spellsFile = "spells.json"
+        val spellsJson: String = applicationContext.assets.open(spellsFile).bufferedReader().use{it.readText()}
+        val spellsJsonArray = JSONArray(spellsJson)
+        for (j in 0 until spellsJsonArray.length()){
+            val uid = spellsJsonArray.getJSONObject(j).getString("uid")
+            val nameSpell = spellsJsonArray.getJSONObject(j).getString("name")
+            val ring = spellsJsonArray.getJSONObject(j).getString("ring")
+            val mastery = spellsJsonArray.getJSONObject(j).getString("mastery")
+            val type = spellsJsonArray.getJSONObject(j).getString("type")
+            val range = spellsJsonArray.getJSONObject(j).getString("range")
+            val area = spellsJsonArray.getJSONObject(j).getString("area")
+            val duration = spellsJsonArray.getJSONObject(j).getString("duration")
+            val raises = spellsJsonArray.getJSONObject(j).getString("raises")
+            val content = spellsJsonArray.getJSONObject(j).getString("content")
+
+            val modelSpells = Spells(uid.toInt(),nameSpell,ring,mastery,type,range,area,duration,raises,content)
+            dao.insertSpells(modelSpells)
+        }
+
+        /*JSON fo Katas*/
+        val katasFile = "katas.json"
+        val katasJson: String = applicationContext.assets.open(katasFile).bufferedReader().use{it.readText()}
+        val katasJsonArray = JSONArray(katasJson)
+        for (j in 0 until katasJsonArray.length()){
+            val uid = katasJsonArray.getJSONObject(j).getString("uid")
+            val nameKata = katasJsonArray.getJSONObject(j).getString("name")
+            val ring = katasJsonArray.getJSONObject(j).getString("ring")
+            val mastery = katasJsonArray.getJSONObject(j).getString("mastery")
+            val schools = katasJsonArray.getJSONObject(j).getString("schools")
+            val description = katasJsonArray.getJSONObject(j).getString("description")
+
+            val modelKatas = Katas(uid.toInt(),nameKata,ring,mastery,schools,description)
+            dao.insertKatas(modelKatas)
+        }
     }
 }

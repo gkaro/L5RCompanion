@@ -26,7 +26,7 @@ class DetailRulesFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         binding = FragmentDetailRulesBinding.inflate(layoutInflater)
         return binding.root
     }

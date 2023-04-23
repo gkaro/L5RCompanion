@@ -1,20 +1,17 @@
 package com.rpg.l5rcompanion
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
-import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.fragment.navArgs
 import androidx.room.Room
 import com.rpg.l5rcompanion.database.MyDatabase
-import com.rpg.l5rcompanion.database.Schools
 import com.rpg.l5rcompanion.database.Skills
-import com.rpg.l5rcompanion.databinding.FragmentDetailSchoolBinding
 import com.rpg.l5rcompanion.databinding.FragmentDetailSkillsBinding
 
 
@@ -27,12 +24,13 @@ class DetailSkillsFragment : Fragment(R.layout.fragment_detail_skills) {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         binding = FragmentDetailSkillsBinding.inflate(layoutInflater)
         return binding.root
     }
 
 
+    @SuppressLint("SetTextI18n")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?){
         /**list of items from database */
         val uid = args.uid

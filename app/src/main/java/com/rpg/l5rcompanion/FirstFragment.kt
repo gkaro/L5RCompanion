@@ -47,6 +47,14 @@ class FirstFragment : Fragment() {
         binding.skills.setOnClickListener {
             findNavController().navigate(R.id.action_firstFragment_to_listSkillsFragment,null, options)
         }
+
+        binding.spells.setOnClickListener {
+            findNavController().navigate(R.id.action_firstFragment_to_ringsSpellsFragment,null, options)
+        }
+
+        binding.katas.setOnClickListener {
+            findNavController().navigate(R.id.action_firstFragment_to_listKatasFragment,null, options)
+        }
     }
 
 

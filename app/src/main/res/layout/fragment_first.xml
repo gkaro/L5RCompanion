@@ -64,15 +64,32 @@
         android:layout_marginStart="28dp"
         android:layout_marginEnd="28dp"
         android:text="Spells"
-        app:layout_constraintTop_toTopOf="@id/schools"
-        app:layout_constraintStart_toEndOf="@id/schools"/>
+        app:layout_constraintTop_toTopOf="@id/katas"
+        app:layout_constraintStart_toEndOf="@id/katas"/>
     <Button
-        android:id="@+id/kihoskatas"
+        android:id="@+id/katas"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="28dp"
-        android:text="Kihos &amp; katas"
+        android:text="Katas"
         app:layout_constraintTop_toBottomOf="@id/rules"
         app:layout_constraintStart_toStartOf="@id/rules"/>
+    <Button
+        android:id="@+id/kihos"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:text="Kihos"
+        app:layout_constraintTop_toBottomOf="@id/katas"
+        app:layout_constraintStart_toStartOf="@id/katas"/>
+    <Button
+        android:id="@+id/armorsweapons"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
+        android:text="Armors &amp; Weapons"
+        app:layout_constraintTop_toTopOf="@id/schools"
+        app:layout_constraintStart_toEndOf="@id/schools"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

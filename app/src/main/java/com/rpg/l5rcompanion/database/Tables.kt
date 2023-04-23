@@ -101,7 +101,17 @@ data class Spells(
     @ColumnInfo(name = "type") var type: String,
     @ColumnInfo(name = "range") var range: String,
     @ColumnInfo(name = "area") var area: String,
+    @ColumnInfo(name = "duration") var duration: String,
     @ColumnInfo(name = "raises") var raises: String,
-    @ColumnInfo(name = "content") var content: String,
-    @ColumnInfo(name = "duration") var duration: String
+    @ColumnInfo(name = "content") var content: String
+)
+
+@Entity(tableName = "Katas")
+data class Katas(
+    @PrimaryKey var uid: Int,
+    @ColumnInfo(name = "name") var name: String,
+    @ColumnInfo(name = "ring") var ring: String,
+    @ColumnInfo(name = "mastery") var mastery: String,
+    @ColumnInfo(name = "schools") var schools: String,
+    @ColumnInfo(name = "description") var description: String,
 )

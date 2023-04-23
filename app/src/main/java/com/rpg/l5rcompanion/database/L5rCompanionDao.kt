@@ -78,4 +78,26 @@ interface L5rCompanionDao{
 
     @Query("SELECT * FROM Skills WHERE uid= :uid")
     fun getSkillsById(uid: Int): List<Skills>
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    fun insertSpells(vararg spells: Spells)
+
+    @Query("SELECT * FROM Spells WHERE mastery= :uid AND ring= :ring")
+    fun getSpellsByMasteryandRing(uid: Int,ring:Int): List<Spells>
+
+    @Query("SELECT * FROM Spells WHERE ring= :uid")
+    fun getSpellsByRing(uid: Int): List<Spells>
+
+    @Query("SELECT * FROM Spells WHERE uid= :uid")
+    fun getSpellsById(uid: Int): List<Spells>
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    fun insertKatas(vararg Katas: Katas)
+
+    @Query("SELECT * FROM Katas")
+    fun getAllKatas() : List<Katas>
+
+    @Query("SELECT * FROM Katas WHERE uid= :uid")
+    fun getKatasById(uid: Int): List<Katas>
+
 }
