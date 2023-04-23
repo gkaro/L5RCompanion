@@ -49,17 +49,21 @@ class DetailSkillsFragment : Fragment(R.layout.fragment_detail_skills) {
         val name: TextView = view.findViewById(R.id.skillName)
         name.text = nameSkill
         val category: TextView = view.findViewById(R.id.category)
-        category.text = "Category : $catSkill"
+        if(catSkill == "1"){category.text = "High Skills"}
+        if(catSkill == "2"){category.text = "Bugei Skills"}
+        if(catSkill == "3"){category.text = "Merchant Skills"}
+        if(catSkill == "4"){category.text = "Low Skills"}
+
         val type: TextView = view.findViewById(R.id.type)
         type.text = "Type : $typeSkill"
         val trait: TextView = view.findViewById(R.id.trait)
-        trait.text = "Trait : $traitSkill"
+        trait.text = "[$traitSkill]"
         val content: TextView = view.findViewById(R.id.content)
         content.text = contentSkill
         val emphases: TextView = view.findViewById(R.id.emphase)
         emphases.text = "Emphases : $emphaseSkill"
         val mastery: TextView = view.findViewById(R.id.mastery)
-        mastery.text = "Mastery : $masterySkill"
+        mastery.text = masterySkill
 
     }
 

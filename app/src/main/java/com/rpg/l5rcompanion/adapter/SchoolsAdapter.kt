@@ -24,8 +24,8 @@ class SchoolsAdapter: RecyclerView.Adapter<SchoolsAdapter.SchoolsViewHolder>() {
 
 
     class SchoolsViewHolder(view: View, listener: OnItemClickListener) : RecyclerView.ViewHolder(view) {
-        val textView: TextView = view.findViewById(R.id.item_title)
-
+        val titleView: TextView = view.findViewById(R.id.item_title)
+        val descView: TextView = view.findViewById(R.id.item_desc)
         init{
             itemView.setOnClickListener{
                 listener.onItemClick(absoluteAdapterPosition)
@@ -39,7 +39,7 @@ class SchoolsAdapter: RecyclerView.Adapter<SchoolsAdapter.SchoolsViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SchoolsViewHolder {
         val adapterLayout = LayoutInflater.from(parent.context)
-            .inflate(R.layout.list_item, parent, false)
+            .inflate(R.layout.list_schools, parent, false)
 
         return SchoolsViewHolder(adapterLayout, mListener)
     }
@@ -47,8 +47,8 @@ class SchoolsAdapter: RecyclerView.Adapter<SchoolsAdapter.SchoolsViewHolder>() {
     @SuppressLint("SetTextI18n")
     override fun onBindViewHolder(holder: SchoolsViewHolder, position: Int) {
         val item = dataset[position]
-        holder.textView.text =  item.name
-
+        holder.titleView.text =  item.name
+        holder.descView.text = item.benefit + "/" + item.discipline + "/" + item.honor
 
     }
 

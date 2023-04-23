@@ -26,7 +26,8 @@ class PathsAdapter: RecyclerView.Adapter<PathsAdapter.PathsViewHolder>() {
 
     class PathsViewHolder(view: View, listener: OnItemClickListener) :
         RecyclerView.ViewHolder(view) {
-        val textView: TextView = view.findViewById(R.id.item_title)
+        val titleView: TextView = view.findViewById(R.id.item_title)
+        val descView: TextView = view.findViewById(R.id.item_desc)
 
         init {
             itemView.setOnClickListener {
@@ -41,7 +42,7 @@ class PathsAdapter: RecyclerView.Adapter<PathsAdapter.PathsViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PathsViewHolder {
         val adapterLayout = LayoutInflater.from(parent.context)
-            .inflate(R.layout.list_item, parent, false)
+            .inflate(R.layout.list_schools, parent, false)
 
         return PathsViewHolder(adapterLayout, mListener)
     }
@@ -49,7 +50,8 @@ class PathsAdapter: RecyclerView.Adapter<PathsAdapter.PathsViewHolder>() {
     @SuppressLint("SetTextI18n")
     override fun onBindViewHolder(holder: PathsViewHolder, position: Int) {
         val item = dataset[position]
-        holder.textView.text = item.name
+        holder.titleView.text = item.name
+        holder.descView.text = "replaces : " + item.replaces
     }
 
     override fun getItemCount() = dataset.size

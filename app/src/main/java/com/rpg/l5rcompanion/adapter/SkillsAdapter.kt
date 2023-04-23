@@ -26,8 +26,9 @@ class SkillsAdapter: RecyclerView.Adapter<SkillsAdapter.SkillsViewHolder>() {
 
 
     class SkillsViewHolder(view: View, listener: OnItemClickListener) : RecyclerView.ViewHolder(view) {
-        val textView: TextView = view.findViewById(R.id.item_title)
-
+        val titleView: TextView = view.findViewById(R.id.item_title)
+        val firstDescView: TextView = view.findViewById(R.id.item_desc)
+        val secondDescView: TextView = view.findViewById(R.id.item_desc2)
         init{
             itemView.setOnClickListener{
                 listener.onItemClick(absoluteAdapterPosition)
@@ -41,7 +42,7 @@ class SkillsAdapter: RecyclerView.Adapter<SkillsAdapter.SkillsViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SkillsViewHolder {
         val adapterLayout = LayoutInflater.from(parent.context)
-            .inflate(R.layout.list_item, parent, false)
+            .inflate(R.layout.list_skills, parent, false)
 
         return SkillsViewHolder(adapterLayout, mListener)
     }
@@ -49,9 +50,9 @@ class SkillsAdapter: RecyclerView.Adapter<SkillsAdapter.SkillsViewHolder>() {
     @SuppressLint("SetTextI18n")
     override fun onBindViewHolder(holder: SkillsViewHolder, position: Int) {
         val item = dataset[position]
-        holder.textView.text =  item.name
-
-
+        holder.titleView.text =  item.name
+        holder.firstDescView.text =  "(" + item.trait + ")"
+        holder.secondDescView.text =  "Emphases : " + item.emphases
     }
 
     override fun getItemCount() = dataset.size

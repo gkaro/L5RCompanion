@@ -30,10 +30,23 @@
                 android:gravity="center"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="15dp"
-
                 android:textSize="28sp"
                 android:text="name skill"
                 />
+
+            <TextView
+                android:id="@+id/trait"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="trait"
+                android:textSize="20sp"
+                app:fontFamily="@font/mirzaregular"
+                app:layout_constraintStart_toStartOf="@id/emphase"
+                app:layout_constraintTop_toBottomOf="@id/emphase" />
+
             <TextView
                 android:id="@+id/category"
                 android:layout_width="match_parent"
@@ -44,7 +57,7 @@
                 app:fontFamily="@font/mirzaregular"
                 android:justificationMode="inter_word"
                 android:layout_marginTop="5dp"
-                android:layout_marginBottom="15dp"
+                android:layout_marginBottom="10dp"
                 android:text="category"
                 />
             <TextView
@@ -57,7 +70,7 @@
                 app:fontFamily="@font/mirzaregular"
                 android:justificationMode="inter_word"
                 android:layout_marginTop="5dp"
-                android:layout_marginBottom="15dp"
+                android:layout_marginBottom="10dp"
                 android:text="type"
                 />
             <TextView
@@ -70,22 +83,10 @@
                 app:fontFamily="@font/mirzaregular"
                 android:justificationMode="inter_word"
                 android:layout_marginTop="5dp"
-                android:layout_marginBottom="15dp"
+                android:layout_marginBottom="10dp"
                 android:text="emphase"
                 />
-            <TextView
-                android:id="@+id/trait"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:layout_constraintTop_toBottomOf="@id/emphase"
-                app:layout_constraintStart_toStartOf="@id/emphase"
-                android:textSize="20sp"
-                app:fontFamily="@font/mirzaregular"
-                android:justificationMode="inter_word"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="15dp"
-                android:text="trait"
-                />
+
             <TextView
                 android:id="@+id/content"
                 android:layout_width="match_parent"
@@ -96,8 +97,21 @@
                 app:fontFamily="@font/mirzaregular"
                 android:justificationMode="inter_word"
                 android:layout_marginTop="5dp"
-                android:layout_marginBottom="15dp"
+                android:layout_marginBottom="10dp"
                 android:text="content"
+                />
+            <TextView
+                android:id="@+id/masteryTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/content"
+                app:layout_constraintStart_toStartOf="@id/content"
+                android:textSize="20sp"
+                app:fontFamily="@font/mirzaregular"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:text="Mastery Abilities"
                 />
             <TextView
                 android:id="@+id/mastery"
