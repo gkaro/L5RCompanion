@@ -92,7 +92,7 @@ interface L5rCompanionDao{
     fun getSpellsById(uid: Int): List<Spells>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    fun insertKatas(vararg Katas: Katas)
+    fun insertKatas(vararg katas: Katas)
 
     @Query("SELECT * FROM Katas")
     fun getAllKatas() : List<Katas>
@@ -100,4 +100,12 @@ interface L5rCompanionDao{
     @Query("SELECT * FROM Katas WHERE uid= :uid")
     fun getKatasById(uid: Int): List<Katas>
 
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    fun insertKihos(vararg kihos: Kihos)
+
+    @Query("SELECT * FROM Kihos")
+    fun getAllKihos() : List<Kihos>
+
+    @Query("SELECT * FROM Kihos WHERE uid= :uid")
+    fun getKihosById(uid: Int): List<Kihos>
 }

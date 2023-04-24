@@ -25,6 +25,9 @@
         <action
             android:id="@+id/action_firstFragment_to_listKatasFragment"
             app:destination="@id/listKatasFragment" />
+        <action
+            android:id="@+id/action_firstFragment_to_listKihosFragment"
+            app:destination="@id/listKihosFragment" />
     </fragment>
     <fragment
         android:id="@+id/listClansFragment"
@@ -260,6 +263,27 @@
         android:name="com.rpg.l5rcompanion.DetailKatasFragment"
         android:label="fragment_detail_katas"
         tools:layout="@layout/fragment_detail_katas" >
+        <argument
+            android:name="uid"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/listKihosFragment"
+        android:name="com.rpg.l5rcompanion.ListKihosFragment"
+        android:label="fragment_list_kihos"
+        tools:layout="@layout/fragment_list_kihos" >
+        <action
+            android:id="@+id/action_listKihosFragment_to_detailKihosFragment"
+            app:destination="@id/detailKihosFragment" />
+        <argument
+            android:name="uid"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailKihosFragment"
+        android:name="com.rpg.l5rcompanion.DetailKihosFragment"
+        android:label="fragment_detail_kihos"
+        tools:layout="@layout/fragment_detail_kihos" >
         <argument
             android:name="uid"
             app:argType="integer" />

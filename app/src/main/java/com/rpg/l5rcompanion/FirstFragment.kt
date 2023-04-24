@@ -55,6 +55,10 @@ class FirstFragment : Fragment() {
         binding.katas.setOnClickListener {
             findNavController().navigate(R.id.action_firstFragment_to_listKatasFragment,null, options)
         }
+
+        binding.kihos.setOnClickListener {
+            findNavController().navigate(R.id.action_firstFragment_to_listKihosFragment,null, options)
+        }
     }
 
 

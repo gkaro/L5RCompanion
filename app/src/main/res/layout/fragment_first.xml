@@ -35,8 +35,8 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:text="Schools &amp; Paths"
-        android:layout_marginStart="40dp"
-        android:layout_marginEnd="28dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="10dp"
         android:layout_marginTop="80dp"
         app:layout_constraintTop_toBottomOf="@id/logoTitle"
         app:layout_constraintStart_toStartOf="@id/logoTitle"/>
@@ -44,7 +44,6 @@
         android:id="@+id/rules"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-
         android:text="Rules"
         app:layout_constraintTop_toBottomOf="@id/schools"
         app:layout_constraintStart_toStartOf="@id/schools"/>
@@ -52,20 +51,20 @@
         android:id="@+id/skills"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginEnd="28dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="10dp"
         android:text="Skills"
-        app:layout_constraintTop_toTopOf="@id/rules"
-        app:layout_constraintStart_toEndOf="@id/rules"/>
+        app:layout_constraintTop_toTopOf="@id/schools"
+        app:layout_constraintStart_toEndOf="@id/schools"/>
     <Button
         android:id="@+id/spells"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
+        android:layout_marginStart="30dp"
         android:layout_marginEnd="28dp"
         android:text="Spells"
-        app:layout_constraintTop_toTopOf="@id/katas"
-        app:layout_constraintStart_toEndOf="@id/katas"/>
+        app:layout_constraintTop_toTopOf="@id/rules"
+        app:layout_constraintStart_toEndOf="@id/rules"/>
     <Button
         android:id="@+id/katas"
         android:layout_width="150dp"
@@ -78,18 +77,27 @@
         android:id="@+id/kihos"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
         android:layout_marginEnd="28dp"
         android:text="Kihos"
-        app:layout_constraintTop_toBottomOf="@id/katas"
-        app:layout_constraintStart_toStartOf="@id/katas"/>
+        app:layout_constraintTop_toTopOf="@id/katas"
+        app:layout_constraintStart_toEndOf="@id/katas"/>
     <Button
         android:id="@+id/armorsweapons"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
         android:layout_marginEnd="28dp"
         android:text="Armors &amp; Weapons"
-        app:layout_constraintTop_toTopOf="@id/schools"
-        app:layout_constraintStart_toEndOf="@id/schools"/>
+        app:layout_constraintTop_toBottomOf="@id/katas"
+        app:layout_constraintStart_toStartOf="@id/katas"/>
+    <Button
+        android:id="@+id/advdef"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="28dp"
+        android:text="Advantages &amp; Defaults"
+        app:layout_constraintTop_toTopOf="@id/armorsweapons"
+        app:layout_constraintStart_toEndOf="@id/armorsweapons"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -115,3 +115,13 @@ data class Katas(
     @ColumnInfo(name = "schools") var schools: String,
     @ColumnInfo(name = "description") var description: String,
 )
+
+@Entity(tableName = "Kihos")
+data class Kihos(
+    @PrimaryKey var uid: Int,
+    @ColumnInfo(name = "name") var name: String,
+    @ColumnInfo(name = "ring") var ring: String,
+    @ColumnInfo(name = "mastery") var mastery: String,
+    @ColumnInfo(name = "type") var type: String,
+    @ColumnInfo(name = "description") var description: String,
+)

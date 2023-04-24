@@ -226,5 +226,21 @@ class MainActivity: AppCompatActivity() {
             val modelKatas = Katas(uid.toInt(),nameKata,ring,mastery,schools,description)
             dao.insertKatas(modelKatas)
         }
+
+        /*JSON fo Kihos*/
+        val kihosFile = "kihos.json"
+        val kihosJson: String = applicationContext.assets.open(kihosFile).bufferedReader().use{it.readText()}
+        val kihosJsonArray = JSONArray(kihosJson)
+        for (j in 0 until kihosJsonArray.length()){
+            val uid = kihosJsonArray.getJSONObject(j).getString("uid")
+            val nameKata = kihosJsonArray.getJSONObject(j).getString("name")
+            val ring = kihosJsonArray.getJSONObject(j).getString("ring")
+            val mastery = kihosJsonArray.getJSONObject(j).getString("mastery")
+            val type = kihosJsonArray.getJSONObject(j).getString("type")
+            val description = kihosJsonArray.getJSONObject(j).getString("description")
+
+            val modelKihos = Kihos(uid.toInt(),nameKata,ring,mastery,type,description)
+            dao.insertKihos(modelKihos)
+        }
     }
 }
