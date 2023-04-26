@@ -150,3 +150,13 @@ data class Weapons(
     @ColumnInfo(name = "special") var special: String,
     @ColumnInfo(name = "description") var description: String,
 )
+
+@Entity(tableName = "AdvDis")
+data class AdvDis(
+    @PrimaryKey var uid: Int,
+    @ColumnInfo(name = "name") var name: String,
+    @ColumnInfo(name = "type") var type: String,
+    @ColumnInfo(name = "subtype") var subtype: String,
+    @ColumnInfo(name = "points") var points: String,
+    @ColumnInfo(name = "description") var description: String,
+)

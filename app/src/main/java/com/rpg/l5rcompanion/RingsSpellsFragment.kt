@@ -39,5 +39,4 @@ class RingsSpellsFragment : Fragment() {
                 }
                 return binding.root
     }
-
 }

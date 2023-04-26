@@ -129,4 +129,13 @@ interface L5rCompanionDao{
 
     @Query("SELECT * FROM Weapons WHERE uid= :uid")
     fun getWeaponsById(uid: Int): List<Weapons>
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    fun insertAdvDis(vararg advDis: AdvDis)
+
+    @Query("SELECT * FROM AdvDis WHERE type= :type")
+    fun getAdvDisByType(type: String): List<AdvDis>
+
+    @Query("SELECT * FROM AdvDis WHERE uid= :uid")
+    fun getAdvDisById(uid: Int): List<AdvDis>
 }

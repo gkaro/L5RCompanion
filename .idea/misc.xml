@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/activity_main.xml" value="0.152" />
+        <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_adv_dis.xml" value="0.259375" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_detail_adv_school.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_detail_advdis.xml" value="0.2453125" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_detail_armors.xml" value="0.2453125" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_detail_clan.xml" value="0.1" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_detail_katas.xml" value="0.259375" />
@@ -17,6 +19,7 @@
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_detail_weapons.xml" value="0.2453125" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_first.xml" value="0.21784420289855072" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_list_adv_schools.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_list_advdis.xml" value="0.2453125" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_list_armors.xml" value="0.2453125" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_list_armors_weapons.xml" value="0.259375" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_list_clans.xml" value="0.11614583333333334" />

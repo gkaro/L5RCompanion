@@ -63,6 +63,10 @@ class FirstFragment : Fragment() {
         binding.armorsweapons.setOnClickListener {
             findNavController().navigate(R.id.action_firstFragment_to_listArmorsWeaponsFragment,null, options)
         }
+
+        binding.advdef.setOnClickListener {
+                findNavController().navigate(R.id.action_firstFragment_to_advDisFragment,null, options)
+        }
     }
 
 

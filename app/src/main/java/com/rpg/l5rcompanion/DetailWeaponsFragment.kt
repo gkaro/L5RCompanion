@@ -47,29 +47,33 @@ class DetailWeaponsFragment : Fragment() {
         type.text = "Type :  $typeWeapon"
         val keywords: TextView = view.findViewById(R.id.keywords)
         keywords.text = "Keywords : $keywordsWeapon"
-        if(keywords.length() == 0){
+        if(keywordsWeapon.isEmpty()){
             keywords.visibility = View.GONE
         }
+
         val dr: TextView = view.findViewById(R.id.dr)
         dr.text = "Damage Rate : $drWeapon"
-        if(dr.length() == 0){
+        if(drWeapon.isEmpty()){
             dr.visibility = View.GONE
         }
         val strength: TextView = view.findViewById(R.id.strength)
         strength.text = "Strength : $strengthWeapon"
-        if(strength.length() == 0){
+        if(strengthWeapon.isEmpty()){
             strength.visibility = View.GONE
         }
         val range: TextView = view.findViewById(R.id.range)
         range.text = "Range : $rangeWeapon"
-        if(range.length() == 0){
+        if(rangeWeapon.isEmpty()){
             range.visibility = View.GONE
         }
         val price: TextView = view.findViewById(R.id.price)
         price.text = "Price : $priceWeapon"
+        if(priceWeapon.isEmpty()){
+            price.visibility = View.GONE
+        }
         val special: TextView = view.findViewById(R.id.special)
         special.text = specialWeapon
-        if(special.length() == 0){
+        if(specialWeapon.isEmpty()){
             special.visibility = View.GONE
         }
         val description: TextView = view.findViewById(R.id.description)

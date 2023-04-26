@@ -279,5 +279,21 @@ class MainActivity: AppCompatActivity() {
             val modelWeapons = Weapons(uid.toInt(),nameWeapon,type,keywords,dr,strength,range,price,special,description)
             dao.insertWeapons(modelWeapons)
         }
+
+        /*JSON fo AdvDis*/
+        val advdisFile = "advdef.json"
+        val advdisJson: String = applicationContext.assets.open(advdisFile).bufferedReader().use{it.readText()}
+        val advdisJsonArray = JSONArray(advdisJson)
+        for (j in 0 until advdisJsonArray.length()){
+            val uid = advdisJsonArray.getJSONObject(j).getString("uid")
+            val name = advdisJsonArray.getJSONObject(j).getString("name")
+            val type = advdisJsonArray.getJSONObject(j).getString("type")
+            val subtype = advdisJsonArray.getJSONObject(j).getString("subtype")
+            val points = advdisJsonArray.getJSONObject(j).getString("points")
+            val description = advdisJsonArray.getJSONObject(j).getString("description")
+
+            val modelAdvDis = AdvDis(uid.toInt(),name,type,subtype,points,description)
+            dao.insertAdvDis(modelAdvDis)
+        }
     }
 }

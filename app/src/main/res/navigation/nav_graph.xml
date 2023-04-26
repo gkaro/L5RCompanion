@@ -31,6 +31,9 @@
         <action
             android:id="@+id/action_firstFragment_to_listArmorsWeaponsFragment"
             app:destination="@id/listArmorsWeaponsFragment" />
+        <action
+            android:id="@+id/action_firstFragment_to_advDisFragment"
+            app:destination="@id/advDisFragment" />
     </fragment>
     <fragment
         android:id="@+id/listClansFragment"
@@ -344,6 +347,39 @@
         android:name="com.rpg.l5rcompanion.DetailWeaponsFragment"
         android:label="fragment_detail_weapons"
         tools:layout="@layout/fragment_detail_weapons" >
+        <argument
+            android:name="uid"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/advDisFragment"
+        android:name="com.rpg.l5rcompanion.AdvDisFragment"
+        android:label="fragment_adv_dis"
+        tools:layout="@layout/fragment_adv_dis" >
+        <action
+            android:id="@+id/action_advDisFragment_to_listAdvdisFragment"
+            app:destination="@id/listAdvdisFragment" />
+        <argument
+            android:name="type"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/listAdvdisFragment"
+        android:name="com.rpg.l5rcompanion.ListAdvdisFragment"
+        android:label="fragment_list_advdis"
+        tools:layout="@layout/fragment_list_advdis" >
+        <action
+            android:id="@+id/action_listAdvdisFragment_to_detailAdvdisFragment"
+            app:destination="@id/detailAdvdisFragment" />
+        <argument
+            android:name="type"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailAdvdisFragment"
+        android:name="com.rpg.l5rcompanion.DetailAdvdisFragment"
+        android:label="fragment_detail_advdis"
+        tools:layout="@layout/fragment_detail_advdis" >
         <argument
             android:name="uid"
             app:argType="integer" />
