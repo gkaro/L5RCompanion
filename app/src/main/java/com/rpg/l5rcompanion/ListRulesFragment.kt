@@ -10,11 +10,8 @@ import androidx.navigation.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.room.Room
 import com.rpg.l5rcompanion.adapter.CategoriesRulesAdapter
-import com.rpg.l5rcompanion.adapter.ClansAdapter
 import com.rpg.l5rcompanion.database.MyDatabase
-import com.rpg.l5rcompanion.databinding.FragmentListClansBinding
 import com.rpg.l5rcompanion.databinding.FragmentListRulesBinding
-
 
 class ListRulesFragment : Fragment(R.layout.fragment_list_rules) {
 

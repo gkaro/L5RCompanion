@@ -30,7 +30,6 @@ class DetailClanFragment : Fragment(R.layout.fragment_detail_clan) {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        // Inflate the layout for this fragment
         binding = FragmentDetailClanBinding.inflate(layoutInflater)
         binding.recyclerView.layoutManager = LinearLayoutManager(context)
         binding.recyclerView.adapter = adapter
@@ -65,19 +64,19 @@ class DetailClanFragment : Fragment(R.layout.fragment_detail_clan) {
         image.setImageResource(int)
 
         /**display or hide description*/
-        val seedesc :TextView = view.findViewById(clanDescription)
-        seedesc.visibility = View.GONE
+        val seeDesc :TextView = view.findViewById(clanDescription)
+        seeDesc.visibility = View.GONE
         val show: Button = view.findViewById(R.id.seemore)
         val hide: Button = view.findViewById(R.id.seeless)
         hide.visibility = View.GONE
 
         show.setOnClickListener {
-            seedesc.visibility = View.VISIBLE
+            seeDesc.visibility = View.VISIBLE
             hide.visibility = View.VISIBLE
             show.visibility = View.GONE
         }
         hide.setOnClickListener {
-            seedesc.visibility = View.GONE
+            seeDesc.visibility = View.GONE
             hide.visibility = View.GONE
             show.visibility = View.VISIBLE
         }

@@ -1,5 +1,6 @@
 package com.rpg.l5rcompanion
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -14,7 +15,6 @@ import com.rpg.l5rcompanion.R.id.advSchoolDescription
 import com.rpg.l5rcompanion.database.MyDatabase
 import com.rpg.l5rcompanion.database.Schools
 import com.rpg.l5rcompanion.databinding.FragmentDetailAdvSchoolBinding
-import org.json.JSONObject.NULL
 
 class DetailAdvSchoolFragment : Fragment() {
 
@@ -29,6 +29,7 @@ class DetailAdvSchoolFragment : Fragment() {
         return binding.root
     }
 
+    @SuppressLint("SetTextI18n")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         /**list of items from database */
         val uid = args.uid
@@ -81,19 +82,19 @@ class DetailAdvSchoolFragment : Fragment() {
         rank3.text = rank3School
 
         /**display or hide description*/
-        val seedesc :TextView = view.findViewById(advSchoolDescription)
-        seedesc.visibility = View.GONE
+        val seeDesc :TextView = view.findViewById(advSchoolDescription)
+        seeDesc.visibility = View.GONE
         val show: Button = view.findViewById(R.id.seemore)
         val hide: Button = view.findViewById(R.id.seeless)
         hide.visibility = View.GONE
 
         show.setOnClickListener {
-            seedesc.visibility = View.VISIBLE
+            seeDesc.visibility = View.VISIBLE
             hide.visibility = View.VISIBLE
             show.visibility = View.GONE
         }
         hide.setOnClickListener {
-            seedesc.visibility = View.GONE
+            seeDesc.visibility = View.GONE
             hide.visibility = View.GONE
             show.visibility = View.VISIBLE
         }

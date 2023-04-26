@@ -8,8 +8,6 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.rpg.l5rcompanion.databinding.FragmentMasterySpellsBinding
-import com.rpg.l5rcompanion.databinding.FragmentRingsSpellsBinding
-
 
 class MasterySpellsFragment : Fragment() {
 

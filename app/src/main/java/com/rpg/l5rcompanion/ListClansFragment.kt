@@ -37,7 +37,6 @@ class ListClansFragment : Fragment(R.layout.fragment_list_clans) {
         val itemList = db.l5rCompanionDao().getAllClans()
         adapter.setDataList(itemList)
         return binding.root
-
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

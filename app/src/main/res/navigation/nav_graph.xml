@@ -28,6 +28,9 @@
         <action
             android:id="@+id/action_firstFragment_to_listKihosFragment"
             app:destination="@id/listKihosFragment" />
+        <action
+            android:id="@+id/action_firstFragment_to_listArmorsWeaponsFragment"
+            app:destination="@id/listArmorsWeaponsFragment" />
     </fragment>
     <fragment
         android:id="@+id/listClansFragment"
@@ -284,6 +287,63 @@
         android:name="com.rpg.l5rcompanion.DetailKihosFragment"
         android:label="fragment_detail_kihos"
         tools:layout="@layout/fragment_detail_kihos" >
+        <argument
+            android:name="uid"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/listArmorsWeaponsFragment"
+        android:name="com.rpg.l5rcompanion.ListArmorsWeaponsFragment"
+        android:label="fragment_list_armors_weapons"
+        tools:layout="@layout/fragment_list_armors_weapons" >
+        <action
+            android:id="@+id/action_listArmorsWeaponsFragment_to_listArmorsFragment"
+            app:destination="@id/listArmorsFragment" />
+        <argument
+            android:name="uid"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_listArmorsWeaponsFragment_to_listWeaponsFragment"
+            app:destination="@id/listWeaponsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listArmorsFragment"
+        android:name="com.rpg.l5rcompanion.ListArmorsFragment"
+        android:label="fragment_list_armors"
+        tools:layout="@layout/fragment_list_armors" >
+        <argument
+            android:name="uid"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_listArmorsFragment_to_detailArmorsFragment"
+            app:destination="@id/detailArmorsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailArmorsFragment"
+        android:name="com.rpg.l5rcompanion.DetailArmorsFragment"
+        android:label="fragment_detail_armors"
+        tools:layout="@layout/fragment_detail_armors" >
+        <argument
+            android:name="uid"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/listWeaponsFragment"
+        android:name="com.rpg.l5rcompanion.ListWeaponsFragment"
+        android:label="fragment_list_weapons"
+        tools:layout="@layout/fragment_list_weapons" >
+        <argument
+            android:name="uid"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_listWeaponsFragment_to_detailWeaponsFragment"
+            app:destination="@id/detailWeaponsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailWeaponsFragment"
+        android:name="com.rpg.l5rcompanion.DetailWeaponsFragment"
+        android:label="fragment_detail_weapons"
+        tools:layout="@layout/fragment_detail_weapons" >
         <argument
             android:name="uid"
             app:argType="integer" />

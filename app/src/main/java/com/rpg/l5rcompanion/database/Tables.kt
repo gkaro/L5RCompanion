@@ -125,3 +125,28 @@ data class Kihos(
     @ColumnInfo(name = "type") var type: String,
     @ColumnInfo(name = "description") var description: String,
 )
+
+@Entity(tableName = "Armors")
+data class Armors(
+    @PrimaryKey var uid: Int,
+    @ColumnInfo(name = "name") var name: String,
+    @ColumnInfo(name = "armortn") var armortn: String,
+    @ColumnInfo(name = "reduction") var reduction: String,
+    @ColumnInfo(name = "price") var price: String,
+    @ColumnInfo(name = "special") var special: String,
+    @ColumnInfo(name = "description") var description: String,
+)
+
+@Entity(tableName = "Weapons")
+data class Weapons(
+    @PrimaryKey var uid: Int,
+    @ColumnInfo(name = "name") var name: String,
+    @ColumnInfo(name = "type") var type: String,
+    @ColumnInfo(name = "keywords") var keywords: String,
+    @ColumnInfo(name = "dr") var dr: String,
+    @ColumnInfo(name = "strength") var strength: String,
+    @ColumnInfo(name = "range") var range: String,
+    @ColumnInfo(name = "price") var price: String,
+    @ColumnInfo(name = "special") var special: String,
+    @ColumnInfo(name = "description") var description: String,
+)

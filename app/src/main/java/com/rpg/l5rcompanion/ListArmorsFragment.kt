@@ -6,25 +6,23 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.fragment.findNavController
-import androidx.navigation.fragment.navArgs
+import androidx.navigation.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.room.Room
-import com.rpg.l5rcompanion.adapter.SchoolsAdapter
+import com.rpg.l5rcompanion.adapter.ArmorsAdapter
 import com.rpg.l5rcompanion.database.MyDatabase
-import com.rpg.l5rcompanion.databinding.FragmentListSchoolsBinding
+import com.rpg.l5rcompanion.databinding.FragmentListArmorsBinding
 
-class ListSchoolsFragment : Fragment(R.layout.fragment_list_schools) {
+class ListArmorsFragment : Fragment() {
 
-    private var adapter = SchoolsAdapter()
-    private lateinit var binding: FragmentListSchoolsBinding
-    private val args: ListSchoolsFragmentArgs by this.navArgs()
+    private var adapter = ArmorsAdapter()
+    private lateinit var binding: FragmentListArmorsBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        binding = FragmentListSchoolsBinding.inflate(layoutInflater)
+        binding = FragmentListArmorsBinding.inflate(layoutInflater)
         binding.recyclerView.layoutManager = LinearLayoutManager(context)
         binding.recyclerView.adapter = adapter
 
@@ -35,19 +33,20 @@ class ListSchoolsFragment : Fragment(R.layout.fragment_list_schools) {
             .allowMainThreadQueries()
             .build()
 
-        val idClan = args.uid
-        val itemList = db.l5rCompanionDao().getBasicSchoolsFromClan(uid = idClan)
+        val itemList = db.l5rCompanionDao().getAllArmors()
         adapter.setDataList(itemList)
-
-        adapter.setOnItemClickListener(object : SchoolsAdapter.OnItemClickListener {
-
-            override fun onItemClick(position: Int) {
-                val uid = adapter.dataset[position].uid
-                findNavController().navigate(ListSchoolsFragmentDirections.actionListSchoolsFragmentToDetailSchoolFragment(uid))
-            }
-        })
         return binding.root
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
 
+        adapter.setOnItemClickListener(object : ArmorsAdapter.OnItemClickListener {
+
+            override fun onItemClick(position: Int) {
+                val uid = adapter.dataset[position].uid
+                view.findNavController().navigate(ListArmorsFragmentDirections.actionListArmorsFragmentToDetailArmorsFragment(uid))
+            }
+        })
+    }
 }

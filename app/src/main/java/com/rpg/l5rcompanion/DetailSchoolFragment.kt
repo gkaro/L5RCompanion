@@ -114,19 +114,19 @@ class DetailSchoolFragment : Fragment(R.layout.fragment_detail_school) {
         if(rank5.length() == 0){rank5.visibility = View.GONE}
 
         /**display or hide description*/
-        val seedesc :TextView = view.findViewById(schoolDescription)
-        seedesc.visibility = View.GONE
+        val seeDesc :TextView = view.findViewById(schoolDescription)
+        seeDesc.visibility = View.GONE
         val show: Button = view.findViewById(R.id.seemore)
         val hide: Button = view.findViewById(R.id.seeless)
         hide.visibility = View.GONE
 
         show.setOnClickListener {
-            seedesc.visibility = View.VISIBLE
+            seeDesc.visibility = View.VISIBLE
             hide.visibility = View.VISIBLE
             show.visibility = View.GONE
         }
         hide.setOnClickListener {
-            seedesc.visibility = View.GONE
+            seeDesc.visibility = View.GONE
             hide.visibility = View.GONE
             show.visibility = View.VISIBLE
         }

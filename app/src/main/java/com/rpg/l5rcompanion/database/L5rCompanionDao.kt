@@ -108,4 +108,25 @@ interface L5rCompanionDao{
 
     @Query("SELECT * FROM Kihos WHERE uid= :uid")
     fun getKihosById(uid: Int): List<Kihos>
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    fun insertArmors(vararg armors: Armors)
+
+    @Query("SELECT * FROM Armors")
+    fun getAllArmors() : List<Armors>
+
+    @Query("SELECT * FROM Armors WHERE uid= :uid")
+    fun getArmorsById(uid: Int): List<Armors>
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    fun insertWeapons(vararg weapons: Weapons)
+
+    @Query("SELECT * FROM Weapons")
+    fun getAllWeapons() : List<Weapons>
+
+    @Query("SELECT * FROM Weapons WHERE type= :type")
+    fun getWeaponsByType(type: String): List<Weapons>
+
+    @Query("SELECT * FROM Weapons WHERE uid= :uid")
+    fun getWeaponsById(uid: Int): List<Weapons>
 }

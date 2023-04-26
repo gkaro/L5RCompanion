@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fond"
+    tools:context=".ListArmorsWeaponsFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/armors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:layout_marginBottom="1dp"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:text="Armors"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            app:srcCompat="@drawable/separation" />
+
+        <TextView
+            android:id="@+id/arrows"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:layout_marginBottom="1dp"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:text="Arrows"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            app:srcCompat="@drawable/separation" />
+        <TextView
+            android:id="@+id/bows"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:layout_marginBottom="1dp"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:text="Bows"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            app:srcCompat="@drawable/separation" />
+        <TextView
+            android:id="@+id/chains"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:layout_marginBottom="1dp"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:text="Chain Weapons"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            app:srcCompat="@drawable/separation" />
+        <TextView
+            android:id="@+id/firearms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:layout_marginBottom="1dp"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:text="Fire Arms &amp; Cannon"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            app:srcCompat="@drawable/separation" />
+        <TextView
+            android:id="@+id/heavy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:layout_marginBottom="1dp"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:text="Heavy Weapons"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            app:srcCompat="@drawable/separation" />
+        <TextView
+            android:id="@+id/knives"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:layout_marginBottom="1dp"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:text="Knives"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            app:srcCompat="@drawable/separation" />
+        <TextView
+            android:id="@+id/ninjutsu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:layout_marginBottom="1dp"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:text="Ninjutsu"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            app:srcCompat="@drawable/separation" />
+        <TextView
+            android:id="@+id/polearms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:layout_marginBottom="1dp"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:text="Polearms"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            app:srcCompat="@drawable/separation" />
+        <TextView
+            android:id="@+id/sling"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:layout_marginBottom="1dp"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:text="Slings"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            app:srcCompat="@drawable/separation" />
+        <TextView
+            android:id="@+id/spears"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:layout_marginBottom="1dp"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:text="Spears"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            app:srcCompat="@drawable/separation" />
+        <TextView
+            android:id="@+id/staves"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:layout_marginBottom="1dp"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:text="Staves"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            app:srcCompat="@drawable/separation" />
+        <TextView
+            android:id="@+id/swords"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:layout_marginBottom="1dp"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:text="Swords"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            app:srcCompat="@drawable/separation" />
+        <TextView
+            android:id="@+id/warfans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:layout_marginBottom="1dp"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:text="War Fans"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            app:srcCompat="@drawable/separation" />
+    </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>

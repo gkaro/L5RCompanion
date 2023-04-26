@@ -1,23 +1,17 @@
 package com.rpg.l5rcompanion
 
-import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.room.Room
 import com.rpg.l5rcompanion.adapter.RulesAdapter
-import com.rpg.l5rcompanion.adapter.SchoolsAdapter
 import com.rpg.l5rcompanion.database.MyDatabase
-import com.rpg.l5rcompanion.database.Rules
-import com.rpg.l5rcompanion.databinding.FragmentDetailRulesBinding
-import com.rpg.l5rcompanion.databinding.FragmentListSchoolsBinding
 import com.rpg.l5rcompanion.databinding.FragmentRulesBinding
 
 class RulesFragment : Fragment() {

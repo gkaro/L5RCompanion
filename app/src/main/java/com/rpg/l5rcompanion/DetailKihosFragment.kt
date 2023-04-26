@@ -10,7 +10,6 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.fragment.navArgs
 import androidx.room.Room
-import com.rpg.l5rcompanion.database.Katas
 import com.rpg.l5rcompanion.database.Kihos
 import com.rpg.l5rcompanion.database.MyDatabase
 import com.rpg.l5rcompanion.databinding.FragmentDetailKihosBinding

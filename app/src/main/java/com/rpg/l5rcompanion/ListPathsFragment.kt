@@ -10,12 +10,9 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.room.Room
-import com.rpg.l5rcompanion.adapter.AdvSchoolsAdapter
 import com.rpg.l5rcompanion.adapter.PathsAdapter
 import com.rpg.l5rcompanion.database.MyDatabase
-import com.rpg.l5rcompanion.databinding.FragmentListAdvSchoolsBinding
 import com.rpg.l5rcompanion.databinding.FragmentListPathsBinding
-
 
 class ListPathsFragment : Fragment(R.layout.fragment_list_paths) {
 

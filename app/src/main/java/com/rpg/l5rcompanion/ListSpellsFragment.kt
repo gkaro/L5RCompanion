@@ -10,11 +10,8 @@ import androidx.navigation.findNavController
 import androidx.navigation.fragment.navArgs
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.room.Room
-import com.rpg.l5rcompanion.adapter.CategoriesRulesAdapter
 import com.rpg.l5rcompanion.adapter.SpellsAdapter
 import com.rpg.l5rcompanion.database.MyDatabase
-import com.rpg.l5rcompanion.databinding.FragmentListRulesBinding
-import com.rpg.l5rcompanion.databinding.FragmentListSkillsBinding
 import com.rpg.l5rcompanion.databinding.FragmentListSpellsBinding
 
 class ListSpellsFragment : Fragment() {

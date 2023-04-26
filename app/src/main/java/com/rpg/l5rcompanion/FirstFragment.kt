@@ -59,6 +59,10 @@ class FirstFragment : Fragment() {
         binding.kihos.setOnClickListener {
             findNavController().navigate(R.id.action_firstFragment_to_listKihosFragment,null, options)
         }
+
+        binding.armorsweapons.setOnClickListener {
+            findNavController().navigate(R.id.action_firstFragment_to_listArmorsWeaponsFragment,null, options)
+        }
     }
 
 

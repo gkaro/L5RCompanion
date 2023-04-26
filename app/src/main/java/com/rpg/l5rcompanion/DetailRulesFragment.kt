@@ -6,16 +6,12 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
-import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.fragment.navArgs
 import androidx.room.Room
 import com.rpg.l5rcompanion.database.MyDatabase
 import com.rpg.l5rcompanion.database.Rules
-import com.rpg.l5rcompanion.database.Schools
-import com.rpg.l5rcompanion.databinding.FragmentDetailPathBinding
 import com.rpg.l5rcompanion.databinding.FragmentDetailRulesBinding
 
 class DetailRulesFragment : Fragment() {

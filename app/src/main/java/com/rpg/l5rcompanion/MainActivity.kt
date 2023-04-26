@@ -242,5 +242,42 @@ class MainActivity: AppCompatActivity() {
             val modelKihos = Kihos(uid.toInt(),nameKata,ring,mastery,type,description)
             dao.insertKihos(modelKihos)
         }
+
+        /*JSON fo Armors*/
+        val armorsFile = "armors.json"
+        val armorsJson: String = applicationContext.assets.open(armorsFile).bufferedReader().use{it.readText()}
+        val armorsJsonArray = JSONArray(armorsJson)
+        for (j in 0 until armorsJsonArray.length()){
+            val uid = armorsJsonArray.getJSONObject(j).getString("uid")
+            val nameArmor = armorsJsonArray.getJSONObject(j).getString("name")
+            val armortn = armorsJsonArray.getJSONObject(j).getString("armorTN")
+            val reduction = armorsJsonArray.getJSONObject(j).getString("reduction")
+            val price = armorsJsonArray.getJSONObject(j).getString("price")
+            val special = armorsJsonArray.getJSONObject(j).getString("special")
+            val description = armorsJsonArray.getJSONObject(j).getString("description")
+
+            val modelArmors = Armors(uid.toInt(),nameArmor,armortn,reduction,price,special,description)
+            dao.insertArmors(modelArmors)
+        }
+
+        /*JSON fo Weapons*/
+        val weaponsFile = "weapons.json"
+        val weaponsJson: String = applicationContext.assets.open(weaponsFile).bufferedReader().use{it.readText()}
+        val weaponsJsonArray = JSONArray(weaponsJson)
+        for (j in 0 until weaponsJsonArray.length()){
+            val uid = weaponsJsonArray.getJSONObject(j).getString("uid")
+            val nameWeapon = weaponsJsonArray.getJSONObject(j).getString("name")
+            val type = weaponsJsonArray.getJSONObject(j).getString("type")
+            val keywords = weaponsJsonArray.getJSONObject(j).getString("keywords")
+            val dr = weaponsJsonArray.getJSONObject(j).getString("dr")
+            val strength = weaponsJsonArray.getJSONObject(j).getString("strength")
+            val range = weaponsJsonArray.getJSONObject(j).getString("range")
+            val price = weaponsJsonArray.getJSONObject(j).getString("price")
+            val special = weaponsJsonArray.getJSONObject(j).getString("special")
+            val description = weaponsJsonArray.getJSONObject(j).getString("description")
+
+            val modelWeapons = Weapons(uid.toInt(),nameWeapon,type,keywords,dr,strength,range,price,special,description)
+            dao.insertWeapons(modelWeapons)
+        }
     }
 }

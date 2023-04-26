@@ -9,10 +9,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.room.Room
-import com.rpg.l5rcompanion.adapter.ClansAdapter
 import com.rpg.l5rcompanion.adapter.KatasAdapter
 import com.rpg.l5rcompanion.database.MyDatabase
-import com.rpg.l5rcompanion.databinding.FragmentListClansBinding
 import com.rpg.l5rcompanion.databinding.FragmentListKatasBinding
 
 

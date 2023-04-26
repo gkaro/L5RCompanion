@@ -11,7 +11,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.fragment.navArgs
 import androidx.room.Room
 import com.rpg.l5rcompanion.database.MyDatabase
-import com.rpg.l5rcompanion.database.Skills
 import com.rpg.l5rcompanion.database.Spells
 import com.rpg.l5rcompanion.databinding.FragmentDetailSpellsBinding
 

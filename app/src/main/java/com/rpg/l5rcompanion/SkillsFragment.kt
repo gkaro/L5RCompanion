@@ -10,12 +10,9 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.room.Room
-import com.rpg.l5rcompanion.adapter.SchoolsAdapter
 import com.rpg.l5rcompanion.adapter.SkillsAdapter
 import com.rpg.l5rcompanion.database.MyDatabase
-import com.rpg.l5rcompanion.databinding.FragmentListSkillsBinding
 import com.rpg.l5rcompanion.databinding.FragmentSkillsBinding
-
 
 class SkillsFragment : Fragment() {
 
