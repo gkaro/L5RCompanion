@@ -26,7 +26,7 @@
   {
     "uid" : "5",
     "name" : "Cooperative Rolls",
-    "content" : "Cooperative Skill Rolls involve multiple individuals working together to achive a single result. There are two different types of Cooperative Rolls. The first involves a group working together towards one end, without significant consequences for failure., In these cases, one individual is chosen from those participating  to make the Skill Roll. He receives a bonus to the total of his roll equal to the combined Ranks of all other participants in the Skill in question.\n\nThe second manner of Cooperative Roll is one wherein the circumstances of the roll allow for one participant with poor performance to impede the entire group. In this case, an indvidual Skill Roll is required from each participant, but the participant with the single highest rank in the Skill being used grants a bonus equal to his Skill Rank to all others making the roll.",
+    "content" : "Cooperative Skill Rolls involve multiple individuals working together to achieve a single result. There are two different types of Cooperative Rolls. The first involves a group working together towards one end, without significant consequences for failure., In these cases, one individual is chosen from those participating  to make the Skill Roll. He receives a bonus to the total of his roll equal to the combined Ranks of all other participants in the Skill in question.\n\nThe second manner of Cooperative Roll is one wherein the circumstances of the roll allow for one participant with poor performance to impede the entire group. In this case, an indvidual Skill Roll is required from each participant, but the participant with the single highest rank in the Skill being used grants a bonus equal to his Skill Rank to all others making the roll.",
     "category" : "1"
   },
   {
@@ -55,9 +55,9 @@
   },
   {
     "uid" : "10",
-    "name" : "Honor, glory & Status",
-    "content" : "",
-    "category" : "1"
+    "name" : "Honor",
+    "content" : "Honor primarily reflects how an individual samurai rates his personal ability to adhere to the tenets of Bushido and fulfill the duties assigned to him by his lord. While Honor id primarily internal, there is an external component to it as well, as a samurai's Honor greatly impacts how he carries himself and thus how others perceive him.\n\nHonor Ranks 0-1 : Honorless Dog\nThose individuals with Honor Ranks 0 or 1 do not adhere to or even recognize the tenets of Bushido, and mock those who are restricted by such an antiquated code of conduct. Individuals of this sort cannot be trusted and value only their own interests and well-being at the expense of anyone and anything else. Criminals fall into this category.\n\nHonor Ranks 2-3 : Untrustworthy\nWhile characters of Honor Ranks 2 and 3 are not particularly honorable, they at least pay lip service to the concept and make a marginal effort to uphold principles under certain circumstances. Perhaps this is a vestige of the individual's upbringing, or perhaps he only wants to avoid completely dishonoring his clan or lord through his actions. Still, the most important thing to a man of this caliber is himself, and very little can convince him otherwise.\n\nHonor Ranks 4-5 : What is expected\nCharacters of Honor Ranks 4 and 5 are the standard against which most others are measured. Such samurai make an effort every day to adhere to the tenets of Bushido and to bring honor and glory to their families and clans. Still, they are human and flawed individuals. As such they fall short of their potential on occasion, but not so much that they spiral downward into shame and disappointment.\n\nHonor Rank 6-7 : Exceptional\nA samurai of Honor Rank 6 or 7 understands the strength inherent in the code of Bushido. Such a man still feels the temptations to which lower-Honor characters succumb, but he is capable of resisting them through conviction and strength of will. These samurai may occasionally abandon virtue in the name of practicality, but such things are the exception rather than the rule.\n\nHonor Rank 8-9 : A soul above question\nSamurai of Honor Ranks 8 and 9 are rare individuals who have managed to put aside their personal feelings and concerns, replacing them with zeal for duty and Bushido. To some, these men and women are paragons of virtue who are to be respected and admired, while to others, they are rigid and inflexible disciplinarians unwilling to deviate even slightly from their own intractable code of conduct.\n\nHonor Rank 10 : Strength of a Thousand Ancestors\nPerhaps one soul in ten thousand reaches Honor Rank 10, and represents the greatest and most virtuous heroes of an entire Empire. Such an individual is virtually beyond reproach save from the highest ranks of the Imperial Bureaucracy. Individuals of this caliber are completely selfless, devoted to their lord, clan, and Emperor, and exhibit virtue in every action.\n\nThe Strength of Honor\n\nOne of the greatest benefits of having a high Honor Rank is that characters can rely upon their Honor to aid them in resisting temptations or manipulations that a true samurai should turn aside easily. Characters add their Honor Rank to the total of any roll made to resist uses of the Intimidation and Temptation Skills, as well as to all rolls to resist Fear effects of any kind.\n\nDiscerning Honor\n\nSamurai who have a high Honor Rank conduct themselves in such a manner that their nature is obvious to those who pay close attention. Any character may attempt to discern the Honor Rank of another person by making a Lore: Bushido/Awareness roll (TN 30). If the roll is successful, the person making the roll can discern the Honor Rank of the samurai being evaluated.",
+    "category" : "3"
   },
   {
     "uid" : "11",
@@ -110,7 +110,7 @@
   {
     "uid" :"19",
     "name" :"Improving your character",
-    "content" : "",
+    "content" : "One important aspect of charactersn that changes over time as they increase their abilities is Insight Rank. Insight is measured by adding all of a character's Rings together and multiplying them by ten, then adding the total of all their Skill Ranks together and adding it to the total from the Rings.\n\nRank 1 = Insight 1-149\nRank 2 = Insight 150-174\nRank 3 = Insight 175-199\nRank 4 = Insight 200-224\nRank 5 = Insight 225-249\nRank 6 = Insight 250-274\nRank 7 = Insight 275-299\nRank 8 = Insight 300-324\n\nShugenja and Insight Rank\nCertain Schools have only a single technique; Shugenja Schools are the most prominent example of this. When a character advances in School Rank, he gains the following benefits in lieu of a new Technique : \nThe Shugenja's School Rank increases the number of dice rolled on a Spell Casting Roll.\nThe new School Rank determines what Mastery Level of Spells he can cast.\nHe learns three new Spells, each of which must be of a Mastery Level he can cast at his new Rank.",
     "category": "3"
   },
   {
@@ -122,19 +122,19 @@
   {
     "uid" :"21",
     "name" :"Mastery Abilities",
-    "content" : "",
+    "content" : "Mastery Abilities are additional benefits that characters gain from having higher ranks in a given Skill. Although most Skills have them, there are some that do not. Those Skills that have Mastery Abilities typically have them at Rank 3, 5 and 7, although there are some Skills that gain a single Mastery Ability at Rank 5. These benefits are lsited in the individual Skill write-ups. Unless otherwise specified, Mastery Abilities only apply when the actual Skill in question is being used.\n\nAll Skills possess a single Mastery Ability at Rank 10, which is a Free Raise on all rolls made using that Skill.",
     "category": "4"
   },
   {
     "uid" :"21",
     "name" :"Emphases",
-    "content" : "",
+    "content" : "The number of Emphases a character may possess for a Skill is determined by his rank in that Skill. A character may possess one Emphases for a Skill at rank 1, two Emphases at rank 3, three Emphases at rank 5, four at rank 7 and a maximum of five Emphases at rank 9. It costs two experience points to purchase an Emphase in Skill. An Emphasis is indicated in parentheses after the name of the Skill to which it is attached.\n\nWhen making a Skill Roll, if the character has an Emphase that applies to the situation requiring the roll, he may immediately re-roll any dice that result in 1. This may only be done once per roll.",
     "category": "4"
   },
   {
     "uid" :"22",
     "name" :"Off-hand attacks",
-    "content" : "",
+    "content" : "A character handedness is determined by the player. A character attempting to make an attack with a weapon in his off-hand suffers a penalty of -5 to the roll if it is a small weapon, -10 if it is medium, and -15 if it is large. Additionally, attacks made with the character's dominant hand suffer a penalty of -5 to attack as long as a secondary weapon is held in the off-hand. However, a character wielding two weapons is more difficult to hit due to the larger area covered. As a result, character wielding two weapons add their Insight Rank to their Armor TN.",
     "category": "2"
   },
   {
@@ -154,5 +154,41 @@
     "name" :"Crafting",
     "content" : "",
     "category": "4"
+  },
+  {
+    "uid" :"26",
+    "name" :"Glory",
+    "content" : "Glory is a measure of an individual's fame throughout the Empire as a result of personal accomplishments. Unlike Honor and Status, Glory is a very fluid attribute and can vary wildly from the results of a single duel, skirmish, or battle. Individuals who participate in sensational events, such as military officers or duelists, are more prone to having a high Glory, while mild-mannered or unobtrusive individuals, such as scholars or scribes, are far less likely to be recognized. Surprisingly,socially high-ranking individuals such as the Emperor or the Daimyo of the Imperial Families have a relatively low Glory, because they are so unlikely to be recognized when outside of the trappings of their positions and unaccompanied by their retinue. There are few in the Empire, after all, who would recognize the Emperor if he were traveling in simple clothes without his legion of bodyguards and attendants. Glory is a measure of fame, ot prestige, and those who have lower Glory than a samurai are in no way obligated to obey him. They are expected to show him the proper respect for one of his reputation, however, and failure to do so can result in a legitimate reason for a duel or other unpleasant outcomes.\n\nGaining Glory\nGaining and losing Glory can be done in a variety of ways, all based upon a samurai's actions and what ramifications his actions have on his reputation in the Empire at large. Glory gains and losses are largely out of an individual's control, as Glory grows or diminishes as a result of others speaking of their exploits. Much as with Honor, it is the decsion of the GM whether Glory changes should be \"automatic\" or not.\n\nEffects of Glory\nThe higher a samurai's Glory Rank, the greater the probability he will be recognized when he encounters people he has not met before. Whenever this happens, the GM can make a Lore: Heraldry/Intelligence roll for the strangers against a TN 50. This TN is reduced by an amount equal to the samurai's current Glory x 5. If the roll is successful, the strangers recognize the samurai and respond appropriately.\n\nInfamy\nCharacters who gain Glory for committing criminal or dishonorable acts may instead be given Infamy, which is similar to Gory in all respects save that it inspires fear and revulsion rather than awe or respect. It is gained in exactly the same manner, but for heinous and fearsome acts, typically those that would normally cause a loss of Honor. Individuals with Infamy can be recognized in the same manner as those with Glory, but the response of those who recognize them is vastly different. If a character has both Infamy and Glory, the total Ranks should be combined to determine the likelihood that the character is recognized.",
+    "category": "3"
+  },
+  {
+    "uid" :"27",
+    "name" :"Status",
+    "content" : "Rokugan is a feudal society, and Status is the measure of an individual's role and influence within that society. Those with higher Status command more resources, authority, and wealth, while those with low Status have little authority over anything, perhaps even their own lives. Status is a largely static attribute that changes infrequently. Generally speaking, the only way for a character to increase their Status is to gain appointments or promotions from somenone who is higher-ranking in the hierarchy of their family, Clan, or the Imperial bureaucracy.\n\nGaining and losing Status\nStatus may only be gained by the formal promotion of a samurai by his lord or another higher-ranking individual. This is traditionally done in recognition of glorious service, although political appointments are also a source for such a thing. Losing status is less common, and is done by the same sort of individuals, but as punishment for some sort fo failure, typically a failure of duty. There is little that can be done in such cases; although in the instance of an unfair demotion, a samurai can conceivably protest his demotion to a figure of greater authority who holds influence over the individual who performed the demotion in the first place. If a demotion is found to be unjust, it results in the restoration of the wronged party's Status and a loss of Honor for the individual who performed the unjust act in the first place. However, an inappropriate protest typicallu results in even more severe punishment for the protesting samurai.\n\nEffects of Status\nStatus grants a samurai authority over other samurais of lower Status, but only if those samurais exist within the same hierarchy. A Lion samurai with Status 3, for instance, still cannot issue commands to a Mantis samurai with Status 2 unless the tow of them are members of the same military organization or a comparable social order of some sort; otherwise the Lion simply has no authority over the Mantis. On the other hand, a Lion of Status 3 can usually issue orders to another Lion of Status 2. Samurai must always be careful in doing so, however, and make sure they do not interrupt or countermand the orders of a different samurai with an even greater Status than their own. Countermanding a superior results in lost Honor and possibly a loss of Status as well.",
+    "category": "3"
+  },
+  {
+    "uid" :"28",
+    "name" :"Spell Casting",
+    "content" : "When casting a Spell, a Shugenja rolls a number of dice equal to his Rank in the relevant Ring plus his Shugenja School Rank, and keeps a number of dice equal to his Ring. The result is compared to the Spell's TN, which is equal to 5 plus (5x the Spell's Mastery Level).\nA Shugenja may cast a finite number of Spells per day. A Shugenja character has 'spell slots' equal to his Ring in the element in question. All Shugenja have bonus spell slots equal to to their Voir ring, however, and these can be used to cast additional spells in any element of their choice.\nA Shugenja who fails a Spell Casting Roll is still considered to have used up the appropriate spell slot, as the Kami are angered by his failure. However,a Shugenja who succeeds in the Spell Casting Roll but then is interrupted before the Spell is completed does not lose any spell slot.\n\nRokugani spells are actually prayers and invocations to the karni, spoken in a mystical tongue which the I.2mi can understand. All shugenja study this speech as part of their schooling. Thse prayers are complex, and most shugenja must read them from scrolls in order to cast them properly. This is why shugenja normally must have their spell-scroll in hand while they cast, so they can read off the prayers correctly. A stalled shugenja, however, can memorize the incantations by spending a number of Experience Points equal to the Mastery Level of the spell. This allows the spell to be cast without a scroll. Because the kami must hear the prayers, spells are normally spoken aloud. It is possible to conceal a spell, however, by muttering the prayers under one's breath. See the Stealth Skill for details. ",
+    "category": "5"
+  },
+  {
+    "uid" :"28",
+    "name" :"Action and Casting Time",
+    "content" : "A Spell requires a number of Complex Actions equal to its Mastery Level to cast. The first of these is spent when the caster successfully makes the Spell Casting Roll against the normal TN, which is equal to 5 plus the Spell's Mastery Level x 5. Each round thereafter, the Shugenja must spend a Complex Action to  continue the Spell. A spell takes effect immediately upon the completion of the last Complex Action required to cast it, unless otherwise specified in the Spell description.\n\nA character may reduce the number of Complex Actions required to cast a spell by one for every Raise made specifically for that purpose on the Spell Castin Roll. However, this cannot reduce the casting time to less than one Complex Action.\n\nCharacters who are attempting to complete a spell can be interrupted if they suffer damage or are significantly distracted during the castin process. A Shugenja who is interrupted must succeed at a Willpower Trait Roll (TN 10) to overcome distraction. If the Shugenja suffers damage, the TN for the Willpower Trait Roll is 5 plus the amount of damage suffered. A spell that is disrupted in this manner cannot be completed, but the Shugenja does not lose a Spell Slot.",
+    "category": "5"
+  },
+  {
+    "uid" :"29",
+    "name" :"Affinities and Deficiencies",
+    "content" : "Virtually all shugenja Schools have an Affinity for one ele-ment and a Deficiency for another. Most often, Affinities and Deficiencies are of opposing elements (Air and Earth are op-posed, as are Fire and Water; Void has no opposing element). This represents both the ritualized teachings of the Great Clans and the inherently oppositional nature of the elements. A shugenja with an Affinity for an element casts spells of that element as if his Shugenja School Rank were one higher. Conversely, a shugenja Deficient in an element casts spells of that element as if his Shugenja School Rank were one lower. if this reduces the shugenja's effective School Rank to zero, he cannot cast spells of that element.",
+    "category": "5"
+  },
+  {
+    "uid" :"30",
+    "name" :"Mass Battle",
+    "content" : "",
+    "category": "2"
   }
 ]

@@ -17,6 +17,10 @@ class RingsSpellsFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
                 binding = FragmentRingsSpellsBinding.inflate(layoutInflater)
+                binding.universal.setOnClickListener {
+                    val ring = 0
+                    findNavController().navigate(RingsSpellsFragmentDirections.actionRingsSpellsFragmentToMasterySpellsFragment(ring))
+                }
                 binding.airRing.setOnClickListener {
                     val ring = 1
                     findNavController().navigate(RingsSpellsFragmentDirections.actionRingsSpellsFragmentToMasterySpellsFragment(ring))
