@@ -26,7 +26,8 @@ class AdvdisAdapter: RecyclerView.Adapter<AdvdisAdapter.AdvdisViewHolder>() {
 
 
     class AdvdisViewHolder(view: View, listener: OnItemClickListener) : RecyclerView.ViewHolder(view) {
-        val textView: TextView = view.findViewById(R.id.item_title)
+        val titleView: TextView = view.findViewById(R.id.item_title)
+        val descView: TextView = view.findViewById(R.id.item_desc)
 
         init{
             itemView.setOnClickListener{
@@ -41,7 +42,7 @@ class AdvdisAdapter: RecyclerView.Adapter<AdvdisAdapter.AdvdisViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AdvdisViewHolder {
         val adapterLayout = LayoutInflater.from(parent.context)
-            .inflate(R.layout.list_item, parent, false)
+            .inflate(R.layout.list_schools, parent, false)
 
         return AdvdisViewHolder(adapterLayout, mListener)
     }
@@ -49,7 +50,8 @@ class AdvdisAdapter: RecyclerView.Adapter<AdvdisAdapter.AdvdisViewHolder>() {
     @SuppressLint("SetTextI18n")
     override fun onBindViewHolder(holder: AdvdisViewHolder, position: Int) {
         val item = dataset[position]
-        holder.textView.text =  item.name
+        holder.titleView.text =  item.name
+        holder.descView.text = "Type : " + item.subtype + " | Cost : " + item.points
     }
 
     override fun getItemCount() = dataset.size

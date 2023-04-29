@@ -46,17 +46,30 @@ class DetailSpellsFragment : Fragment() {
         val name: TextView = view.findViewById(R.id.spellName)
         name.text = nameSpell
         val ring: TextView = view.findViewById(R.id.ring)
-        ring.text = "Ring : $ringSpell"
+        if(ringSpell== "1"){
+            ring.text = "Air Ring / Mastery Level $masterySpell"
+        }
+        if(ringSpell== "2"){
+            ring.text = "Earth Ring / Mastery Level $masterySpell"
+        }
+        if(ringSpell== "3"){
+            ring.text = "Fire Ring / Mastery Level $masterySpell"
+        }
+        if(ringSpell== "4"){
+            ring.text = "Water Ring / Mastery Level $masterySpell"
+        }
+        if(ringSpell== "5"){
+            ring.text = "Void Ring / Mastery Level $masterySpell"
+        }
         val type: TextView = view.findViewById(R.id.type)
         type.text = "Type : $typeSpell"
+        if(typeSpell.isEmpty()){type.visibility = View.GONE}
         val area: TextView = view.findViewById(R.id.area)
         area.text = "Area : $areaSpell"
         val content: TextView = view.findViewById(R.id.content)
         content.text = contentSpell
         val range: TextView = view.findViewById(R.id.range)
         range.text = "Range : $rangeSpell"
-        val mastery: TextView = view.findViewById(R.id.mastery)
-        mastery.text = "Mastery : $masterySpell"
         val duration: TextView = view.findViewById(R.id.duration)
         duration.text = "Duration : $durationSpell"
         val raises: TextView = view.findViewById(R.id.raises)

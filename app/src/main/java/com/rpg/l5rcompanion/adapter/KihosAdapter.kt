@@ -25,7 +25,8 @@ class KihosAdapter: RecyclerView.Adapter<KihosAdapter.KihosViewHolder>() {
 
 
     class KihosViewHolder(view: View, listener: OnItemClickListener) : RecyclerView.ViewHolder(view) {
-        val textView: TextView = view.findViewById(R.id.item_title)
+        val titleView: TextView = view.findViewById(R.id.item_title)
+        val descView: TextView = view.findViewById(R.id.item_desc)
 
         init{
             itemView.setOnClickListener{
@@ -40,7 +41,7 @@ class KihosAdapter: RecyclerView.Adapter<KihosAdapter.KihosViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): KihosViewHolder {
         val adapterLayout = LayoutInflater.from(parent.context)
-            .inflate(R.layout.list_item, parent, false)
+            .inflate(R.layout.list_schools, parent, false)
 
         return KihosViewHolder(adapterLayout, mListener)
     }
@@ -48,7 +49,8 @@ class KihosAdapter: RecyclerView.Adapter<KihosAdapter.KihosViewHolder>() {
     @SuppressLint("SetTextI18n")
     override fun onBindViewHolder(holder: KihosViewHolder, position: Int) {
         val item = dataset[position]
-        holder.textView.text =  item.name
+        holder.titleView.text =  item.name
+        holder.descView.text = "Ring of " + item.ring +  " | Mastery level " + item.mastery
     }
 
     override fun getItemCount() = dataset.size

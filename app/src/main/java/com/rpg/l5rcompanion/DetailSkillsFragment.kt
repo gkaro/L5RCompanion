@@ -47,21 +47,25 @@ class DetailSkillsFragment : Fragment(R.layout.fragment_detail_skills) {
 
         /**fetch views and display db items in it + set view to GONE if rank is empty*/
         val name: TextView = view.findViewById(R.id.skillName)
-        name.text = nameSkill
+        name.text = "$nameSkill [$traitSkill]"
         val category: TextView = view.findViewById(R.id.category)
-        if(catSkill == "1"){category.text = "High Skills"}
-        if(catSkill == "2"){category.text = "Bugei Skills"}
-        if(catSkill == "3"){category.text = "Merchant Skills"}
-        if(catSkill == "4"){category.text = "Low Skills"}
+        if(catSkill == "1"){category.text = "High Skill"}
+        if(catSkill == "2"){category.text = "Bugei Skill"}
+        if(catSkill == "3"){category.text = "Merchant Skill"}
+        if(catSkill == "4"){category.text = "Low Skill"}
 
         val type: TextView = view.findViewById(R.id.type)
         type.text = "Type : $typeSkill"
-        val trait: TextView = view.findViewById(R.id.trait)
-        trait.text = "[$traitSkill]"
+        if(typeSkill.isEmpty()){
+            type.visibility = View.GONE
+        }
         val content: TextView = view.findViewById(R.id.content)
         content.text = contentSkill
         val emphases: TextView = view.findViewById(R.id.emphase)
         emphases.text = "Emphases : $emphaseSkill"
+        if(emphaseSkill.isEmpty()){
+            emphases.visibility = View.GONE
+        }
         val mastery: TextView = view.findViewById(R.id.mastery)
         mastery.text = masterySkill
 

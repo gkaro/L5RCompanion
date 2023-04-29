@@ -44,9 +44,8 @@ class DetailKatasFragment : Fragment() {
         val name: TextView = view.findViewById(R.id.kataName)
         name.text = nameKata
         val ring: TextView = view.findViewById(R.id.ring)
-        ring.text = "Ring : $ringKata"
-        val mastery: TextView = view.findViewById(R.id.mastery)
-        mastery.text = "Mastery : $masteryKata"
+        ring.text = "Ring of $ringKata / Mastery Level $masteryKata"
+
         val schools: TextView = view.findViewById(R.id.schools)
         schools.text = "Schools : $schoolKata"
 

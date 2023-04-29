@@ -43,11 +43,9 @@ class DetailKihosFragment : Fragment() {
         val name: TextView = view.findViewById(R.id.kihoName)
         name.text = nameKiho
         val ring: TextView = view.findViewById(R.id.ring)
-        ring.text = "Ring : $ringKiho"
-        val mastery: TextView = view.findViewById(R.id.mastery)
-        mastery.text = "Mastery : $masteryKiho"
+        ring.text = "Ring of $ringKiho / Mastery Level $masteryKiho"
         val type: TextView = view.findViewById(R.id.type)
-        type.text = "Schools : $typeKiho"
+        type.text = "Type : $typeKiho"
 
         val description: TextView = view.findViewById(R.id.description)
         description.text = descriptionKiho

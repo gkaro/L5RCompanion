@@ -24,8 +24,9 @@ class KatasAdapter: RecyclerView.Adapter<KatasAdapter.KatasViewHolder>() {
 
 
     class KatasViewHolder(view: View, listener: OnItemClickListener) : RecyclerView.ViewHolder(view) {
-        val textView: TextView = view.findViewById(R.id.item_title)
-
+        val titleView: TextView = view.findViewById(R.id.item_title)
+        val descView: TextView = view.findViewById(R.id.item_desc)
+        val descView2: TextView = view.findViewById(R.id.item_desc2)
         init{
             itemView.setOnClickListener{
                 listener.onItemClick(absoluteAdapterPosition)
@@ -39,7 +40,7 @@ class KatasAdapter: RecyclerView.Adapter<KatasAdapter.KatasViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): KatasViewHolder {
         val adapterLayout = LayoutInflater.from(parent.context)
-            .inflate(R.layout.list_item, parent, false)
+            .inflate(R.layout.list_skills, parent, false)
 
         return KatasViewHolder(adapterLayout, mListener)
     }
@@ -47,7 +48,9 @@ class KatasAdapter: RecyclerView.Adapter<KatasAdapter.KatasViewHolder>() {
     @SuppressLint("SetTextI18n")
     override fun onBindViewHolder(holder: KatasViewHolder, position: Int) {
         val item = dataset[position]
-        holder.textView.text =  item.name
+        holder.titleView.text =  item.name
+        holder.descView.text = "Ring of " + item.ring +  " | Mastery level " + item.mastery
+        holder.descView2.text = item.schools
     }
 
     override fun getItemCount() = dataset.size

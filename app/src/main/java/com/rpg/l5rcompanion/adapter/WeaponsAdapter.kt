@@ -24,7 +24,8 @@ class WeaponsAdapter: RecyclerView.Adapter<WeaponsAdapter.WeaponsViewHolder>() {
 
 
     class WeaponsViewHolder(view: View, listener: OnItemClickListener) : RecyclerView.ViewHolder(view) {
-        val textView: TextView = view.findViewById(R.id.item_title)
+        val titleView: TextView = view.findViewById(R.id.item_title)
+        val descView: TextView = view.findViewById(R.id.item_desc)
 
         init{
             itemView.setOnClickListener{
@@ -39,7 +40,7 @@ class WeaponsAdapter: RecyclerView.Adapter<WeaponsAdapter.WeaponsViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): WeaponsViewHolder {
         val adapterLayout = LayoutInflater.from(parent.context)
-            .inflate(R.layout.list_item, parent, false)
+            .inflate(R.layout.list_schools, parent, false)
 
         return WeaponsViewHolder(adapterLayout, mListener)
     }
@@ -47,7 +48,8 @@ class WeaponsAdapter: RecyclerView.Adapter<WeaponsAdapter.WeaponsViewHolder>() {
     @SuppressLint("SetTextI18n")
     override fun onBindViewHolder(holder: WeaponsViewHolder, position: Int) {
         val item = dataset[position]
-        holder.textView.text =  item.name
+        holder.titleView.text =  item.name
+        holder.descView.text = "DR " + item.dr
     }
 
     override fun getItemCount() = dataset.size

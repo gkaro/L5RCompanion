@@ -110,14 +110,14 @@
   {
     "uid" :"19",
     "name" :"Improving your character",
-    "content" : "One important aspect of charactersn that changes over time as they increase their abilities is Insight Rank. Insight is measured by adding all of a character's Rings together and multiplying them by ten, then adding the total of all their Skill Ranks together and adding it to the total from the Rings.\n\nRank 1 = Insight 1-149\nRank 2 = Insight 150-174\nRank 3 = Insight 175-199\nRank 4 = Insight 200-224\nRank 5 = Insight 225-249\nRank 6 = Insight 250-274\nRank 7 = Insight 275-299\nRank 8 = Insight 300-324\n\nShugenja and Insight Rank\nCertain Schools have only a single technique; Shugenja Schools are the most prominent example of this. When a character advances in School Rank, he gains the following benefits in lieu of a new Technique : \nThe Shugenja's School Rank increases the number of dice rolled on a Spell Casting Roll.\nThe new School Rank determines what Mastery Level of Spells he can cast.\nHe learns three new Spells, each of which must be of a Mastery Level he can cast at his new Rank.",
+    "content" : "One important aspect of characters that changes over time as they increase their abilities is Insight Rank. Insight is measured by adding all of a character's Rings together and multiplying them by ten, then adding the total of all their Skill Ranks together and adding it to the total from the Rings.\n\nRank 1 = Insight 1-149\nRank 2 = Insight 150-174\nRank 3 = Insight 175-199\nRank 4 = Insight 200-224\nRank 5 = Insight 225-249\nRank 6 = Insight 250-274\nRank 7 = Insight 275-299\nRank 8 = Insight 300-324\n\nShugenja and Insight Rank\nCertain Schools have only a single technique; Shugenja Schools are the most prominent example of this. When a character advances in School Rank, he gains the following benefits in lieu of a new Technique : \nThe Shugenja's School Rank increases the number of dice rolled on a Spell Casting Roll.\nThe new School Rank determines what Mastery Level of Spells he can cast.\nHe learns three new Spells, each of which must be of a Mastery Level he can cast at his new Rank.",
     "category": "3"
   },
   {
     "uid" :"20",
     "name" :"Reduction",
     "content" : "",
-    "category": "6"
+    "category": "2"
   },
   {
     "uid" :"21",

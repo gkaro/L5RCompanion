@@ -48,24 +48,11 @@
                 android:text="ring"
                 />
             <TextView
-                android:id="@+id/mastery"
+                android:id="@+id/type"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:layout_constraintTop_toBottomOf="@id/ring"
                 app:layout_constraintStart_toStartOf="@id/ring"
-                android:textSize="20sp"
-                app:fontFamily="@font/mirzaregular"
-                android:justificationMode="inter_word"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="15dp"
-                android:text="mastery"
-                />
-            <TextView
-                android:id="@+id/type"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:layout_constraintTop_toBottomOf="@id/mastery"
-                app:layout_constraintStart_toStartOf="@id/mastery"
                 android:textSize="20sp"
                 app:fontFamily="@font/mirzaregular"
                 android:justificationMode="inter_word"

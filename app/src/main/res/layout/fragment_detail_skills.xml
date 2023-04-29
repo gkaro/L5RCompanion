@@ -35,27 +35,14 @@
                 />
 
             <TextView
-                android:id="@+id/trait"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="10dp"
-                android:gravity="center"
-                android:text="trait"
-                android:textSize="20sp"
-                app:fontFamily="@font/mirzaregular"
-                app:layout_constraintStart_toStartOf="@id/emphase"
-                app:layout_constraintTop_toBottomOf="@id/emphase" />
-
-            <TextView
                 android:id="@+id/category"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:layout_constraintTop_toBottomOf="@id/skillName"
                 app:layout_constraintStart_toStartOf="@id/skillName"
                 android:textSize="20sp"
+                android:gravity="center"
                 app:fontFamily="@font/mirzaregular"
-                android:justificationMode="inter_word"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="10dp"
                 android:text="category"
@@ -91,8 +78,8 @@
                 android:id="@+id/content"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:layout_constraintTop_toBottomOf="@id/trait"
-                app:layout_constraintStart_toStartOf="@id/trait"
+                app:layout_constraintTop_toBottomOf="@id/emphase"
+                app:layout_constraintStart_toStartOf="@id/emphase"
                 android:textSize="20sp"
                 app:fontFamily="@font/mirzaregular"
                 android:justificationMode="inter_word"

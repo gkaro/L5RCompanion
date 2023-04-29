@@ -1,5 +1,6 @@
 package com.rpg.l5rcompanion
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -31,6 +32,7 @@ class DetailArmorsFragment : Fragment() {
         return binding.root
     }
 
+    @SuppressLint("SetTextI18n")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?){
         val uid = args.uid
         val item = getDetailsFromArmor(uid)
@@ -44,9 +46,7 @@ class DetailArmorsFragment : Fragment() {
         val name: TextView = view.findViewById(R.id.armorName)
         name.text = nameArmor
         val armortn: TextView = view.findViewById(R.id.armortn)
-        armortn.text = "Armor TN :  $tnArmor"
-        val reduction: TextView = view.findViewById(R.id.reduction)
-        reduction.text = "Reduction : $reductionArmor"
+        armortn.text = "Armor TN :  $tnArmor | Reduction : $reductionArmor"
         val price: TextView = view.findViewById(R.id.price)
         price.text = "Price : $priceArmor"
         val special: TextView = view.findViewById(R.id.special)
