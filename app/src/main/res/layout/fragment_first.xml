@@ -70,7 +70,7 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="28dp"
-        android:text="Katas"
+        android:text="Katas &amp; Kihos"
         app:layout_constraintTop_toBottomOf="@id/rules"
         app:layout_constraintStart_toStartOf="@id/rules"/>
     <Button
@@ -79,7 +79,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="28dp"
-        android:text="Kihos"
+        android:text="Okuden"
         app:layout_constraintTop_toTopOf="@id/katas"
         app:layout_constraintStart_toEndOf="@id/katas"/>
     <Button
@@ -90,14 +90,24 @@
         android:text="Armors &amp; Weapons"
         app:layout_constraintTop_toBottomOf="@id/katas"
         app:layout_constraintStart_toStartOf="@id/katas"/>
+
     <Button
-        android:id="@+id/advdef"
+        android:id="@+id/advDisadv"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
         android:layout_marginEnd="28dp"
         android:text="Advantages &amp; Defaults"
-        app:layout_constraintTop_toTopOf="@id/armorsweapons"
-        app:layout_constraintStart_toEndOf="@id/armorsweapons"/>
-
+        app:layout_constraintTop_toBottomOf="@id/kihos"
+        app:layout_constraintStart_toStartOf="@id/kihos"/>
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="version x.x.x"
+        android:textColor="@color/white"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/logoTitle"
+        app:layout_constraintStart_toStartOf="@id/logoTitle"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

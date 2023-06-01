@@ -7,11 +7,11 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.rpg.l5rcompanion.R
-import com.rpg.l5rcompanion.database.Schools
+import com.rpg.l5rcompanion.database.Okuden
 
-class SchoolsAdapter: RecyclerView.Adapter<SchoolsAdapter.SchoolsViewHolder>() {
+class OkudenAdapter : RecyclerView.Adapter<OkudenAdapter.OkudenViewHolder>() {
 
-    var dataset = ArrayList<Schools>()
+    var dataset = ArrayList<Okuden>()
     private lateinit var mListener : OnItemClickListener
 
     interface OnItemClickListener {
@@ -22,10 +22,8 @@ class SchoolsAdapter: RecyclerView.Adapter<SchoolsAdapter.SchoolsViewHolder>() {
         mListener = listener
     }
 
-
-    class SchoolsViewHolder(view: View, listener: OnItemClickListener) : RecyclerView.ViewHolder(view) {
+    class OkudenViewHolder(view: View, listener: OnItemClickListener) : RecyclerView.ViewHolder(view){
         val titleView: TextView = view.findViewById(R.id.item_title)
-        val descView: TextView = view.findViewById(R.id.item_desc)
         init{
             itemView.setOnClickListener{
                 listener.onItemClick(absoluteAdapterPosition)
@@ -33,24 +31,21 @@ class SchoolsAdapter: RecyclerView.Adapter<SchoolsAdapter.SchoolsViewHolder>() {
         }
     }
 
-    fun setDataList(schools: List<Schools>) {
-        val sortedList = schools.sortedBy { it.name }
-        this.dataset= sortedList.toMutableList() as ArrayList<Schools>
+    fun setDataList(okuden: List<Okuden>){
+        val sortedList = okuden.sortedBy { it.name }
+        this.dataset = sortedList.toMutableList() as ArrayList<Okuden>
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SchoolsViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): OkudenViewHolder{
         val adapterLayout = LayoutInflater.from(parent.context)
-            .inflate(R.layout.list_schools, parent, false)
-
-        return SchoolsViewHolder(adapterLayout, mListener)
+            .inflate(R.layout.list_item, parent, false)
+        return OkudenViewHolder(adapterLayout, mListener)
     }
 
     @SuppressLint("SetTextI18n")
-    override fun onBindViewHolder(holder: SchoolsViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: OkudenViewHolder, position: Int){
         val item = dataset[position]
         holder.titleView.text =  item.name
-        holder.descView.text = item.benefit + "/" + item.discipline + "/" + item.honor
-
     }
 
     override fun getItemCount() = dataset.size

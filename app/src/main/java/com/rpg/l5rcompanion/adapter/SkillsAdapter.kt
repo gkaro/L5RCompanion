@@ -7,7 +7,6 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.rpg.l5rcompanion.R
-import com.rpg.l5rcompanion.database.Schools
 import com.rpg.l5rcompanion.database.Skills
 
 
@@ -37,7 +36,8 @@ class SkillsAdapter: RecyclerView.Adapter<SkillsAdapter.SkillsViewHolder>() {
     }
 
     fun setDataList(skills: List<Skills>) {
-        this.dataset= skills.toMutableList() as ArrayList<Skills>
+        val sortedList = skills.sortedBy { it.name }
+        this.dataset= sortedList.toMutableList() as ArrayList<Skills>
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SkillsViewHolder {

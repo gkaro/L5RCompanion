@@ -8,7 +8,6 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.rpg.l5rcompanion.R
 import com.rpg.l5rcompanion.database.AdvDis
-import com.rpg.l5rcompanion.database.Armors
 
 
 class AdvdisAdapter: RecyclerView.Adapter<AdvdisAdapter.AdvdisViewHolder>() {
@@ -37,7 +36,8 @@ class AdvdisAdapter: RecyclerView.Adapter<AdvdisAdapter.AdvdisViewHolder>() {
     }
 
     fun setDataList(advdis: List<AdvDis>) {
-        this.dataset= advdis.toMutableList() as ArrayList<AdvDis>
+        val sortedList = advdis.sortedBy { it.name }
+        this.dataset= sortedList.toMutableList() as ArrayList<AdvDis>
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AdvdisViewHolder {

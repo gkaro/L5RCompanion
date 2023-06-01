@@ -1,0 +1,186 @@
+[
+  {
+    "uid" : "1",
+    "name" : "Pluie d’étoiles",
+    "prerequisite" : "Armes Projectiles emphase Shuriken ou Tsubute  3, Réflexes 3",
+    "rank 1" : "Permet de lancer plusieurs shuriken/tsubute dans le même tour (limité au score de compétence). ",
+    "rank 2" : "Permet de lancer plusieurs shuriken/tsubute dans le même tour (limité au score de compétence) sur <Rg Okuden> cibles différentes.",
+    "rank 3" : "Vous ajoutez <Rg Okuden>G0 aux dégâts avec un projectile Ninjutsu (shuriken/Tsubute)."
+  },
+  {
+    "uid" : "2",
+    "name" : "La Frappe du Dragon de Feu",
+    "prerequisite" : "Jujutsu 3, Vide 3",
+    "rank 1" : "Après avoir réussi une attaque à main nues sur un adversaire, , vous pouvez dépenser un points de Vide pour lui ajouter un malus de blessure de 5 points supplémentaires par <Rg Okuden> (mais cela ne change pas son niveau de blessure).",
+    "rank 2" : "Après avoir réussi une attaque à main nues sur un adversaire, vous pouvez dépenser un point de Vide pour lui faire perdre 1 rang d'Agilité sur son prochain tour.",
+    "rank 3" : "Après avoir réussi une attaque à main nues sur un adversaire, vous pouvez dépenser un point de Vide pour lui faire perdre 1 rang d'Agilité pour la scène (et soin de la blessure)."
+  },
+  {
+    "uid" : "3",
+    "name" : "Le Dard du Scorpion",
+    "prerequisite" : "Tantojutsu 3",
+    "rank 1" : "Lors d'une manœuvre d’assaut ou d’attaque sournoise avec une arme de type couteau, vous gagnez +0G1 sur les dégâts.",
+    "rank 2" : "Lors d'une manœuvre d’assaut ou d’attaque sournoise avec une arme de type couteau, les dégâts sont doublés. (non cumulable avec le Niv1).",
+    "rank 3" : "Lors d'une manœuvre d’assaut ou d’attaque sournoise avec une arme de type couteau, vous gagnez +0G1 sur les dégâts et ceux-ci sont ensuite doublés. (non cumulable avec le Niv1 et 2)."
+  },
+  {
+    "uid" : "4",
+    "name" : "La Terre Vacille",
+    "prerequisite" : "une compétence Armes 3, Vide 3",
+    "rank 1" : "Lors d'un assaut ou attaque sournoise réussie avec une arme contondante, votre adversaire ne peut pas prendre une posture autre que celle de Défense pour <Rg Okuden> action.",
+    "rank 2" : "Lors d'un assaut ou attaque sournoise réussie avec une arme contondante, votre adversaire gagne le statut étourdi en plus de ses blessures. (remplace le Niv1).",
+    "rank 3" : "Lors d'un assaut ou attaque sournoise réussie avec une arme contondante, dépensez un point de Vide pour étourdir votre adversaire à la place de lui faire des dégâts. Ajoutez vos dégâts au ND du jet de terre. S’il échoue, il est étourdi pour un nombre de round égal au niveau de compétence de combat."
+  },
+  {
+    "uid" : "5",
+    "name" : "L’Art de l’Invisibilité",
+    "prerequisite" : "Furtivité 3",
+    "rank 1" : "Vous gagnez <Rg Okuden> augmentation gratuite sur tous les jets de Furtivité. Vous pouvez vous déplacer normalement en marchant ou en courant sans pénalité sur le jet de Furtivité.",
+    "rank 2" : "Ajoutez votre rang de discrétion aux jets d'attaque et de dégâts.",
+    "rank 3" : "Vous gagnez <Rg Okuden> augmentations gratuites sur toutes vos attaques sournoises."
+  },
+  {
+    "uid" : "6",
+    "name" : "Vif comme le Serpent",
+    "prerequisite" : "Jujutsu 3",
+    "rank 1" : "Ajouter votre rang de Jujutsu aux jets d'initiative et à votre ND d’armure",
+    "rank 2" : "Vous gagnez une augmentation gratuite sur les jets d’attaque avec Jujutsu (compte également pour les manœuvres de Grappling).",
+    "rank 3" : "Ajoutez deux fois votre rang de Jujutsu aux jets de dégâts et aux jets opposés de Force dans les manœuvres de Grappling."
+  },
+  {
+    "uid" : "7",
+    "name" : "L’Instinct du Prédateur",
+    "prerequisite" : "Perception 3, Intuition 3",
+    "rank 1" : "Vous ignorez les malus liés à la pénombre. Vous annulez un malus de 1G1 lié au statut aveuglé ou lié à l’obscurité complète par <Rg Okuden>.",
+    "rank 2" : "Vous permet de sentir quand vous êtes observé. Les bonus sont les mêmes que pour l’avantage \"Vigilant\", mais ici le bonus sur le jet d’Observation est égal à <Rg Okuden> G <Rg Okuden>.",
+    "rank 3" : "Vous permet de sentir un danger imminent arriver. Vous ne pouvez pas être surpris, ou être victime d’attaques sournoises. Vous gagnez également <Rg Okuden>G0 à vos jets d’initiative."
+  },
+  {
+    "uid" : "8",
+    "name" : "Les Milles Visages",
+    "prerequisite" : "Comédie 3",
+    "rank 1" : "Art avancé du déguisement : permet d’incarner un persona des pieds à la tête. Son apparence, ses vêtements, sa démarche, sa façon de parler, son accent. Le persona peut avoir une histoire, une occupation, des liens, des amis, des alliés, des biens, etc. \nPour chaque niveau dans cet Okuden, vous gagnez un persona et quatre compétences à 1 liées à ce persona (ces points ne comptent pas dans le calcul du rang d’Insight)\nVous gagnez un bonus de <Rg Okuden>G0 sur vos jets de Comédie lors des jets d’opposition pour percer votre identité.\n",
+    "rank 2" : " ",
+    "rank 3" : " "
+  },
+  {
+    "uid" : "9",
+    "name" : "L’Oeil de l’Artisan",
+    "prerequisite" : "1 compétence artisanale à 3",
+    "rank 1" : "Le personnage a toujours au moins 1 point de compétence en artisanat lui permettant de fabriquer ou réparer des éléments de son équipement.",
+    "rank 2" : "Vous gagnez <Rg Okuden> augmentations gratuites sur les jets de Contrefaçon et de Pièges.",
+    "rank 3" : "Votre œil aguerri vous permet de percer les secrets de tout objet. Même en plein combat, vous repérez le point d’équilibre d’une arme, ou la faiblesse d’une armure.\nAjoutez deux fois votre Rang d’Artisanat à votre ND pour être touché et soustrayez le de la Réduction d’armure de vos adversaires (pas le ND, mais bien la Réduction des dégâts).\n"
+  },
+  {
+    "uid" : "10",
+    "name" : "Les Murmures de l’Ombre",
+    "prerequisite" : "Intuition 3 et Commerce ou Courtisan 2, Langage Secret 1",
+    "rank 1" : "En faisant un jet d'intuition/commerce ou courtisan vous pouvez transmettre un message caché dans la conversation qui peut-être perçu par quiconque réussi un jet (intelligence/observation) ND 15.",
+    "rank 2" : "Faites un jet utilisant une compétence sociale de votre choix : votre adversaire se focalise sur vous et baisse son attention vis-à-vis de ce qui l'entoure. Pour chaque augmentation qu'il gagne dans l'interaction avec votre personnage, il en perd une dans un jet opposé d'observation vs discrétion.",
+    "rank 3" : "Lors d’une interaction sociale avec quelqu’un, sur un jet d'intuition/commerce ou courtisan, vous pouvez dépenser un point de Vide pour lui faire dire une information utile qu’il n’aurait pas donnée autrement. Pour deux points de Vide, votre interlocuteur ne se rend pas compte qu’il a donné cette information."
+  },
+  {
+    "uid" : "11",
+    "name" : "Faire Bruisser les Feuilles",
+    "prerequisite" : "Courtisan emphase Commérages",
+    "rank 1" : "Vous obtenez deux points gratuits à dépenser dans l’avantage Réseau. Vous gagnez <Rg Okuden> augmentation gratuite sur tous les jets utilisant la compétence Courtisan avec l’emphase Commérages.",
+    "rank 2" : "Vous pouvez faire un jet d'Intuition/Discussion pour répandre une rumeur. Pour remonter la source de la rumeur jusqu'à vous, il faudra prendre deux augmentations aux jets de Courtisan.",
+    "rank 3" : "Vous gagnez l’avantage Réseau d’Espion. Si vous l’avez déjà, vous pouvez alors obtenir deux informations durant la même session. Vous gagnez une augmentation gratuite supplémentaire sur tous vos jets de Courtisan."
+  },
+  {
+    "uid" : "12",
+    "name" : "L’Ombre Insaisissable",
+    "prerequisite" : "Athlétisme emphase Acrobatie",
+    "rank 1" : "Vous pouvez utiliser des griffes d’escalade  et faire une jet d’Athlétisme (Acrobatie) ND15 pour évoluer sur une surface solide quelque soit son inclinaison.",
+    "rank 2" : "Vous êtes capable de réaliser des bonds prodigieux soit à l’horizontal pour franchir un espace vide important, soit à la verticale pour escalader un mur. Vous pouvez faire une attaque normale sur un adversaire situé à une distance supérieure à 1.5 fois votre anneau d’Eau (mais inférieure à 3x).",
+    "rank 3" : "Vous ajoutez deux fois votre score d’Athlétisme à votre ND d’armure ainsi qu’à vos jets d’attaque."
+  },
+  {
+    "uid" : "13",
+    "name" : "Vent de la Discorde",
+    "prerequisite" : "Intuition 3, Courtisan emphase Manipulation",
+    "rank 1" : "Après avoir discuté avec une personne pendant une scène, vous faites un jet d’Intuition/Courtisan (manipulation) contre Intelligence/Observation. En cas de réussite, cette personne gagne le désavantage Présomptueux ou Peu Assuré (au choix) pour la durée de la scène suivante.",
+    "rank 2" : "Après avoir eu une discussion avec deux personnes, vous pouvez faire un jet d’Intuition/Courtisan (manipulation) pour créer une discorde entre ces personnes. Elles ont un malus de 5 fois <Rg Okuden> à tous leurs jets de Perception et d’Intuition pendant le reste de la scène. Pour une augmentation, une personne supplémentaire est concernée par la dispute. Pour trois augmentations supplémentaires, les personnes ciblées en viennent aux mains.",
+    "rank 3" : "En discutant avec quelqu’un (son Rang d’Insight doit être inférieur à votre niveau de compétence Courtisan) et en réussissant un jet d’Intuition/Courtisan (manipulation) contre Intuition/Étiquette vous pouvez apprendre une information utile sur ce personnage (avantage, désavantage, allié, ennemi, connaissances, etc.). En dépensant un point de Vide en plus, vous pouvez en apprendre suffisamment pour acheter l’avantage Chantage sur cette personne."
+  },
+  {
+    "uid" : "14",
+    "name" : "Le Masque de l’Oni",
+    "prerequisite" : "Volonté 3, Intimidation 1",
+    "rank 1" : "Vous gagnez <Rg Okuden> Augmentations Gratuites sur vos jets d’Intimidation.",
+    "rank 2" : "Après avoir réussi un jet d’Intimidation sur une personne, vous gagnez <Rg Okuden> augmentations gratuites lors de tous vos jets opposés avec cette personne jusqu’à la fin de la journée.",
+    "rank 3" : "En dépensant un point de Vide, vous gagnez la capacité Peur à un niveau égal à <Rg Okuden>."
+  },
+  {
+    "uid" : "15",
+    "name" : "Les Promesses de la Soie",
+    "prerequisite" : "Intuition 3, Performance avec une emphase Chant, Musique ou Danse",
+    "rank 1" : "Vous pouvez utiliser votre compétence de Performance à la place de Tentation pour tenter de séduire quelqu’un.",
+    "rank 2" : "Lorsque vous dépensez un point de Vide pour effectuer un jet de Performance, le bonus gagné est de <Rg Okuden>G<Rg Okuden>.",
+    "rank 3" : "Vous pouvez essayer de changer les attitudes de quelqu'un en offrant une performance artistique appropriée (typiquement de la danse ou de la musique) et en faisant un jet opposé d’Intuition/Performance contre Étiquette (courtoisie)/Volonté . En cas de succès, vous mettez la personne dans les dispositions qu’il vous convient.  Vous gagnez <Rg Okuden> augmentations gratuites pour tous vos jets sociaux avec cette personne pour le reste de la scène. Vous pouvez également le prendre comme un allié avec une dévotion à 1 point."
+  },
+  {
+    "uid" : "16",
+    "name" : "La Queue du Scorpion",
+    "prerequisite" : "Agilité 3, Armes à Chaîne 2",
+    "rank 1" : "Si vous utilisez une arme à chaîne comme outil d'escalade, vous gagnez un bonus de <Rg Okuden>G<Rg Okuden> à tous les jets d'athlétisme. Chaque fois que vous attaquez avec une arme à chaînes, vous pouvez prendre trois augmentations sur l'attaque pour infliger le désavantage Estropié sur votre adversaire - le désavantage dure jusqu'à ce que les blessures de l'attaque soient guéries.",
+    "rank 2" : "Lorsque vous utilisez une arme à chaînes pour effectuer une manœuvre de Renversement ou de Désarmement, vous gagnez un bonus de <Rg Okuden>G<Rg Okuden>. ",
+    "rank 3" : "Vous pouvez prendre trois augmentations lors d'une attaque avec une arme à chaînes pour enchevêtrer un adversaire jusqu'à 5 mètres de distance (selon la condition Enchevêtrée). La condition dure jusqu'à ce que vous libériez volontairement l'ennemi (action gratuite), ou jusqu'à ce que l'ennemi réussisse un jet de force contesté contre vous (action simple)."
+  },
+  {
+    "uid" : "17",
+    "name" : "Nuée de Flèches",
+    "prerequisite" : "Réflexes 3, Tir à l’arc 2",
+    "rank 1" : "Vous ajoutez cinq fois <Rg Okuden> à vos jets d’initiative lorsque vous attaquez avec un arc.",
+    "rank 2" : "Lorsque vous attaquez avec un arc, vous pouvez choisir d’augmenter votre initiative jusqu'à cinq fois <Rg Okuden> et subir un malus équivalent sur le jet de dégâts. Vous ne pouvez pas faire de Coup Ciblé ce tour-ci.",
+    "rank 3" : "Au début d’un tour de combat vous pouvez dépenser un point de Vide et faire <Rg Okuden> attaques avec un arc ce tour. Vous ne pouvez pas prendre d’augmentations sur vos attaques effectuées avec cette technique."
+  },
+  {
+    "uid" : "18",
+    "name" : "Repérer sa Proie",
+    "prerequisite" : "Perception 3, Tir à l’arc 2 ou Sarbacane 2 ou Tantojutsu 3",
+    "rank 1" : "Vous utilisez Perception à la place de Réflexes pour vos armes de trait ou à projectile. Lorsque vous attaquez à distance, vous pouvez faire un Coup Ciblé pour une Augmentation de moins que le coût normal (minimum 1).",
+    "rank 2" : "Vous n’êtes plus limité par votre Vide pour prendre des augmentations sur une attaque à distance.",
+    "rank 3" : "Vous pouvez prendre plusieurs actions simples consécutives pour viser. Chaque action simple passée ainsi vous apporte soit un bonus de 1G1 sur votre jet d’attaque, soit une augmentation gratuite pour viser ou pour les dégâts (hors sarbacane). Vous ne pouvez pas prendre plus d’actions pour viser que votre score d’Agilité. Si vous êtes interrompu, les bénéfices sont perdus.\n"
+  },
+  {
+    "uid" : "19",
+    "name" : "La Main Vide",
+    "prerequisite" : "Agilité 3, Jujutsu 3",
+    "rank 1" : "Lors d’un tour de combat, si vous prenez la posture de Défense face à un adversaire qui vous attaque, vous bénéficiez le tour suivant d’un bonus égal à 5x <Rg Okuden> pour réaliser une Empoignade ou une manoeuvre de Renversement sur cet adversaire.",
+    "rank 2" : "Lors d’une Empoignade avec un adversaire armé, vous pouvez prendre deux augmentations pour tenter de retourner l’arme contre lui avec un jet d’Agilité/Jû Jutsu contre le ND d’armure de l’adversaire. En cas de réussite les dégâts sont minorés : seuls les dégâts de l’arme sans la Force sont appliqués (Minimum 1G1).",
+    "rank 3" : "Lors d’une Empoignade avec un adversaire armé, vous pouvez effectuer la manœuvre de désarmement pour une augmentation de moins. Si vous réussissez cette manœuvre, vous pouvez la terminer avec l’arme dans vos mains."
+  },
+  {
+    "uid" : "20",
+    "name" : "La Lame de l’Ombre",
+    "prerequisite" : "Agilité 3, Kenjutsu 2",
+    "rank 1" : "Lors d’une attaque avec votre Ninjatô, vous gagnez un bonus de <Rg Okuden>G0 à votre attaque OU à vos dégâts (à décider avant le jet).",
+    "rank 2" : "Lors d’une attaque avec votre Ninjatô, vous gagnez un bonus de <Rg Okuden>G0 à votre attaque ET à vos dégât.",
+    "rank 3" : "En dépensant un point de vide, vous ajoutez <Rg Okuden>G1 à vos dégâts avec le Ninjatô."
+  },
+  {
+    "uid" : "21",
+    "name" : "Harmonie des Energies",
+    "prerequisite" : "Intelligence 3, Médecine ou Alchimie 2",
+    "rank 1" : "Vous gagnez un bonus de  <Rg Okuden>G<Rg Okuden> à tous les jets de Médecine dans le but de traiter une maladie ou une infection, et un bonus de <Rg Okuden>G0 à tous les jets de médecine \ndans le but de traiter les blessures. Vous gagnez <Rg Okuden>G0 sur vos jets d’Alchimie destinés à créer des poisons ou des médicaments.\n",
+    "rank 2" : "Vous pouvez réduire temporairement les malus de blessures (les vôtres ou celles d’une autre personne) avec un jet de Médecine ou d’Alchimie (ND 15). Cela ne guérit pas les blessures mais atténue temporairement la douleur. Le malus ainsi réduit est de 5x<Rg Okuden> pendant une scène. Si vous disposez d’une emphase Acupuncture ou Médicament, vous pouvez ajouter le score de la compétence correspondante à la réduction du malus. Vous pouvez utiliser cet Okuden en combat dans le cadre d’une action complexe.",
+    "rank 3" : "Lorsque vous dépensez un point de Vide sur un jet de Médecine ou d’Alchimie, vous 2G2 au lieu de 1G1."
+  },
+  {
+    "uid" : "22",
+    "name" : "Touche des Points Vitaux",
+    "prerequisite" : "Aucun",
+    "rank 1" : "Lors d’une manœuvre d’Empoignade réussie, votre adversaire subit un malus 5x<Rg Okuden> sur le jet opposé de Force/JuJutsu pour se libérer de l’Empoignade.",
+    "rank 2" : "Lors d’un combat, si vous portez une attaque réussie à mains nues ou avec une arme contondante avec une augmentation, votre adversaire doit réussir un jet de Terre ND 5 + 5x<Rg Okuden>. S’il échoue, il ne prend pas de dégâts mais est Étourdi. S’il réussit son jet, il ne prend pas de dégâts non plus.",
+    "rank 3" : "Lors d’un combat, si vous portez une attaque réussie à mains nues ou avec une arme contondante avec trois augmentations, vous choisissez un des anneaux de votre adversaire qui est alors réduit de 1 pendant <Rg Okuden> tours."
+  },
+  {
+    "uid" : "23",
+    "name" : "Le Souffle du Dragon",
+    "prerequisite" : "Intelligence 3, Artisanat Explosifs 2",
+    "rank 1" : "Vous gagnez un bonus de  <Rg Okuden>G0 sur vos jets de fabrication et de manipulation de charges explosives",
+    "rank 2" : "Lors de la fabrication d’une charge explosive, si l’un de vos dés explose sur le jet vous ne pouvez pas avoir de contrecoup lors de l’utilisation des charges (voir les règles de ‘fizzle’). En cas d’échec sur le jet de fabrication d’un nageteppo ou d’une charge explosive, l’explosion ne se déclenche que si le résultat du jet est inférieur à 5 pour un nageteppo (au lieu de 10) ou 10 pour une charge explosive (au lieu de 15).",
+    "rank 3" : "Vous gagnez un bonus de  <Rg Okuden>G <Rg Okuden> sur vos jets de fabrication et de manipulation de charges explosives."
+  }
+]

@@ -36,7 +36,9 @@ class KihosAdapter: RecyclerView.Adapter<KihosAdapter.KihosViewHolder>() {
     }
 
     fun setDataList(kihos: List<Kihos>) {
-        this.dataset= kihos.toMutableList() as ArrayList<Kihos>
+
+        val sortedList = kihos.sortedBy { it.name }
+        this.dataset= sortedList.toMutableList() as ArrayList<Kihos>
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): KihosViewHolder {

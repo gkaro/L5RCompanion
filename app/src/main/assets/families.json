@@ -74,14 +74,14 @@
     "name": "Hitomi",
     "clan": "3",
     "bonus": "+1 Strength",
-    "description": "During the internal struggle which rips the Dragon Clan apart in the Hidden Emperor era, two new “families” appear in the Tattooed Orders: the Hitomi who follow the half-crazed Dragon Thunder, and the Hoshi who follow Togashi’s half-mortal son. After the Lady Hitomi abdicates and departs to become the new Moon, Lord Hoshi attempts to restore unity and harmony to the clan by recognizing all three family names.\n\nThis arrangement prevails for almost four decades before growing spiritual imbalance (within both the Dragon Clan and the Celestial Heavens) prompts Hoshi’s son Satsu to order the three families reunited under the Togashi name. However, the separate orders within the family—ise zumi, kikage zumi, and tsurui zumi—continue to pursue their separate paths toward enlightenment."
+    "description": "During the internal struggle which rips the Dragon Clan apart in the Hidden Emperor era, two new “families” appear in the Tattooed Orders: the Hitomi who follow the half-crazed Dragon Thunder, and the Hoshi who follow Togashi’s half-mortal son. After the Lady Hitomi abdicates and departs to become the new Moon, Lord Hoshi attempts to restore unity and harmony to the clan by recognizing all three family names.\n\nThis arrangement prevails for almost four decades before growing spiritual imbalance (within both the Dragon Clan and the Celestial Heavens) prompts Hoshi’s son Satsu to order the three families reunited under the Togashi name. However, the separate orders within the family - ise-zumi, kikage-zumi, and tsurui-zumi — continue to pursue their separate paths toward enlightenment."
   },
   {
     "uid": "12",
     "name": "Hoshi",
     "clan": "3",
     "bonus": "+1 Void",
-    "description": "During the internal struggle which rips the Dragon Clan apart in the Hidden Emperor era, two new “families” appear in the Tattooed Orders: the Hitomi who follow the half-crazed Dragon Thunder, and the Hoshi who follow Togashi’s half-mortal son. After the Lady Hitomi abdicates and departs to become the new Moon, Lord Hoshi attempts to restore unity and harmony to the clan by recognizing all three family names.\n\nThis arrangement prevails for almost four decades before growing spiritual imbalance (within both the Dragon Clan and the Celestial Heavens) prompts Hoshi’s son Satsu to order the three families reunited under the Togashi name. However, the separate orders within the family—ise zumi, kikage zumi, and tsurui zumi—continue to pursue their separate paths toward enlightenment."
+    "description": ""
   },
   {
     "uid": "13",
@@ -438,7 +438,7 @@
     "name": "Susumu",
     "clan": "23",
     "bonus": "+1 Awareness",
-    "description": "The Susumu family was founded in 1173 after the Imperial declaration making the Spider a Great Clan. The family took the name of Daigotsu Susumu, who is considered to be its founder, even though he was never a Daimyo and the family didnot exist until after his death."
+    "description": "The Susumu family was founded in 1173 after the Imperial declaration making the Spider a Great Clan. The family took the name of Daigotsu Susumu, who is considered to be its founder, even though he was never a Daimyo and the family did not exist until after his death."
   },
   {
     "uid": "65",

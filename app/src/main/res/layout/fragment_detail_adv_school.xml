@@ -33,7 +33,7 @@
                 android:layout_marginBottom="15dp"
 
                 android:textSize="28sp"
-                android:text="@string/hello_blank_fragment"
+                android:text="school name"
                 />
             <TextView
                 android:id="@+id/schoolDiscipline"
@@ -42,9 +42,10 @@
                 app:layout_constraintTop_toBottomOf="@id/schoolBenefit"
                 app:layout_constraintStart_toStartOf="@id/schoolBenefit"
                 android:textSize="24sp"
+                app:fontFamily="@font/mirzaregular"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="15dp"
-                android:text="@string/hello_blank_fragment"
+                android:text="school discipline"
                 />
             <TextView
                 android:id="@+id/schoolRingsRequired"
@@ -56,7 +57,7 @@
                 app:fontFamily="@font/mirzaregular"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="15dp"
-                android:text="@string/hello_blank_fragment"
+                android:text="school ring"
                 />
             <TextView
                 android:id="@+id/schoolSkillsRequired"
@@ -68,7 +69,7 @@
                 app:fontFamily="@font/mirzaregular"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="15dp"
-                android:text="@string/hello_blank_fragment"
+                android:text="school skills"
                 />
             <TextView
                 android:id="@+id/schoolOtherRequired"
@@ -80,7 +81,7 @@
                 app:fontFamily="@font/mirzaregular"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="15dp"
-                android:text="@string/hello_blank_fragment"
+                android:text="school other"
                 />
             <Button
                 android:id="@+id/seemore"
@@ -96,7 +97,7 @@
                 android:textSize="20sp"
                 app:fontFamily="@font/mirzaregular"
                 android:justificationMode="inter_word"
-                android:text="@string/hello_blank_fragment"
+                android:text="description"
                 />
             <Button
                 android:id="@+id/seeless"
@@ -118,7 +119,7 @@
                 app:layout_constraintStart_toStartOf="@id/mon1"
                 android:layout_gravity="center"
                 android:textSize="24sp"
-                android:text="@string/hello_blank_fragment"
+                android:text="title rank 1"
                 />
             <TextView
                 android:id="@+id/schoolRank1"
@@ -131,7 +132,7 @@
                 android:justificationMode="inter_word"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="15dp"
-                android:text="@string/hello_blank_fragment"
+                android:text="rank 1"
                 />
             <ImageView
                 android:id="@+id/mon2"
@@ -148,7 +149,7 @@
                 android:textSize="24sp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="15dp"
-                android:text="@string/hello_blank_fragment"
+                android:text="title rank 2"
                 />
             <TextView
                 android:id="@+id/schoolRank2"
@@ -161,7 +162,7 @@
                 android:justificationMode="inter_word"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="15dp"
-                android:text="@string/hello_blank_fragment"
+                android:text="rank 2"
                 />
             <ImageView
                 android:id="@+id/mon3"
@@ -178,7 +179,7 @@
                 android:textSize="24sp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="15dp"
-                android:text="@string/hello_blank_fragment"
+                android:text="title rank 3"
                 />
             <TextView
                 android:id="@+id/schoolRank3"
@@ -191,10 +192,8 @@
                 android:justificationMode="inter_word"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="15dp"
-                android:text="@string/hello_blank_fragment"
+                android:text="rank 3"
                 />
-
-
         </LinearLayout>
     </ScrollView>
 

@@ -1,19 +1,85 @@
 package com.rpg.l5rcompanion
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import androidx.fragment.app.Fragment
+import androidx.navigation.NavController
+import androidx.navigation.findNavController
 import androidx.room.Room
 import com.rpg.l5rcompanion.database.*
+import com.rpg.l5rcompanion.databinding.ActivityMainBinding
 import org.json.JSONArray
 
 class MainActivity: AppCompatActivity() {
 
+    private lateinit var binding: ActivityMainBinding
+    private lateinit var navController: NavController
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+       // setContentView(R.layout.activity_main)
         parseJSON()
+
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        setSupportActionBar(binding.bottomAppBar)
+
+        binding.bottomAppBar.setNavigationOnClickListener {
+            // Handle navigation icon press
+            val intent = Intent(this, MainActivity::class.java)
+            intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP
+            startActivity(intent)
+        }
+
+
+        binding.bottomAppBar.setOnMenuItemClickListener{
+            val navController = findNavController(R.id.nav_host_fragment_content_main)
+            when(it.itemId){
+                R.id.listClansFragment->{
+                    navController.navigate(R.id.listClansFragment)
+                    true
+                }
+                R.id.listSkillsFragment->{
+                    navController.navigate(R.id.listSkillsFragment)
+                    true
+                }
+                R.id.listRulesFragment->{
+                    navController.navigate(R.id.listRulesFragment)
+                    true
+                }
+                R.id.ringsSpellsFragment->{
+                    navController.navigate(R.id.ringsSpellsFragment)
+                    true
+                }
+                R.id.katasKihosFragment->{
+                    navController.navigate(R.id.katasKihosFragment)
+                    true
+                }
+                R.id.listOkudenFragment->{
+                    navController.navigate(R.id.listOkudenFragment)
+                    true
+                }
+                R.id.listArmorsWeaponsFragment->{
+                    navController.navigate(R.id.listArmorsWeaponsFragment)
+                    true
+                }
+                R.id.advDisFragment->{
+                    navController.navigate(R.id.advDisFragment)
+                    true
+                }
+                else -> {
+                    false
+                }
+            }
+        }
     }
 
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        menuInflater.inflate(R.menu.menu_main, menu)
+        return true
+    }
 
     private fun parseJSON(){
         val db = Room.databaseBuilder(
@@ -294,6 +360,35 @@ class MainActivity: AppCompatActivity() {
 
             val modelAdvDis = AdvDis(uid.toInt(),name,type,subtype,points,description)
             dao.insertAdvDis(modelAdvDis)
+        }
+
+        /*JSON fo Stations*/
+        val stationsFile = "stations.json"
+        val stationsJson: String = applicationContext.assets.open(stationsFile).bufferedReader().use{it.readText()}
+        val stationsJsonArray = JSONArray(stationsJson)
+        for (j in 0 until stationsJsonArray.length()){
+            val uid = stationsJsonArray.getJSONObject(j).getString("uid")
+            val name = stationsJsonArray.getJSONObject(j).getString("name")
+            val content = stationsJsonArray.getJSONObject(j).getString("content")
+
+            val modelStations = Stations(uid.toInt(),name,content)
+            dao.insertStations(modelStations)
+        }
+
+        /*JSON fo Okuden*/
+        val okudenFile = "okuden.json"
+        val okudenJson: String = applicationContext.assets.open(okudenFile).bufferedReader().use{it.readText()}
+        val okudenJsonArray = JSONArray(okudenJson)
+        for (j in 0 until okudenJsonArray.length()){
+            val uid = okudenJsonArray.getJSONObject(j).getString("uid")
+            val name = okudenJsonArray.getJSONObject(j).getString("name")
+            val prerequisite = okudenJsonArray.getJSONObject(j).getString("prerequisite")
+            val rank1 = okudenJsonArray.getJSONObject(j).getString("rank 1")
+            val rank2 = okudenJsonArray.getJSONObject(j).getString("rank 2")
+            val rank3 = okudenJsonArray.getJSONObject(j).getString("rank 3")
+
+            val modelOkuden = Okuden(uid.toInt(),name,prerequisite,rank1,rank2,rank3)
+            dao.insertOkuden(modelOkuden)
         }
     }
 }

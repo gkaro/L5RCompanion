@@ -35,7 +35,8 @@ class WeaponsAdapter: RecyclerView.Adapter<WeaponsAdapter.WeaponsViewHolder>() {
     }
 
     fun setDataList(weapons: List<Weapons>) {
-        this.dataset= weapons.toMutableList() as ArrayList<Weapons>
+        val sortedList = weapons.sortedBy { it.name }
+        this.dataset= sortedList.toMutableList() as ArrayList<Weapons>
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): WeaponsViewHolder {

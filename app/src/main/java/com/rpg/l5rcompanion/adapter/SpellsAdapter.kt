@@ -34,7 +34,8 @@ class SpellsAdapter: RecyclerView.Adapter<SpellsAdapter.SpellsViewHolder>() {
     }
 
     fun setDataList(spells: List<Spells>) {
-        this.dataset= spells.toMutableList() as ArrayList<Spells>
+        val sortedList = spells.sortedBy { it.name }
+        this.dataset= sortedList.toMutableList() as ArrayList<Spells>
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SpellsViewHolder {

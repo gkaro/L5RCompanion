@@ -116,7 +116,7 @@
     "ring" : "Earth",
     "mastery" : "4",
     "type" : "Internal",
-    "description" : "Earth and Water are similar in that they have seeminglyendless depths to their power and influence. However,where Water is relentless in its strength and power, theEarth knows no bounds in its purity and focus. Thisbasic Earth Kiho is taught to monks of all aspects of the Brotherhood, as it helps them re-focus and center their chi in stressful or dangerous situations.When this Kiho is activated, you may immediately rollto recover from a non-permanent Condition or other effect that allows rolls for recovery, such as Dazed. This Kiho can only be activated as a Complex Action, but may be activated (spending the Void point) even when you are not allowed to perform actions, such as when you are Stunned."
+    "description" : "Earth and Water are similar in that they have seemingly endless depths to their power and influence. However,where Water is relentless in its strength and power, theEarth knows no bounds in its purity and focus. This basic Earth Kiho is taught to monks of all aspects of the Brotherhood, as it helps them re-focus and center their chi in stressful or dangerous situations.When this Kiho is activated, you may immediately roll to recover from a non-permanent Condition or other effect that allows rolls for recovery, such as Dazed. This Kiho can only be activated as a Complex Action, but may be activated (spending the Void point) even when you are not allowed to perform actions, such as when you are Stunned."
   },
   {
     "uid" : "16",
@@ -171,7 +171,7 @@
     "ring" : "Earth",
     "mastery" : "5 ",
     "type" : "Martial [atemi]",
-    "description" : "The principles and strengths of Earth usually deal withthe Element when it is at rest, but the fury of movingEarth can be a terrible thing. Sohei who focus on a study of Earth find this Kiho extremely useful, as it channels the usually benign Element into devastating power.This Kiho is delivered via an atemi attack that dealsnormal unarmed damage. However, if the strike issuccessful, your damage roll is increased by +Xk0, whereX is your Earth Ring."
+    "description" : "The principles and strengths of Earth usually deal with the Element when it is at rest, but the fury of movingEarth can be a terrible thing. Sohei who focus on a study of Earth find this Kiho extremely useful, as it channels the usually benign Element into devastating power.This Kiho is delivered via an atemi attack that deals normal unarmed damage. However, if the strike is successful, your damage roll is increased by +Xk0, whereX is your Earth Ring."
   },
   {
     "uid" : "23",
@@ -179,7 +179,7 @@
     "ring" : "Earth",
     "mastery" : "6",
     "type" : "Martial [atemi]",
-    "description" : "While the Elements of Fire and Water are highlyimportant for the success of a warrior (or an army) inbattle, without a proper harmony with Earth, both of them crumble. This rare Kiho assaults the victim’s very Earth, disrupting its harmony with the other Elements, and it is not widely taught amongst the Brotherhood. Those who master it are greatly feared in combat, as they can reduce the most stalwart combatant to a helpless, stumbling wreck in just a few strikes.This Kiho is activated with an atemi strike. If the strike is successful, you must declare whether you are attacking your target’s Fire or Water. If you attack the target’s Water, he suffers a -4k0 penalty to all damage rolls. If you attack the target’s Fire, he is forced thereafter to make two Raises with no benefit on every attack roll. (However, these Raises do not count against the maximum number of Raises the target can make for the roll.)These effects may be combined through multipleapplications of the Kiho, and both last a number of Rounds equal to your Earth Ring, ending on the Reactions stage of the final Round. Each re-application of the Kiho resets the duration for the chosen effect. However, you cannot use this Kiho more than once per Turn."
+    "description" : "While the Elements of Fire and Water are highly important for the success of a warrior (or an army) in battle, without a proper harmony with Earth, both of them crumble. This rare Kiho assaults the victim’s very Earth, disrupting its harmony with the other Elements, and it is not widely taught amongst the Brotherhood. Those who master it are greatly feared in combat, as they can reduce the most stalwart combatant to a helpless, stumbling wreck in just a few strikes.This Kiho is activated with an atemi strike. If the strike is successful, you must declare whether you are attacking your target’s Fire or Water. If you attack the target’s Water, he suffers a -4k0 penalty to all damage rolls. If you attack the target’s Fire, he is forced thereafter to make two Raises with no benefit on every attack roll. (However, these Raises do not count against the maximum number of Raises the target can make for the roll.)These effects may be combined through multiple applications of the Kiho, and both last a number of Rounds equal to your Earth Ring, ending on the Reactions stage of the final Round. Each re-application of the Kiho resets the duration for the chosen effect. However, you cannot use this Kiho more than once per Turn."
   },
   {
     "uid" : "24",
@@ -187,7 +187,7 @@
     "ring" : "Earth",
     "mastery" : "6",
     "type" : "Internal",
-    "description" : "More of a meditative art than many Kiho, Harmony inEarth is often used as a lesson in how to understand purity and harmony in the Realm of Mortals and the Celestial Order. This Kiho is a favorite of orders and sects that delve into the mysteries of the supernatural and mystical lore, though it is also known among several orders that face such threats in battle. By aligning his Earth with the natural world, the Monk gains the ability to perceive with an additional sense.When this Kiho is activated, you must remain perfectlystill for a number of Turns equal to ten minus your Earth Ring. Once this is accomplished, you are immediately able to detect any spiritual and physical impurities within a range of fifty feet times your Earth for one Round. (“Impurity” in this sense is not confined to things such as the Taint, but encompasses anything that the GM judges to be out of place either physically or spiritually.) You learn the direction of the impurity, its general nature (Shadowlands Taint, poison, disease, things not native to Ningen-do), and its relative strength compared to others in the area. The GM may choose to allow you to make an appropriate Lore Skill roll for the subject in question to learn one more piece of useful information of his choice. You will only sense a total number of impurities equal to your Void, detecting the strongest ones first.This Kiho is not precise in pinpointing the location ofthe impurity. You will know a general direction but not a specific location.Intelligent beings who could be detected by this Kiho(such as the Lost) can attempt to defeat the Kiho’s power by making a Contested Earth Roll against you. (The GM may substitute a different type of Contested Roll if the specific circumstance seems in his judgment to require it.)"
+    "description" : "More of a meditative art than many Kiho, Harmony inEarth is often used as a lesson in how to understand purity and harmony in the Realm of Mortals and the Celestial Order. This Kiho is a favorite of orders and sects that delve into the mysteries of the supernatural and mystical lore, though it is also known among several orders that face such threats in battle. By aligning his Earth with the natural world, the Monk gains the ability to perceive with an additional sense.When this Kiho is activated, you must remain perfectly still for a number of Turns equal to ten minus your Earth Ring. Once this is accomplished, you are immediately able to detect any spiritual and physical impurities within a range of fifty feet times your Earth for one Round. (“Impurity” in this sense is not confined to things such as the Taint, but encompasses anything that the GM judges to be out of place either physically or spiritually.) You learn the direction of the impurity, its general nature (Shadowlands Taint, poison, disease, things not native to Ningen-do), and its relative strength compared to others in the area. The GM may choose to allow you to make an appropriate Lore Skill roll for the subject in question to learn one more piece of useful information of his choice. You will only sense a total number of impurities equal to your Void, detecting the strongest ones first.This Kiho is not precise in pinpointing the location of the impurity. You will know a general direction but not a specific location.Intelligent beings who could be detected by this Kiho(such as the Lost) can attempt to defeat the Kiho’s power by making a Contested Earth Roll against you. (The GM may substitute a different type of Contested Roll if the specific circumstance seems in his judgment to require it.)"
   },
   {
     "uid" : "25",
@@ -195,7 +195,7 @@
     "ring" : "Earth",
     "mastery" : "6",
     "type" : "Kharmic",
-    "description" : "One of the greatest lessons of Earth is not its endurance, but its resilience. As a man chips away at a stone, he finds harder and harder stone beneath. The strength of one who would break a mountain stone by stone will fail long before the strongest layers are even seen. So, too, does a master of this Kiho become more and more difficult to harm as an attacker tries harder and harder to do so.Once activated, this Kiho lasts a number of Roundsequal to your Insight Rank +1. While this Kiho is active, every time an attacker makes a Raise when attacking or otherwise taking an offensive combat action against you (not including spells), you gain Reduction equal to twice the number of Raises made. (This effect does not trigger from Free Raises.) The Reduction is gained the moment the Raises are declared; the enemy attack does not have to be successful.These increases in Reduction are cumulative,but the total Reduction gained cannot exceedyour Earth x 5. The Reduction lasts untilthe Kiho is deactivated or the skirmish ends,whichever comes first."
+    "description" : "One of the greatest lessons of Earth is not its endurance, but its resilience. As a man chips away at a stone, he finds harder and harder stone beneath. The strength of one who would break a mountain stone by stone will fail long before the strongest layers are even seen. So, too, does a master of this Kiho become more and more difficult to harm as an attacker tries harder and harder to do so.Once activated, this Kiho lasts a number of Rounds equal to your Insight Rank +1. While this Kiho is active, every time an attacker makes a Raise when attacking or otherwise taking an offensive combat action against you (not including spells), you gain Reduction equal to twice the number of Raises made. (This effect does not trigger from Free Raises.) The Reduction is gained the moment the Raises are declared; the enemy attack does not have to be successful.These increases in Reduction are cumulative,but the total Reduction gained cannot exceed your Earth x 5. The Reduction lasts until the Kiho is deactivated or the skirmish ends,whichever comes first."
   },
   {
     "uid" : "26",
@@ -203,7 +203,7 @@
     "ring" : "Earth",
     "mastery" : "6",
     "type" : "Internal",
-    "description" : "Many sohei orders are considered reckless and wild by outsiders, and to some extent this is true. The Temple of Osano-Wo and the fierce warrior monks of the Spider Clan are brutal fighters who focus far more on offense than on protecting themselves. Many of them simply rely on their physical endurance to carry them through the fight, while others master the Shadowed Mountain Kiho to surprise and confuse their enemies.When this Kiho is activate, you may choose to enter theFull Defense Stance immediately before you are attacked.This does not have to be the first time you are attackedafter activating this Kiho, but it may only be done onceper activation. After you activate this kiho, you cannotchange Stances during your next opportunity to do so (during your normal chance on your Turn or due to another effect). This Kiho lasts for the remainder of the day or until used."
+    "description" : "Many sohei orders are considered reckless and wild by outsiders, and to some extent this is true. The Temple of Osano-Wo and the fierce warrior monks of the Spider Clan are brutal fighters who focus far more on offense than on protecting themselves. Many of them simply rely on their physical endurance to carry them through the fight, while others master the Shadowed Mountain Kiho to surprise and confuse their enemies.When this Kiho is activate, you may choose to enter theFull Defense Stance immediately before you are attacked.This does not have to be the first time you are attacked after activating this Kiho, but it may only be done once per activation. After you activate this kiho, you cannot change Stances during your next opportunity to do so (during your normal chance on your Turn or due to another effect). This Kiho lasts for the remainder of the day or until used."
   },
   {
     "uid" : "27",
@@ -211,7 +211,7 @@
     "ring" : "Earth",
     "mastery" : "6",
     "type" : "Kharmic",
-    "description" : "An extremely rare Kiho only taught among some of the older Orders, this remarkable ability destroys toxin, disease, and other impurities in the body of the Monk.The focus and calm required to master this Kiho is rare, and the Brotherhood knows it could lead to reckless behavior in the wrong hands.This Kiho can only be activated after two hours ofuninterrupted meditation. After the time has passed, youmay activate the Kiho as a Complex Action (it can onlyactivate in this manner). You must call a Raise on theactivation roll for every mundane poison, disease, orsimilar non-supernatural effect affecting you. If the roll is successful, your body is purged of a number of such impurities equal to the number of Void Points you have at the time (not counting the Void Point spent to activate the Kiho). All of these remaining Void Points are then spent as part of the Kiho’s effect.This Kiho does not work on most supernaturalafflictions, such as the Shadowlands Taint or magicalplagues, but the GM has discretion on whether unusual orsemi-magical conditions may be cleansed by it."
+    "description" : "An extremely rare Kiho only taught among some of the older Orders, this remarkable ability destroys toxin, disease, and other impurities in the body of the Monk.The focus and calm required to master this Kiho is rare, and the Brotherhood knows it could lead to reckless behavior in the wrong hands.This Kiho can only be activated after two hours of uninterrupted meditation. After the time has passed, you may activate the Kiho as a Complex Action (it can only activate in this manner). You must call a Raise on the activation roll for every mundane poison, disease, or similar non-supernatural effect affecting you. If the roll is successful, your body is purged of a number of such impurities equal to the number of Void Points you have at the time (not counting the Void Point spent to activate the Kiho). All of these remaining Void Points are then spent as part of the Kiho’s effect.This Kiho does not work on most supernatural afflictions, such as the Shadowlands Taint or magical plagues, but the GM has discretion on whether unusual or semi-magical conditions may be cleansed by it."
   },
   {
     "uid" : "28",
@@ -219,7 +219,7 @@
     "ring" : "Earth",
     "mastery" : "7",
     "type" : "Kharmic",
-    "description" : "Rokugani history is full of tales about quiet and unassuming monks fending off multiple attackers, all thewhile never striking them down. The monk instead waits for his many opponents to wear themselves out in the futility of their fury. Patient members of the Brotherhood tend to prefer this style of combat, though it often earns them the undying ire of their humiliated foes. This Kiho is common among monks who understand the need to defend oneself but prefer not to beat someone senseless.This Kiho can only be activated when you are in theDefense or Full Defense Stance. While the Kiho is active, on your Turn you may make Grappling attack rolls as Free Actions against opponents who have attacked yousince your last Turn. (You may make one such Free Actionattack against each qualifying opponent, and this ability overturns the normal rulebook constraint on attacking while in these Stances.) Opponents in a Grapple which you control while using this Kiho may be Thrown as a Free Action rather than a Complex Action; however, if the GM allows Throws in Grapples to cause damage, the damage roll suffers a -1k1 penalty. While this Kiho is active, you may remain in the Defense or Full Defense Stances while maintaining a Grapple."
+    "description" : "Rokugani history is full of tales about quiet and unassuming monks fending off multiple attackers, all the while never striking them down. The monk instead waits for his many opponents to wear themselves out in the futility of their fury. Patient members of the Brotherhood tend to prefer this style of combat, though it often earns them the undying ire of their humiliated foes. This Kiho is common among monks who understand the need to defend oneself but prefer not to beat someone senseless.This Kiho can only be activated when you are in theDefense or Full Defense Stance. While the Kiho is active, on your Turn you may make Grappling attack rolls as Free Actions against opponents who have attacked you since your last Turn. (You may make one such Free Action attack against each qualifying opponent, and this ability overturns the normal rulebook constraint on attacking while in these Stances.) Opponents in a Grapple which you control while using this Kiho may be Thrown as a Free Action rather than a Complex Action; however, if the GM allows Throws in Grapples to cause damage, the damage roll suffers a -1k1 penalty. While this Kiho is active, you may remain in the Defense or Full Defense Stances while maintaining a Grapple."
   },
   {
     "uid" : "29",
@@ -235,7 +235,7 @@
     "ring" : "Fire",
     "mastery" : "3",
     "type" : "Martial",
-    "description" : "By mingling your chi with another's while Fire is ascendant within your body, you can disonent and confuse an opponent, inhibiting their actions. An opponent struck by this Kiho's activating atemi strike suffers a TN penalty to all actions equal to three times your Fire Ring. This effect lasts a number of rounds equal to your Fire Ring."
+    "description" : "By mingling your chi with another's while Fire is ascendant within your body, you can disorient and confuse an opponent, inhibiting their actions. An opponent struck by this Kiho's activating atemi strike suffers a TN penalty to all actions equal to three times your Fire Ring. This effect lasts a number of rounds equal to your Fire Ring."
   },
   {
     "uid" : "31",
@@ -243,7 +243,7 @@
     "ring" : "Fire",
     "mastery" : "4",
     "type" : "Martial",
-    "description" : "The force of destiny is powerful, and can be harnessed by those who truly understand their place in the universe. While this Kiho is active, whenever you are struck by a melee attack from an opponent, you may immediately make a counterattack in the form of a single unarmed attack. If you have not taken your Turn yet this round, this counts as your Turn. If you have taken your Turn, this is a Free Action instead. This counterattack ignores any Wound Penalties suffered as a resuIt of the attack to which it is responding. This Kiho lasts until the end of the skirmish."
+    "description" : "The force of destiny is powerful, and can be harnessed by those who truly understand their place in the universe. While this Kiho is active, whenever you are struck by a melee attack from an opponent, you may immediately make a counterattack in the form of a single unarmed attack. If you have not taken your Turn yet this round, this counts as your Turn. If you have taken your Turn, this is a Free Action instead. This counterattack ignores any Wound Penalties suffered as a result of the attack to which it is responding. This Kiho lasts until the end of the skirmish."
   },
   {
     "uid" : "32",
@@ -267,7 +267,7 @@
     "ring" : "Fire",
     "mastery" : "5",
     "type" : "Mystical",
-    "description" : "A momentary disruption of the Fire chi within a target can leave them addled and confused. The target of this Kiho's activating afen;i strike is Dazed."
+    "description" : "A momentary disruption of the Fire chi within a target can leave them addled and confused. The target of this Kiho's activating atemi strike is Dazed."
   },
   {
     "uid" : "35",
@@ -355,7 +355,7 @@
     "ring" : "Void",
     "mastery" : "7",
     "type" : "Mystical",
-    "description" : "The death touch, also known as dim mak, is perhaps the rarest and most reviled use of a monk's understanding of the flow of chi. It involves a series of aremi strikes that disrupt and corrupt the flow of chi through an opponent's body, leading to debilitating pain and possibly death. You must successfully strike an opponent with three atemi strikes on three consecutive Rounds immediately after activating this Kiho, and you must spend an additional Void Point after the third and final strike (in addition to any Void Points spent to activate the Kiho). Your opponent suffers increasing weakness broken up by bouts of agonizing pain. All of the target's Rings are reduced by 1 each hour. The maximum penalty is an amount equal to your insight Rank. If any Ring reaches 0 due to these penalties, the target falls into a catatonic state and must make three Contested Void Rolls against you (these rolls use the target's full Void, without penalties). If the target loses all three rolls by at least 5 or more, he dies. (This Kiho does not automatically kill the victim if his Earth is reduced to 0.) Use of this technique can be grounds for excommunication from the Brotherhood of Shinsei."
+    "description" : "The death touch, also known as dim mak, is perhaps the rarest and most reviled use of a monk's understanding of the flow of chi. It involves a series of atemi strikes that disrupt and corrupt the flow of chi through an opponent's body, leading to debilitating pain and possibly death. You must successfully strike an opponent with three atemi strikes on three consecutive Rounds immediately after activating this Kiho, and you must spend an additional Void Point after the third and final strike (in addition to any Void Points spent to activate the Kiho). Your opponent suffers increasing weakness broken up by bouts of agonizing pain. All of the target's Rings are reduced by 1 each hour. The maximum penalty is an amount equal to your insight Rank. If any Ring reaches 0 due to these penalties, the target falls into a catatonic state and must make three Contested Void Rolls against you (these rolls use the target's full Void, without penalties). If the target loses all three rolls by at least 5 or more, he dies. (This Kiho does not automatically kill the victim if his Earth is reduced to 0.) Use of this technique can be grounds for excommunication from the Brotherhood of Shinsei."
   },
   {
     "uid" : "46",
@@ -363,7 +363,7 @@
     "ring" : "Void",
     "mastery" : "8",
     "type" : "Kharmic",
-    "description" : "Theoretically one of the most powerful Kiho known to exist, Spin the Kharmic Wheel is known only to a handful of reclusive masters within the Brotherhood, and discovered by a new soul perhaps once in a generation. You must deliver this Kiho via an unarmed attack in order to properly harness the forces of destiny that it unleashes. You expend all remaining Void Points when this Kiho is activated. The target of your attack loses one randomly determined Social, Spiritual, or Mental Disadvantage and gains a new randomly determined Social, Spiritual, or Mental Disadvantage of equal value. The GM may opt to choose the Disadvantages instead of selecting randomly, if that seems to produce a more interesting (or believeable) result"
+    "description" : "Theoretically one of the most powerful Kiho known to exist, Spin the Kharmic Wheel is known only to a handful of reclusive masters within the Brotherhood, and discovered by a new soul perhaps once in a generation. You must deliver this Kiho via an unarmed attack in order to properly harness the forces of destiny that it unleashes. You expend all remaining Void Points when this Kiho is activated. The target of your attack loses one randomly determined Social, Spiritual, or Mental Disadvantage and gains a new randomly determined Social, Spiritual, or Mental Disadvantage of equal value. The GM may opt to choose the Disadvantages instead of selecting randomly, if that seems to produce a more interesting (or believable) result"
   },
   {
     "uid" : "47",
@@ -387,7 +387,7 @@
     "ring" : "Water",
     "mastery" : "4",
     "type" : "Martial",
-    "description" : "Perhaps the strangest application of the atemi technique, this Kiho permits a monk to restore or enhance the flow of chi through another's body, hastening the healing of wounds or other ailments. You must spend a Void Point to activate this Kiho (as opposed to the normal allowance to activate by a Void / Meditation Skill Roll), which is done immediately after successfully striking a target (either an opponent or a willing ally) with an alemi strike. The individual targeted by the strike regains a number of Wounds equal to your Water Ring, immediately and then at the start of your Turn every subsequent Round for a number of Rounds equal to your Insight Rank, You may not use this Kiho on yourself."
+    "description" : "Perhaps the strangest application of the atemi technique, this Kiho permits a monk to restore or enhance the flow of chi through another's body, hastening the healing of wounds or other ailments. You must spend a Void Point to activate this Kiho (as opposed to the normal allowance to activate by a Void / Meditation Skill Roll), which is done immediately after successfully striking a target (either an opponent or a willing ally) with an atemi strike. The individual targeted by the strike regains a number of Wounds equal to your Water Ring, immediately and then at the start of your Turn every subsequent Round for a number of Rounds equal to your Insight Rank, You may not use this Kiho on yourself."
   },
   {
     "uid" : "50",
@@ -411,7 +411,7 @@
     "ring" : "Water",
     "mastery" : "6",
     "type" : "Internal",
-    "description" : "Certain monks may channel the power of the ocean into their bodies, moving and Ilowing away from attacks like the sea itself. While this Kiho is active, you gain Reduction equal to your Water Ring. This stacks with Reduction from other sources such as spells and armor. This effect lasts a number of Rounds equal to twice your Water Ring."
+    "description" : "Certain monks may channel the power of the ocean into their bodies, moving and flowing away from attacks like the sea itself. While this Kiho is active, you gain Reduction equal to your Water Ring. This stacks with Reduction from other sources such as spells and armor. This effect lasts a number of Rounds equal to twice your Water Ring."
   },
   {
     "uid" : "53",
@@ -419,7 +419,7 @@
     "ring" : "Water",
     "mastery" : "7",
     "type" : "Martial",
-    "description" : "This attack disrupts the flow of chi through an opponent's body, paralyzing them for a short time. The individual struck by the atemi attack is paralyzed, effectively Stunned and unable to take Move Actions, and may not move tinder his own power for a number of Rounds equal to your lnsigh Rank."
+    "description" : "This attack disrupts the flow of chi through an opponent's body, paralyzing them for a short time. The individual struck by the atemi attack is paralyzed, effectively Stunned and unable to take Move Actions, and may not move tinder his own power for a number of Rounds equal to your Insight Rank."
   },
   {
     "uid" : "54",
@@ -427,7 +427,7 @@
     "ring" : "Water",
     "mastery" : "7",
     "type" : "Mystical",
-    "description" : "A powerful expression of inner strength, this Kiho channels the monk's chi outward in an explosive wave that carries the power of a tsunami. You must spend a Void point to activate this Kiho (Void / Meditation Skill Rolls are not possible). You must strike your hands together and release a powerful kiai shout. Everyone in your forward facing arc and within a (Itstance of your Water Ring x5 feet must succeed at a Contested Water Roll against you, or become Dazed."
+    "description" : "A powerful expression of inner strength, this Kiho channels the monk's chi outward in an explosive wave that carries the power of a tsunami. You must spend a Void point to activate this Kiho (Void / Meditation Skill Rolls are not possible). You must strike your hands together and release a powerful kiai shout. Everyone in your forward facing arc and within a distance of your Water Ring x5 feet must succeed at a Contested Water Roll against you, or become Dazed."
   }
  
 ]

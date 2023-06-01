@@ -8,7 +8,6 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.rpg.l5rcompanion.R
 import com.rpg.l5rcompanion.database.Schools
-import org.w3c.dom.Text
 
 class AdvSchoolsAdapter: RecyclerView.Adapter<AdvSchoolsAdapter.AdvSchoolsViewHolder>() {
 
@@ -37,8 +36,8 @@ class AdvSchoolsAdapter: RecyclerView.Adapter<AdvSchoolsAdapter.AdvSchoolsViewHo
     }
 
     fun setDataList(schools: List<Schools>) {
-        //val sortedList = clans.sortedBy { it.name }
-        this.dataset = schools.toMutableList() as ArrayList<Schools>
+        val sortedList = schools.sortedBy { it.name }
+        this.dataset = sortedList.toMutableList() as ArrayList<Schools>
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AdvSchoolsViewHolder {

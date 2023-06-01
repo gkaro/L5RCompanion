@@ -2,22 +2,17 @@ package com.rpg.l5rcompanion
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
-import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.findNavController
+import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.navArgs
 import androidx.room.Room
 import com.rpg.l5rcompanion.database.Armors
-import com.rpg.l5rcompanion.database.Clans
 import com.rpg.l5rcompanion.database.MyDatabase
 import com.rpg.l5rcompanion.databinding.FragmentDetailArmorsBinding
-import com.rpg.l5rcompanion.databinding.FragmentDetailClanBinding
 
 class DetailArmorsFragment : Fragment() {
 
@@ -45,7 +40,7 @@ class DetailArmorsFragment : Fragment() {
 
         val name: TextView = view.findViewById(R.id.armorName)
         name.text = nameArmor
-        val armortn: TextView = view.findViewById(R.id.armortn)
+        val armortn: TextView = view.findViewById(R.id.armorValor)
         armortn.text = "Armor TN :  $tnArmor | Reduction : $reductionArmor"
         val price: TextView = view.findViewById(R.id.price)
         price.text = "Price : $priceArmor"

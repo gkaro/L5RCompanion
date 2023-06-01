@@ -46,6 +46,10 @@ class DetailSpellsFragment : Fragment() {
         val name: TextView = view.findViewById(R.id.spellName)
         name.text = nameSpell
         val ring: TextView = view.findViewById(R.id.ring)
+        val ringtext = view.findViewById<TextView>(R.id.ring)
+        if(ringSpell== "0"){
+            ringtext.visibility = View.GONE
+        }
         if(ringSpell== "1"){
             ring.text = "Air Ring / Mastery Level $masterySpell"
         }

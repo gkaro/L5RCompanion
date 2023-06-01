@@ -3,21 +3,25 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2105" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/activity_main.xml" value="0.152" />
-        <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_adv_dis.xml" value="0.259375" />
+        <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_adv_dis.xml" value="0.264" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_detail_adv_school.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_detail_advdis.xml" value="0.2453125" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_detail_armors.xml" value="0.2453125" />
-        <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_detail_clan.xml" value="0.1" />
+        <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_detail_clan.xml" value="0.4" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_detail_katas.xml" value="0.259375" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_detail_kihos.xml" value="0.2453125" />
+        <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_detail_okuden.xml" value="0.5368043087971275" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_detail_path.xml" value="0.11614583333333334" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_detail_rules.xml" value="0.42083333333333334" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_detail_school.xml" value="0.1" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_detail_skills.xml" value="0.42083333333333334" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_detail_spells.xml" value="0.259375" />
+        <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_detail_stations.xml" value="0.26313405797101447" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_detail_weapons.xml" value="0.2453125" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_first.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_katas_kihos.xml" value="0.21557971014492755" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_list_adv_schools.xml" value="0.11614583333333334" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_list_advdis.xml" value="0.2453125" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_list_armors.xml" value="0.2453125" />
@@ -26,6 +30,7 @@
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_list_families.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_list_katas.xml" value="0.259375" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_list_kihos.xml" value="0.259375" />
+        <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_list_okuden.xml" value="0.5598958333333334" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_list_paths.xml" value="0.11614583333333334" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_list_rules.xml" value="0.2572463768115942" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_list_schools.xml" value="0.21784420289855072" />
@@ -33,6 +38,7 @@
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_list_spells.xml" value="0.259375" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_list_weapons.xml" value="0.259375" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_mastery_spells.xml" value="0.2453125" />
+        <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_okuden.xml" value="0.21557971014492755" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_rings_spells.xml" value="0.2453125" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_rules.xml" value="0.2572463768115942" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/fragment_skills.xml" value="0.42083333333333334" />
@@ -41,6 +47,7 @@
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/list_item.xml" value="0.1" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/list_schools.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/layout/list_skills.xml" value="0.259375" />
+        <entry key="..\:/Users/cgt/AndroidStudioProjects/L5RCompanion/app/src/main/res/menu/menu_main.xml" value="0.20572916666666666" />
       </map>
     </option>
   </component>

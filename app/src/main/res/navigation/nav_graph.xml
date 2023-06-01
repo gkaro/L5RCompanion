@@ -23,17 +23,17 @@
             android:id="@+id/action_firstFragment_to_ringsSpellsFragment"
             app:destination="@id/ringsSpellsFragment" />
         <action
-            android:id="@+id/action_firstFragment_to_listKatasFragment"
-            app:destination="@id/listKatasFragment" />
-        <action
-            android:id="@+id/action_firstFragment_to_listKihosFragment"
-            app:destination="@id/listKihosFragment" />
-        <action
             android:id="@+id/action_firstFragment_to_listArmorsWeaponsFragment"
             app:destination="@id/listArmorsWeaponsFragment" />
         <action
             android:id="@+id/action_firstFragment_to_advDisFragment"
             app:destination="@id/advDisFragment" />
+        <action
+            android:id="@+id/action_firstFragment_to_listOkudenFragment"
+            app:destination="@id/listOkudenFragment" />
+        <action
+            android:id="@+id/action_firstFragment_to_katasKihosFragment"
+            app:destination="@id/katasKihosFragment" />
     </fragment>
     <fragment
         android:id="@+id/listClansFragment"
@@ -158,6 +158,9 @@
         tools:layout="@layout/fragment_detail_rules" >
         <argument android:name="uid"
             app:argType="integer" />
+        <action
+            android:id="@+id/action_detailRulesFragment_to_detailStationsFragment"
+            app:destination="@id/detailStationsFragment" />
     </fragment>
     <fragment
         android:id="@+id/rulesFragment"
@@ -380,6 +383,51 @@
         android:name="com.rpg.l5rcompanion.DetailAdvdisFragment"
         android:label="fragment_detail_advdis"
         tools:layout="@layout/fragment_detail_advdis" >
+        <argument
+            android:name="uid"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/listOkudenFragment"
+        android:name="com.rpg.l5rcompanion.ListOkudenFragment"
+        android:label="fragment_list_okuden"
+        tools:layout="@layout/fragment_list_okuden" >
+        <action
+            android:id="@+id/action_listOkudenFragment_to_detailOkudenFragment"
+            app:destination="@id/detailOkudenFragment" />
+        <argument
+            android:name="uid"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailOkudenFragment"
+        android:name="com.rpg.l5rcompanion.DetailOkudenFragment"
+        android:label="fragment_detail_okuden"
+        tools:layout="@layout/fragment_detail_okuden" >
+        <argument
+            android:name="uid"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailStationsFragment"
+        android:name="com.rpg.l5rcompanion.DetailStationsFragment"
+        android:label="fragment_detail_stations"
+        tools:layout="@layout/fragment_detail_stations" >
+        <argument
+            android:name="uid"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/katasKihosFragment"
+        android:name="com.rpg.l5rcompanion.KatasKihosFragment"
+        android:label="fragment_katas_kihos"
+        tools:layout="@layout/fragment_katas_kihos" >
+        <action
+            android:id="@+id/action_katasKihosFragment_to_listKatasFragment"
+            app:destination="@id/listKatasFragment" />
+        <action
+            android:id="@+id/action_katasKihosFragment_to_listKihosFragment"
+            app:destination="@id/listKihosFragment" />
         <argument
             android:name="uid"
             app:argType="integer" />

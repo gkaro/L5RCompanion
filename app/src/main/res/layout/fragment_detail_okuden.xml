@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/fond"
-    tools:context=".DetailArmorsFragment">
+    tools:context=".DetailOkudenFragment">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -22,69 +22,58 @@
             app:layout_constraintStart_toStartOf="parent"
             tools:ignore="UselessParent">
             <TextView
-                android:id="@+id/armorName"
+                android:id="@+id/okudenName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
                 android:gravity="center"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="15dp"
                 android:textSize="28sp"
-                android:text="Title Armor"
+                android:text="Title Okuden"
                 />
             <TextView
-                android:id="@+id/armorValor"
+                android:id="@+id/prerequesite"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:layout_constraintTop_toBottomOf="@id/armorName"
-                app:layout_constraintStart_toStartOf="@id/armorName"
-                android:textSize="24sp"
-                android:gravity="center"
+                android:textSize="20sp"
                 app:fontFamily="@font/mirzaregular"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="15dp"
-                android:text="Armor TN"
+                android:text="Prerequisite"
                 />
-
             <TextView
-                android:id="@+id/special"
+                android:id="@+id/okudenRank1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:layout_constraintTop_toBottomOf="@id/armorValor"
-                app:layout_constraintStart_toStartOf="@id/armorValor"
+                app:fontFamily="@font/mirzaregular"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:text="Rank 1"
+                />
+            <TextView
+                android:id="@+id/okudenRank2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 app:fontFamily="@font/mirzaregular"
                 android:justificationMode="inter_word"
                 android:textSize="20sp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="15dp"
-                android:text="Special"
+                android:text="Rank 2"
                 />
             <TextView
-                android:id="@+id/description"
+                android:id="@+id/okudenRank3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:layout_constraintTop_toBottomOf="@id/special"
-                app:layout_constraintStart_toStartOf="@id/special"
                 app:fontFamily="@font/mirzaregular"
                 android:justificationMode="inter_word"
                 android:textSize="20sp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="15dp"
-                android:text="description"
-                />
-            <TextView
-                android:id="@+id/price"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:layout_constraintTop_toBottomOf="@id/description"
-                app:layout_constraintStart_toStartOf="@id/description"
-                app:fontFamily="@font/mirzaregular"
-                android:textSize="20sp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="15dp"
-                android:text="Price"
+                android:text="Rank 3"
                 />
         </LinearLayout>
     </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

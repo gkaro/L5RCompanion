@@ -8,7 +8,6 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.rpg.l5rcompanion.R
 import com.rpg.l5rcompanion.database.Armors
-import com.rpg.l5rcompanion.database.Clans
 
 class ArmorsAdapter: RecyclerView.Adapter<ArmorsAdapter.ArmorsViewHolder>() {
 

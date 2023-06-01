@@ -1,5 +1,6 @@
 package com.rpg.l5rcompanion
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -12,20 +13,18 @@ import com.rpg.l5rcompanion.databinding.FragmentFirstBinding
 
 class FirstFragment : Fragment() {
 
-    private var _binding: FragmentFirstBinding?= null
-    private val binding get() = _binding!!
+    private lateinit var binding: FragmentFirstBinding
 
+
+    @SuppressLint("SetTextI18n")
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
         // Inflate the layout for this fragment
-        _binding = FragmentFirstBinding.inflate(inflater, container, false)
-        return binding.root
-    }
+        binding = FragmentFirstBinding.inflate(layoutInflater)
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
+        binding.version.text = "version " + BuildConfig.VERSION_NAME
 
         val options = navOptions {
             anim {
@@ -53,21 +52,28 @@ class FirstFragment : Fragment() {
         }
 
         binding.katas.setOnClickListener {
-            findNavController().navigate(R.id.action_firstFragment_to_listKatasFragment,null, options)
+            findNavController().navigate(R.id.action_firstFragment_to_katasKihosFragment,null, options)
         }
 
         binding.kihos.setOnClickListener {
-            findNavController().navigate(R.id.action_firstFragment_to_listKihosFragment,null, options)
+            findNavController().navigate(R.id.action_firstFragment_to_listOkudenFragment,null, options)
         }
 
         binding.armorsweapons.setOnClickListener {
             findNavController().navigate(R.id.action_firstFragment_to_listArmorsWeaponsFragment,null, options)
         }
 
-        binding.advdef.setOnClickListener {
-                findNavController().navigate(R.id.action_firstFragment_to_advDisFragment,null, options)
+        binding.advDisadv.setOnClickListener {
+            findNavController().navigate(R.id.action_firstFragment_to_advDisFragment,null, options)
         }
+
+
+        return binding.root
     }
+
+
+
+
 
 
 }

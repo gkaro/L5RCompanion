@@ -9,7 +9,7 @@
     "replaces":"Shiba Bushi Rank 3",
     "pathTechniqueTitle":"STRENGTH OF THE FIVE",
     "pathTechnique":"Shiba bushi who serve in the four Elemental Legions are trained to draw strength from their shugenja brothers.\n\nWhen you learn this Technique you must select one non- Void Ring. When an allied shugenja within your line of sight casts a spell of that Element, you gain one bonus Void Point. These bonus Void Points may only be spent on rolls which use the Traits associated with that Element.\n\nThe Void Points may be also used in additional ways (listed below) depending on the Element in question. You may not gain more Void Points in this manner than your School Rank, and bonus Void Points not used by the end of the skirmish are lost.\n\nAir: Increase your Armor TN by 10 for one Round * Earth: Reduce the number of Wounds suffered from one damage roll by 10 * Fire: Temporarily increase one Skill Rank from 0 to 1 for one roll * Water: Exchange your Initiative Score with one other willing participant for the duration of the present skirmish",
-    "description": "The most unique and potent force within the Phoenix armies is unquestionably the Elemental Guard, a set of small and highly specialized units consisting primarily of potent Isawa-trained shugenja who specialize in battle.\n\nThese individuals are capable of battlefield-shaking magic, but they cannot and do not take the field on their own.\n\nFor each of the Elemental Guard units there exists a highly trainedlegion from the Shiba family that is uniquely prepared to take the field alongside their shugenja brethren.\n\nThe Hurricane Initiates are accompanied by the Legion of Wind, the Avalanche Guard by the Legion of Stone, the Firestorm Legion by the Legion of Flame, and the Tsunami Legion by the Legion of the Wave. Each of these accompanying legions are staffed with bushi who have received exhaustive training from both shugenja and members of the Brotherhood in how to properly align their spirits with the Element of their guiding force, allowing them to drawstrength from the forces unleashed by their shugenja comrades.",
+    "description": "The most unique and potent force within the Phoenix armies is unquestionably the Elemental Guard, a set of small and highly specialized units consisting primarily of potent Isawa-trained shugenja who specialize in battle.\n\nThese individuals are capable of battlefield-shaking magic, but they cannot and do not take the field on their own.\n\nFor each of the Elemental Guard units there exists a highly trained legion from the Shiba family that is uniquely prepared to take the field alongside their shugenja brethren.\n\nThe Hurricane Initiates are accompanied by the Legion of Wind, the Avalanche Guard by the Legion of Stone, the Firestorm Legion by the Legion of Flame, and the Tsunami Legion by the Legion of the Wave. Each of these accompanying legions are staffed with bushi who have received exhaustive training from both shugenja and members of the Brotherhood in how to properly align their spirits with the Element of their guiding force, allowing them to draw strength from the forces unleashed by their shugenja comrades.",
     "type":"Path"
   },
   {
@@ -36,7 +36,7 @@
     "pathTechniqueTitle":"THE PURITY OF JUSTICE",
     "pathTechnique":"A justicar is a master of both the hunt and the kill. You may add your Investigation Skill Rank to the total of any Assessment roll made as part of an iaijutsu duel. You also gain a bonus of +1k0 on all Focus and Strike rolls made against an opponent who has been decreed guilty of a crime by an Imperial or Dragon Clan authority higher than you. Finally, you gain a bonus of +1k0 to any Hunting or Investigation rolls made to hunt such guilty targets.",
 
-    "description": "The justicar tradition is an old one, one that has its roots in Imperial history that predates even the establishment of the magistrate system by the Emerald Champion and his associate, Soshi Saibankan. In Rokugan’s earlier days, communication among the clans was less extensive and the lands between their holdings were wilder and more dangerous. This often resulted in criminals from one region fleeing to another and completely escaping prosecution.\n\nThe lack of a strong Imperial network for the exchange of information only exacerbated this situation.\n\nHowever, Bushido demanded a solution to the problem, for a criminal fleeing the Lion lands might prey upon the Crane, bringing great dishonor to the Lion Clan (even though the Crane were hated enemies). The Dragon were thus not the first to establish a tradition of justicars, but they are the only ones to develop and maintain a fighting technique built on the tradition.\n\nA justicar is essentially a magistrate trained in the art of dueling. The duty and purpose of a justicar is to travel in search of fugitives, sometimes hunting specific individuals and other times merely generally searching for anyone who may have escaped the justice of his clan. When he locates such an individual, the justicar challengeshim to duel to the death. The death of the criminal retroactively proves his guilt and thus eliminates all problems. Of course, the possibility that the justicar may be killed (and thus the criminal exonerated) is somewhat of a problem, but even in this case the clan is freed from any dishonor since the victor was clearly not a criminal before he arrived at his new home.\n\nSince the Kitsuki family’s founding, their strong emphasis on justice has led them to embrace the justicar tradition and they have developed a technique to support it. Kitsuki Justicars typically hold a post as a Dragon Clan magistrate, and the clan often goes to considerable effort to get them appointed as Emerald Magistrates as well, though success in this depends on the relationship between the Kitsuki family and the Emerald Champion of the time.",
+    "description": "The justicar tradition is an old one, one that has its roots in Imperial history that predates even the establishment of the magistrate system by the Emerald Champion and his associate, Soshi Saibankan. In Rokugan’s earlier days, communication among the clans was less extensive and the lands between their holdings were wilder and more dangerous. This often resulted in criminals from one region fleeing to another and completely escaping prosecution.\n\nThe lack of a strong Imperial network for the exchange of information only exacerbated this situation.\n\nHowever, Bushido demanded a solution to the problem, for a criminal fleeing the Lion lands might prey upon the Crane, bringing great dishonor to the Lion Clan (even though the Crane were hated enemies). The Dragon were thus not the first to establish a tradition of justicars, but they are the only ones to develop and maintain a fighting technique built on the tradition.\n\nA justicar is essentially a magistrate trained in the art of dueling. The duty and purpose of a justicar is to travel in search of fugitives, sometimes hunting specific individuals and other times merely generally searching for anyone who may have escaped the justice of his clan. When he locates such an individual, the justicar challenges him to duel to the death. The death of the criminal retroactively proves his guilt and thus eliminates all problems. Of course, the possibility that the justicar may be killed (and thus the criminal exonerated) is somewhat of a problem, but even in this case the clan is freed from any dishonor since the victor was clearly not a criminal before he arrived at his new home.\n\nSince the Kitsuki family’s founding, their strong emphasis on justice has led them to embrace the justicar tradition and they have developed a technique to support it. Kitsuki Justicars typically hold a post as a Dragon Clan magistrate, and the clan often goes to considerable effort to get them appointed as Emerald Magistrates as well, though success in this depends on the relationship between the Kitsuki family and the Emerald Champion of the time.",
     "type":"Path"
   },
   {
@@ -119,7 +119,7 @@
   }
   ,{
     "uid" : "138",
-    "name" : "Topax Champion",
+    "name" : "Topaz Champion",
     "clan": "9",
     "discipline": "",
     "requirements":{"rings/traits":"Special","skills":"Special","other":"Special"},
@@ -265,7 +265,7 @@
     "name" : "Crab Sumai Wrestlers",
     "clan": "1",
     "discipline": "Bushi",
-    "requirements":{"rings/traits":"","skills":"Jiujutsu (Sumai) 4","other":""},
+    "requirements":{"rings/traits":"","skills":"Jujutsu (Sumai) 4","other":""},
     "technique rank":"2",
     "replaces":"Hida Bushi 2 or Yasuki Courtier 2",
     "pathTechniqueTitle":"The Way of Sumai",
@@ -283,7 +283,7 @@
     "replaces":" Daigotsu Bushi 2",
     "pathTechniqueTitle":"The Cloak of Shadows",
     "pathTechnique":"Although not as talented as the inhuman minions of the Shadow Dragon or the Lying Darkness, the Daigotsu scouts are still highly skilled in moving about without being detected.\n\nStealth is now considered a School Skill for you, and you gain one additional Emphasis in the skill above any you may already possess, and in excess of the maximum normal number of Emphases you may posses. Your Move Actions are not reduced when using Stealth, and when using Stealth you may also ignore any terrain penalties that would normally reduce your Move Actions.",
-    "description": "In addition to serving as the lords of the Spider Clan, the Daigotsu are also the rank and file of its legions. Of the many samurai who have joined the clan since its inception, those with a talent for speaking to the kami join the Chuda, those whom the Shadow Dragon has chosen as his own become members of the Goju, and a small handful take up the path of the monk as members of the Order of the Spider. All the rest join the Daigotsu, and among those legions, the cruel and sinister sensei of the Spider dojo select those with the greatest affinity for stealth, athleticism, and sheer physical prowess to serve as the small but distinguished group known as the Daigotsu scouts. These individuals are trained extensively in the art of remaining unseen regardless of circumstances, and are allowed to travel through the Empire with impunity, observing and remembering everything they have seen to report back to their master Daigotsu. In addition to their physical talents, the scouts are chosen for mental acuity; they dare not keep records of their observations, as capture could reveal too much about the family or clan. Likewise their loyalty to the Spider is of paramount importance. In the event that one of them is captured, the Daigotsu sensei must be confident that the scout will not betray the familys secrets even under pain of torture or death.\n\nTogether, these traits result in an elite cadre of scouts who are intelligent, talented, and completely ruthless. Those few who know of their existence regard them as extremely competent and dangerous enemies.",
+    "description": "In addition to serving as the lords of the Spider Clan, the Daigotsu are also the rank and file of its legions. Of the many samurai who have joined the clan since its inception, those with a talent for speaking to the kami join the Chuda, those whom the Shadow Dragon has chosen as his own become members of the Goju, and a small handful take up the path of the monk as members of the Order of the Spider. All the rest join the Daigotsu, and among those legions, the cruel and sinister sensei of the Spider dojo select those with the greatest affinity for stealth, athleticism, and sheer physical prowess to serve as the small but distinguished group known as the Daigotsu scouts. These individuals are trained extensively in the art of remaining unseen regardless of circumstances, and are allowed to travel through the Empire with impunity, observing and remembering everything they have seen to report back to their master Daigotsu. In addition to their physical talents, the scouts are chosen for mental acuity; they dare not keep records of their observations, as capture could reveal too much about the family or clan. Likewise their loyalty to the Spider is of paramount importance. In the event that one of them is captured, the Daigotsu sensei must be confident that the scout will not betray the family's secrets even under pain of torture or death.\n\nTogether, these traits result in an elite cadre of scouts who are intelligent, talented, and completely ruthless. Those few who know of their existence regard them as extremely competent and dangerous enemies.",
     "type":"Path"
   },
   {
@@ -379,7 +379,7 @@
   },
   {
     "uid" : "158",
-    "name" : "Mirumoto Mountainee",
+    "name" : "Mirumoto Mountaineer",
     "clan": "",
     "discipline": "Bushi",
     "requirements":{"rings/traits":"","skills":"Athletics (Climbing) 3","other":""},
@@ -473,11 +473,11 @@
     "name" : "Unicorn Bariqu Wrestler",
     "clan": "7",
     "discipline": "",
-    "requirements":{"rings/traits":"","skills":"Jiujutsu (Bariqu) 3","other":""},
+    "requirements":{"rings/traits":"","skills":"Jujutsu (Bariqu) 3","other":""},
     "technique rank":"2",
     "replaces":"Any Moto bushi school 2, Shinjo Bushi 2",
     "pathTechniqueTitle":"Way of the Ujik-hai",
-    "pathTechnique":"A bariqu wrestler relies on his use of unconventional locks, holds, and maneuvers to defeat his foes, rather than just on raw strength. If your opponent in a Grapple does not have the Bariqu Emphasis of Jiujutsu, you gain a bonus of +1k1 when rolling to control the Grapple. If you have a higher Agility Rank than your opponent in a Grapple, you gain a +2k0 bonus when rolling to control the Grapple. These bonuses stack with each other",
+    "pathTechnique":"A bariqu wrestler relies on his use of unconventional locks, holds, and maneuvers to defeat his foes, rather than just on raw strength. If your opponent in a Grapple does not have the Bariqu Emphasis of Jujutsu, you gain a bonus of +1k1 when rolling to control the Grapple. If you have a higher Agility Rank than your opponent in a Grapple, you gain a +2k0 bonus when rolling to control the Grapple. These bonuses stack with each other",
     "description": "Bariqu wrestling is distinct from the more widespread sumai wrestling, and is largely unknown outside of the Unicorn Clan. Within the Unicorn, its traditions date back to the time of the Ujik-Hai, the gaijin nomads who joined the clan and became the Moto family. Bariqu is focused on throwing the opponent, rather than driving him out of a ring, and makes heavy use of joint-locks and paralyzing holds.",
     "type":"Path"
   },
@@ -588,7 +588,7 @@
   {
     "uid" : "174",
     "name" : "Ichiro Pass Warden",
-    "clan": "12",
+    "clan": "10",
     "discipline": "Bushi",
     "requirements":{"rings/traits":"Strength 4","skills":"Spears 4, Athletics 4","other":""},
     "technique rank":"3",
@@ -620,7 +620,7 @@
     "technique rank":"3",
     "replaces":"",
     "pathTechniqueTitle":"Smoke and Mirrors",
-    "pathTechnique":"The Machi-kanshisha are extremely adept at wielding their namesake weapon. When using an iron pipe, you gain a Free Raise on any Disarm or Knockdown attack. You may also spend a Void Point to make a melee attack with a machi-kanshisa as a Simple Action (you may spend up to two Void Points per Round in this manner).",
+    "pathTechnique":"The Machi-kanshisha are extremely adept at wielding their namesake weapon. When using an iron pipe, you gain a Free Raise on any Disarm or Knockdown attack. You may also spend a Void Point to make a melee attack with a machi-kanshisha as a Simple Action (you may spend up to two Void Points per Round in this manner).",
     "description": "This band of ronin are known by the name of their preferred weapon, a long iron smoking pipe. Perhaps fortunately, the machi-kanshisha pipe is not well known in many parts of the Empire, and as a result many associate the name with the ronin band itself rather than the pipe for which they are named. The Machi-kanshisha are the guardians of the City of the Rich Frog, a major trade hub that sits in the narrow divide between the holdings of the Lion and Unicorn clans.\n\nBecause of the militant nature of the two clans in question, who closely observe any significant violence near their borders, the Machi-kanshisha prefer to use their namesake smoking pipes as non-lethal weapons, employing them to subdue their foes rather than kill them. In the twelfth century, the City of the Rich Frog is annexed by the Lion Clan, and the Kaeru ronin family, administrators of the city and employers of the Machi-kanshisha, become vassals of the Ikoma family.\n\nGeneralization: Most of the Empire’s history has seen the Machi-kanshisha employed as listed above. If the GM chooses to modify a campaign set in the modern era, they can remain doing exactly what they have for so long without the Ikoma’s involvement.",
     "type":"Path"
   },
@@ -711,7 +711,7 @@
     "technique rank":"3",
     "replaces":"",
     "pathTechniqueTitle":"The Unbroken",
-    "pathTechnique":"The students of the Unbroken learn to set the impurity within themselves against the impurity of their foes. When you are fighting a Shadowlands creature or one of the Lost, you may add your Taint Rank in unkept dice to your attack rolls. Each time you do this you gain three additional Point of Taint. However, any time you singlehandedly  kill a Shadowlands creature or one of the Lost you may spend a Void Point to permanently lose one Point of Taint.\n\nIf you ever single-handedly kill an extremely powerful Shadowlands foe, you may spend a Void Point as a Free Action to make a Contested Earth roll against the Earth of the foe you have slain. With a success, you immediately purge all the Taint from your body  and thereafter lose the ability to perform this Technique.\n\nUltimately, it is the GMs discretion whether a particular foe is powerful enough to trigger the more potent aspects of the Unbroken Technique. Examples of creatures which could trigger the effect include major oni, any of the Onisu, or a Lost of at least two Insight Ranks higher.",
+    "pathTechnique":"The students of the Unbroken learn to set the impurity within themselves against the impurity of their foes. When you are fighting a Shadowlands creature or one of the Lost, you may add your Taint Rank in unkept dice to your attack rolls. Each time you do this you gain three additional Point of Taint. However, any time you single-handedly  kill a Shadowlands creature or one of the Lost you may spend a Void Point to permanently lose one Point of Taint.\n\nIf you ever single-handedly kill an extremely powerful Shadowlands foe, you may spend a Void Point as a Free Action to make a Contested Earth roll against the Earth of the foe you have slain. With a success, you immediately purge all the Taint from your body  and thereafter lose the ability to perform this Technique.\n\nUltimately, it is the GMs discretion whether a particular foe is powerful enough to trigger the more potent aspects of the Unbroken Technique. Examples of creatures which could trigger the effect include major oni, any of the Onisu, or a Lost of at least two Insight Ranks higher.",
     "description": "The Unbroken are among the most famous and legendary of ronin bands, but also one of the smallest and most transient. The band has formed and collapsed many times over the Empires history, re-organizing whenever a Tainted wave-man manages to unearth the secrets of its technique.\n\nThe origins of the Unbroken Technique are mysterious; some claim they learned their methods from studying the Naga or perhaps the Ratlings, while others claim it was originally devised by some legendary and long-forgotten ronin in the Empires early history. Whatever the case, the Unbroken Technique is both singularly powerful and extremely dangerous: it can purge the Taint from ones body  perhaps the only way to completely purge the Taint short of outright divine intervention. However, it does so through the practitioner successfully defeating powerful Shadowlands creatures. Needless to say, one is more likely to die in the pursuit of this goal than to succeed at it.\n\nThe Unbroken traditionally work as a unified group, each willing to sacrifice himself for the others. Only a handful have ever been cured of the Taint, and the entire band has never been larger than thirty individuals. Supposedly, the mystical Technique which they use shortens their lifespan, allowing them to survive for only a single year  unless they can purge their Taint before that time expires. All members of the group wear masks, both to conceal their identity and to reinforce the principle that they are a group that stands or dies together.",
     "type":"Path"
   },
@@ -803,7 +803,7 @@
     "replaces":"Daidoji Iron Warrior 4, Doji Magistrate 4",
     "pathTechniqueTitle":"No Regrets",
     "pathTechnique":"Asahina Archers are taught to minimize the influence of their family’s traditional pacifism and focus on defeating their enemies swiftly so that wars may be ended equally swiftly. Their technique allows them to call on their own inherent Air, delivering precisely accurate shots. When making an archery attack, you may make Called Shots for one less Raise (to a minimum of 1) and add half your Air (rounded down) in unkept dice to your attack rolls.",
-    "description": "The Asahina Archer technique emerged from a partnership between those few Asahina who chose to follow the path of the bushi and the Daidoji family, which enlisted them and encouraged them to pursue the ways of archery. The organization has existed for centuries, although its relative obscurity means that most samurai in other clans are unaware of its existenc.",
+    "description": "The Asahina Archer technique emerged from a partnership between those few Asahina who chose to follow the path of the bushi and the Daidoji family, which enlisted them and encouraged them to pursue the ways of archery. The organization has existed for centuries, although its relative obscurity means that most samurai in other clans are unaware of its existence.",
     "type":"Path"
   },
   {
@@ -907,7 +907,7 @@
     "replaces":"",
     "pathTechniqueTitle":"Roaring to Shake Heaven",
     "pathTechnique":"Members of the Seventh Wave draw strength from their diversity.When fighting alongside your allies, you gain a bonus of +2 to the total of all attack and damage rolls for each different Basic School represented among your group. You may not gain a total bonus greater than twice your Void Ring from this Technique.",
-    "description": "The Seven Waves Mercenaries are an older ronin group with a reputation for discrete and effective service. The organization was founded roughly a century after the return of the Unicorn Clan to the Empire. The Seven Waves were created by a group of seven ronin, each one an outcast from one of the original Great Clans – this of course predates the elevation of the Mantis to Great Clan status, and the organization’s leaders never deigned to add a Mantis ronin to their ranks. When the Seven Waves take a job, those of their number associated with the clans in question remain apart to avoid coloring the employer’s opinion of the organization, but still offer expertise and advice to the other members. Over the years the organization has grown, but the leaders of the group, most of them descendents of the original founders, prefer to keep it organized into similar seven-man teams.",
+    "description": "The Seven Waves Mercenaries are an older ronin group with a reputation for discrete and effective service. The organization was founded roughly a century after the return of the Unicorn Clan to the Empire. The Seven Waves were created by a group of seven ronin, each one an outcast from one of the original Great Clans – this of course predates the elevation of the Mantis to Great Clan status, and the organization’s leaders never deigned to add a Mantis ronin to their ranks. When the Seven Waves take a job, those of their number associated with the clans in question remain apart to avoid coloring the employer’s opinion of the organization, but still offer expertise and advice to the other members. Over the years the organization has grown, but the leaders of the group, most of them descendants of the original founders, prefer to keep it organized into similar seven-man teams.",
     "type":"Path"
   },
   {
@@ -971,7 +971,7 @@
     "technique rank":"4",
     "replaces":"Morito Bushi 4",
     "pathTechniqueTitle":"Seek the Guilty",
-    "pathTechnique":"The Ox Vigilants are trained to root out lawbreakers and conspirators by seeing through their deceptions and tricks, finding their underlying moral weakness and using it against them. When investigating someone for possible lawbreaking or Kolat activity, you may make a Contested Roll of your Investigation (Interrogation) / Perception against the targets Sincerity (Deceit) / Awareness. If you succeed (and the target is actually guilty  GMs judgment), you gain a +1k1 bonus to all Intimidation rolls and attack rolls against that target for the next 24 hours.",
+    "pathTechnique":"The Ox Vigilantes are trained to root out lawbreakers and conspirators by seeing through their deceptions and tricks, finding their underlying moral weakness and using it against them. When investigating someone for possible lawbreaking or Kolat activity, you may make a Contested Roll of your Investigation (Interrogation) / Perception against the targets Sincerity (Deceit) / Awareness. If you succeed (and the target is actually guilty  GMs judgment), you gain a +1k1 bonus to all Intimidation rolls and attack rolls against that target for the next 24 hours.",
     "description": "After the Ox Clan is purged during the Scorpion Clans assault on the Kolat in the late twelfth century, the new Ox leadership seeks assistance from the Unicorn Clans Shinjo family in keeping itself pure of further Kolat influence. The small order known as the Vigilant is the result. Initially focused solely on hunting for Kolat, the organization soon expands into a more general role of rooting out criminals and conspirators of all types.",
     "type":"Path"
   },
@@ -998,7 +998,7 @@
     "replaces":"Tsuruchi Archer 4, Tsuruchi Bounty Hunter 4",
     "pathTechniqueTitle":"Ascendancy of Steel",
     "pathTechnique":"A master of the Tsuruchi style is a flurry of movement and unrelenting assault. You may make a melee attack as a Simple Action rather than a Complex Action when wielding a sword.",
-    "description": "The origins of the Tsuruchi family are found in the Wasp Clan, the tiny Minor Clan that would later join the Mantis Clan and become the Tsuruchi. The familys founder, a ronin born of a union of Lion and Scorpion, despised the blade because to him it represented all that was wrong with the clans of his parents, the same clans that robbed him of everything he knew and loved in the world when he was little more than a child. Because of this, he eschewed it completely and expected his followers to do the same; the samurai who served the Wasp did not even carry a katana.\n\nGenerations of war and decades of service to the Mantis, however, as well as the retirement of Tsuruchi himself to the ranks of the Brotherhood of Shinsei, gave rise to a new generation of samurai who saw no reason to cast off study of the blade, and in fact embraced it to the fullest. With the natural athleticism of the Tsuruchi, swordsmanship comes easily once embraced, and the Tsuruchi swordsmen are rapidly developing a reputation as the finest in the entire Mantis Clan. Granted, this is not the greatest praise, given that most families within the clan embrace alternative weapons as their primary combat style, but other clans have begun to recognize the potential of Tsuruchi as opponents.",
+    "description": "The origins of the Tsuruchi family are found in the Wasp Clan, the tiny Minor Clan that would later join the Mantis Clan and become the Tsuruchi. The family's founder, a ronin born of a union of Lion and Scorpion, despised the blade because to him it represented all that was wrong with the clans of his parents, the same clans that robbed him of everything he knew and loved in the world when he was little more than a child. Because of this, he eschewed it completely and expected his followers to do the same; the samurai who served the Wasp did not even carry a katana.\n\nGenerations of war and decades of service to the Mantis, however, as well as the retirement of Tsuruchi himself to the ranks of the Brotherhood of Shinsei, gave rise to a new generation of samurai who saw no reason to cast off study of the blade, and in fact embraced it to the fullest. With the natural athleticism of the Tsuruchi, swordsmanship comes easily once embraced, and the Tsuruchi swordsmen are rapidly developing a reputation as the finest in the entire Mantis Clan. Granted, this is not the greatest praise, given that most families within the clan embrace alternative weapons as their primary combat style, but other clans have begun to recognize the potential of Tsuruchi as opponents.",
     "type":"Path"
   },
   {
@@ -1229,7 +1229,7 @@
     "discipline": "Courtier",
     "requirements":{"rings/traits":"","skills":"Courtier 3, Etiquette 3","other":"Must be a resident of Nanashi Mura (in the twelfth century) or belong to a ronin group with similar resources (in other eras)."},
     "technique rank":"2",
-    "replaces":"Any Ronin Coutier Rank 3",
+    "replaces":"Any Ronin Courtier Rank 3",
     "pathTechniqueTitle":"",
     "pathTechnique":"The Master of Games is adept at turning his own lowly ronin status to his advantage, luring others into treating him with complacency. When making a Social Skill Roll against someone of higher Status, you gain a +2k1 bonus so long as you maintain a modest and subservient manner and tone.",
     "description": "This Technique represents the skills taught to the diplomats of Nanashi Mura in the twelfth century, but can also be used to represent the training of any long-lived and powerful ronin group that has the resources to teach diplomats— the Kaeru family of the City of the Rich Frog are an obvious example.",
@@ -1388,7 +1388,7 @@
     "replaces":"Ide Emissary 4",
     "pathTechniqueTitle":"Ide's Ideal",
     "pathTechnique":"The followers of the Hand of Peace are able to overawe their rivals by the purity of their devotion to peace. Any time you are able to propose a peaceful solution to a diplomatic problem or negotiation, you may cite the benefits of peace and roll Courtier (Rhetoric) / Awareness against your opponent’s Etiquette (Courtesy) / Willpower. With a success, the opponent is forced to make a meaningful concession to your position (the exact nature of the concession is of course chosen by the GM, but it will always be significant). This technique may be used a maximum of twice per encounter.\n\nIf you commit an act of violence (even in self-defense) that inflicts damage on a fellow Rokugani (even a ronin or bandit), your sense of moral serenity is shattered and you lose the benefits of this technique for one month.",
-    "description": "The Hand of Peace follows Ide’s peaceful dictums to their logical conclusion, becoming dedicated pacifists—often of a rather ascetic nature. Although they still carry the samurai weapons which are their legacy as members of the Unicorn Clan, they refuse to ever use them. They serve as good diplomats when dealing with the more peaceful and/or idealistic clans, such as the Crane and especially the Phoenix.",
+    "description": "The Hand of Peace follows Ide’s peaceful dictum to their logical conclusion, becoming dedicated pacifists—often of a rather ascetic nature. Although they still carry the samurai weapons which are their legacy as members of the Unicorn Clan, they refuse to ever use them. They serve as good diplomats when dealing with the more peaceful and/or idealistic clans, such as the Crane and especially the Phoenix.",
     "type":"Path"
   },
   {
@@ -1414,7 +1414,7 @@
     "replaces":"Yoritomo Courtier 4",
     "pathTechniqueTitle":"Intrepid Negotiator",
     "pathTechnique":"Where the standard Yoritomo training focuses on browbeating foes, the Emissary learns to leaven this aggression with the calm patience of the Earth, outlasting opponents’ anger and thus finding peaceful solutions to potentially violent confrontations. When making an Etiquette or Sincerity roll, you may spend a Void Point to add your Willpower in unkept dice to the roll. If the roll is specifically using Etiquette (Courtesy), you add your Willpower in kept dice instead.",
-    "description": "The Yoritomo as a whole are not known for their patience, but they have found that it is occasionally a useful virtue in the courts. Beginning with the era of White Stag, the Emissaries emerged as the exception to the Mantis Clan’s general diplomatic habits. They are welltrained court functionaries, schooled to handle hostile negotiations with calm patience, displaying much greater subtlety than “normal” Yoritomo courtiers.",
+    "description": "The Yoritomo as a whole are not known for their patience, but they have found that it is occasionally a useful virtue in the courts. Beginning with the era of White Stag, the Emissaries emerged as the exception to the Mantis Clan’s general diplomatic habits. They are well-trained court functionaries, schooled to handle hostile negotiations with calm patience, displaying much greater subtlety than “normal” Yoritomo courtiers.",
     "type":"Path"
   },
   {
@@ -1427,7 +1427,7 @@
     "replaces":"Yasuki Courtier 4",
     "pathTechniqueTitle":"Do Me a Favor",
     "pathTechnique":"The Extortionists specialize in rooting out the financial weaknesses of potential customers and then pressuring them into calling on Yasuki assistance. If you have supplied something your target needs, whether money or material goods (this could be achieved through role-play and/or by using the Yasuki Rank 1 and Rank 3 Techniques), you may make a Contested Social Roll of your Intimidation (Control) / Willpower against their Etiquette (Courtesy) / Willpower. With a success, they find the arrangement has left them deeply in debt to you. You may either inflict an Obligation on that person (if the GM judges they have the ability to pay you back) or a Blackmail on them (if the GM judges they cannot pay you back). The default point value of the Disadvantage in either case is 3, but the GM may modify this if circumstances make it appropriate.",
-    "description": "lso sometimes in the Crane, eschew their family’s more conventional mercantile pursuits in favor of the practice of moneylending. Although this is considered an especially disreputable activity for a samurai, it can also be hugely profitable – there are always both commoners and samurai who need additional funds, and the concept of paying interest is so strange to them that they usually do not realize how badly the Yasuki are taking advantage of them.",
+    "description": "lso sometimes in the Crane, eschew their family’s more conventional mercantile pursuits in favor of the practice of money-lending. Although this is considered an especially disreputable activity for a samurai, it can also be hugely profitable – there are always both commoners and samurai who need additional funds, and the concept of paying interest is so strange to them that they usually do not realize how badly the Yasuki are taking advantage of them.",
     "type":"Path"
   },
   {
@@ -1439,7 +1439,7 @@
     "technique rank":"6",
     "replaces":"",
     "pathTechniqueTitle":"The Eye Sees All",
-    "pathTechnique":"Your ability to perceive details and recognize their significance has been refined to the point of seeming preternatural. Any time you enter an area (room, courtyard, garden, etc), you may spend a Void Point and take a minute to observe the area, after which you make a Perception Roll at TN 25. With a success, you spot any tracks, handprints, out-of-place items, or other such visual clues in the area. You may call a Raise on the roll to gain additional clues (GMs choice as to what they are) from other senses, such as hearing and scent (one Raise per sense). You may call two Raises to know if there is anything physically hidden in the area (although you will not know exactly where it is).\n\nYou are also extremely difficult to surprise. You gain a bonus of +2k2 to any rolls made to avoid being surprised.",
+    "pathTechnique":"Your ability to perceive details and recognize their significance has been refined to the point of seeming preternatural. Any time you enter an area (room, courtyard, garden, etc), you may spend a Void Point and take a minute to observe the area, after which you make a Perception Roll at TN 25. With a success, you spot any tracks, hand prints, out-of-place items, or other such visual clues in the area. You may call a Raise on the roll to gain additional clues (GMs choice as to what they are) from other senses, such as hearing and scent (one Raise per sense). You may call two Raises to know if there is anything physically hidden in the area (although you will not know exactly where it is).\n\nYou are also extremely difficult to surprise. You gain a bonus of +2k2 to any rolls made to avoid being surprised.",
     "description": "The men and women of Kitsukis Eye are the true elite of the Kitsuki family, and only those who have both a very keen ability to pick out minute details and a near-perfect recall of everything they see are selected for membership.\n\nIt is said the Eyes are to the average Kitsuki courtier what the average Kitsuki courtier is to the rest of the Empire.",
     "type":"Path"
   },
@@ -1466,7 +1466,7 @@
     "replaces":"Suzume Bushi 2",
     "pathTechniqueTitle":"The Heart fo the Story",
     "pathTechnique":"The Suzume Storyteller can use a skillfully crafted story to make virtually any point he wishes. When making a Courtier Skill roll, you may spend a Void Point to add your Perform: Storytelling Skill Rank to the total.",
-    "description": "The Storytellers are the closest thing to true artisans in that poverty-stricken clan. Their tradition originated with Doji Edakumi, a Crane artisan whose descendents form the Edakumi vassal family of the Sparrow. Edakumi was the founder of the Sparrow artistic tradition and became the most popular and welcomed samurai in the clans territory; the members of the Edakumi family are known as the best storytellers in the clan and perhaps in the Empire.",
+    "description": "The Storytellers are the closest thing to true artisans in that poverty-stricken clan. Their tradition originated with Doji Edakumi, a Crane artisan whose descendants form the Edakumi vassal family of the Sparrow. Edakumi was the founder of the Sparrow artistic tradition and became the most popular and welcomed samurai in the clans territory; the members of the Edakumi family are known as the best storytellers in the clan and perhaps in the Empire.",
     "type":"Path"
   },
   {
@@ -1503,7 +1503,7 @@
     "requirements":{"rings/traits":"","skills":"Commerce 2","other":""},
     "technique rank":"1",
     "replaces":"Ide Courtier 1 (This Path uses the same Benefit, Skills, Honor, and Outfit).",
-    "pathTechniqueTitle":"The Guilded Road",
+    "pathTechniqueTitle":"The Gilded Road",
     "pathTechnique":"A true master of the caravan path can forge lasting bonds with his customers, and has reaped the rewards of his travels.\n\nYou gain a bonus of +1k1 on all Commerce Skill Rolls.\n\nYou also gain this bonus on all Social Skill Rolls made with your customers. You gain one level of the Wealthy Advantage and one instance of the Way of the Land Advantage for free.",
     "description": "The Ide family of the Unicorn are not only its representatives in court, but they also serve as its most effective and numerous merchant patrons. In particular, the Ide are well known for their merchant caravans, which travel across the Empire and sell the clans unusual wares to all manner of interested customers.\n\nThis is an incredibly profitable endeavor that brings in a great deal of revenue for the family and the clan as a whole.\n\nThose who are trained to oversee such activities occasionally suffer from some degree of stigma for their association with mercantile pursuits, but the rewards are significant enough that there is never a shortage of willing candidates.",
     "type":"Path"
@@ -1539,7 +1539,7 @@
     "name" : "Students of Hitsu-do",
     "clan": "26",
     "discipline": "Monk",
-    "requirements":{"rings/traits":"Fire 3","skills":"Jiujutsu (Hitsu-do) 4","other":"Access to a Hitsu-do dojo"},
+    "requirements":{"rings/traits":"Fire 3","skills":"Jujutsu (Hitsu-do) 4","other":"Access to a Hitsu-do dojo"},
     "technique rank":"2",
     "replaces":"Any Brotherhood Monk 2, Kikage Zumi 2",
     "pathTechniqueTitle":"The Way of Fire",
@@ -1569,7 +1569,7 @@
     "technique rank":"2",
     "replaces":"Any Tattooed Order 2",
     "pathTechniqueTitle":"Apotheosis of Fire",
-    "pathTechnique":"GMs who wish to show the Transcendent Brotherhood as gaining greater success and acceptance within the Empire may do so by expanding access to the Path to encompass any Shugenja or Monk School.\n\nMembers of the Transcenden Brotherhood seek to use pain as a means of achieving clarity of thought and spirit.\n\nOnce per day, you may spend at least one hour in deep meditation and make a Meditation / Fire Roll against a TN 20. With a success, you harden yourself against the physical harm done by fire and heat, although you still feel all the pain of being burned. (GMs may opt to impose partial or temporary TN penalties to represent the effects of the pain.) For a number of hours equal to your Fire Ring, you are immune to damage from normal, mundane fires and heat (not magical fire or extreme natural heatsources such as molten lava). One Raise on this Meditation roll will make you immune to magical sources of fire; two Raises will make you immune to damage from any source of fire, even a volcano. While experiencing the pain of being burned, and for ten minutes afterward, your intense focus and clarity of thought grant you a bonus equal to your Fire Ring to the total of all Awareness, Perception and Intelligence-based Trait and Skill Rolls.",
+    "pathTechnique":"GMs who wish to show the Transcendent Brotherhood as gaining greater success and acceptance within the Empire may do so by expanding access to the Path to encompass any Shugenja or Monk School.\n\nMembers of the Transcendent Brotherhood seek to use pain as a means of achieving clarity of thought and spirit.\n\nOnce per day, you may spend at least one hour in deep meditation and make a Meditation / Fire Roll against a TN 20. With a success, you harden yourself against the physical harm done by fire and heat, although you still feel all the pain of being burned. (GMs may opt to impose partial or temporary TN penalties to represent the effects of the pain.) For a number of hours equal to your Fire Ring, you are immune to damage from normal, mundane fires and heat (not magical fire or extreme natural heat sources such as molten lava). One Raise on this Meditation roll will make you immune to magical sources of fire; two Raises will make you immune to damage from any source of fire, even a volcano. While experiencing the pain of being burned, and for ten minutes afterward, your intense focus and clarity of thought grant you a bonus equal to your Fire Ring to the total of all Awareness, Perception and Intelligence-based Trait and Skill Rolls.",
     "description": "The often-maligned Transcendent Brotherhood embraces a strange philosophy that pain tempers the body and the mind, making it easier to attain a transcendent state that approaches Enlightenment. Although the sect is regarded as dangerously eccentric by the Brotherhood of Shinsei and has been excommunicated from that organization, the Dragon have offered them a home within the Tattooed Orders. It seems there is some degree of validity to their claims, and those who have embraced their philosophies have demonstrated they capable of impressive feats of clarity when touched by the agonizing kiss of fire.",
     "type":"Path"
   },
@@ -1617,12 +1617,12 @@
     "name" : "Servants of Mercy",
     "clan": "26",
     "discipline": "Monk",
-    "requirements":{"rings/traits":"","skills":"Medicine (Wound Treatment) 5","other":"Fortunist (Jizo), oath of absolute pacificism"},
+    "requirements":{"rings/traits":"","skills":"Medicine (Wound Treatment) 5","other":"Fortunist (Jizo), oath of absolute pacifism"},
     "technique rank":"4",
-    "replaces":"Order of Jurojins Blessing 4, any pacistic Brotherhood School at Rank 4",
+    "replaces":"Order of Jurojin's Blessing 4, any pacific Brotherhood School at Rank 4",
     "pathTechniqueTitle":"Mercy's Touch",
     "pathTechnique":"So long as you remain absolutely pacifistic and aid all victims with equal care, your Medicine rolls heal an additional +2k1 Wounds. If you ever forsake the path of absolute pacifism (that is, if you ever voluntarily engage in violence against another creature) you lose this benefit forever.\n\nYou may not learn any Kiho this Rank.",
-    "description": "The Servants of Mercy (sometimes called the Order of Mercy instead) are a radical off-shoot of the Order of Jurojins Blessing who believe not only in treating the injured but in doing so on the actual field of battle. They venerate Jizo, the Fortune of Mercy, rather than Jurojin.\n\nIn contrast to the Order of Jurojins Blessing, the monks of the Order of Mercy are absolute pacifists and treat all wounded with equal care, regardless of clan, faction, social rank, or even species  the only victims they will not aid are those who serve Jigoku.",
+    "description": "The Servants of Mercy (sometimes called the Order of Mercy instead) are a radical off-shoot of the Order of Jurojin's Blessing who believe not only in treating the injured but in doing so on the actual field of battle. They venerate Jizo, the Fortune of Mercy, rather than Jurojin.\n\nIn contrast to the Order of Jurojin's Blessing, the monks of the Order of Mercy are absolute pacifists and treat all wounded with equal care, regardless of clan, faction, social rank, or even species  the only victims they will not aid are those who serve Jigoku.",
     "type":"Path"
   },
   {
@@ -1630,12 +1630,12 @@
     "name" : "Way of Mizu-do",
     "clan": "2",
     "discipline": "Monk, Artisan",
-    "requirements":{"rings/traits":" Water 3","skills":"Jiujutsu (Mizu-do) 4","other":"Access to a Mizu-do sensei"},
+    "requirements":{"rings/traits":" Water 3","skills":"Jujutsu (Mizu-do) 4","other":"Access to a Mizu-do sensei"},
     "technique rank":"3",
     "replaces":"Doji Courtier 3, Kakita Artisan 3, Asahina Shugenja 3",
     "pathTechniqueTitle":"The Way of Water",
-    "pathTechnique":"Masters of Mizu-do techniques are able to avoid nearly any strike, subduing their attackers by using their own strength against them. When performing a Grapple, you use your opponents Strength Rank in place of your own.\n\nWhile you are in the Defense or Full Defense stance, when a melee attack misses you, you may immediately take a Free Action to spend a Void Point and make a Jiujutsu (Mizu-do) / Strength roll against a TN of the opponents attack roll, but using the opponents Strength Rank in place of your own. If you succeed in this roll, you may either immediately Throw the opponent (as per the option in Grappling) or immediately take control of a Grapple against the opponent.",
-    "description": "Mizu-do is a Crane martial art, originally developed from stage performance. It is a defensive and soft that focuses on using the enemys strength against him. It relies on locks and throws that neutralize an enemy and end the ght swiftly, all while protecting the foe from any permanent injury. The form is quite popular among the Crane and in the Brotherhood of Shinsei, but bushi  especially Crab and Lion bushi  tend to look down on Mizu-do as impractical and pretentious. The form is unusually popular among certain groups of courtiers, who see it as a way to defend themselves without the crude violence of weapons.\n\nCourtiers from other clans, especially from the Unicorn and Phoenix, sometimes exchange favors to be able to train in Mizu-do. If the GM wishes to incorporate this into the campaign, this Path should be made available to any courtier school, subject to suitable negotiations to arrange the training.",
+    "pathTechnique":"Masters of Mizu-do techniques are able to avoid nearly any strike, subduing their attackers by using their own strength against them. When performing a Grapple, you use your opponents Strength Rank in place of your own.\n\nWhile you are in the Defense or Full Defense stance, when a melee attack misses you, you may immediately take a Free Action to spend a Void Point and make a Jujutsu (Mizu-do) / Strength roll against a TN of the opponents attack roll, but using the opponents Strength Rank in place of your own. If you succeed in this roll, you may either immediately Throw the opponent (as per the option in Grappling) or immediately take control of a Grapple against the opponent.",
+    "description": "Mizu-do is a Crane martial art, originally developed from stage performance. It is a defensive and soft that focuses on using the enemy's strength against him. It relies on locks and throws that neutralize an enemy and end the ght swiftly, all while protecting the foe from any permanent injury. The form is quite popular among the Crane and in the Brotherhood of Shinsei, but bushi  especially Crab and Lion bushi  tend to look down on Mizu-do as impractical and pretentious. The form is unusually popular among certain groups of courtiers, who see it as a way to defend themselves without the crude violence of weapons.\n\nCourtiers from other clans, especially from the Unicorn and Phoenix, sometimes exchange favors to be able to train in Mizu-do. If the GM wishes to incorporate this into the campaign, this Path should be made available to any courtier school, subject to suitable negotiations to arrange the training.",
     "type":"Path"
   },
   {
@@ -1647,8 +1647,8 @@
     "technique rank":"3",
     "replaces":"Any non-martial Brotherhood Monk 3",
     "pathTechniqueTitle":"The Way of Water",
-    "pathTechnique":"Masters of Mizu-do techniques are able to avoid nearly any strike, subduing their attackers by using their own strength against them. When performing a Grapple, you use your opponents Strength Rank in place of your own.\n\nWhile you are in the Defense or Full Defense stance, when a melee attack misses you, you may immediately take a Free Action to spend a Void Point and make a Jiujutsu (Mizu-do) / Strength roll against a TN of the opponents attack roll, but using the opponents Strength Rank in place of your own. If you succeed in this roll, you may either immediately Throw the opponent (as per the option in Grappling) or immediately take control of a Grapple against the opponent.",
-    "description": "Mizu-do is a Crane martial art, originally developed from stage performance. It is a defensive and soft that focuses on using the enemys strength against him. It relies on locks and throws that neutralize an enemy and end the ght swiftly, all while protecting the foe from any permanent injury. The form is quite popular among the Crane and in the Brotherhood of Shinsei, but bushi  especially Crab and Lion bushi  tend to look down on Mizu-do as impractical and pretentious. The form is unusually popular among certain groups of courtiers, who see it as a way to defend themselves without the crude violence of weapons.\n\nCourtiers from other clans, especially from the Unicorn and Phoenix, sometimes exchange favors to be able to train in Mizu-do. If the GM wishes to incorporate this into the campaign, this Path should be made available to any courtier school, subject to suitable negotiations to arrange the training.",
+    "pathTechnique":"Masters of Mizu-do techniques are able to avoid nearly any strike, subduing their attackers by using their own strength against them. When performing a Grapple, you use your opponents Strength Rank in place of your own.\n\nWhile you are in the Defense or Full Defense stance, when a melee attack misses you, you may immediately take a Free Action to spend a Void Point and make a Jujutsu (Mizu-do) / Strength roll against a TN of the opponents attack roll, but using the opponents Strength Rank in place of your own. If you succeed in this roll, you may either immediately Throw the opponent (as per the option in Grappling) or immediately take control of a Grapple against the opponent.",
+    "description": "Mizu-do is a Crane martial art, originally developed from stage performance. It is a defensive and soft that focuses on using the enemy's strength against him. It relies on locks and throws that neutralize an enemy and end the ght swiftly, all while protecting the foe from any permanent injury. The form is quite popular among the Crane and in the Brotherhood of Shinsei, but bushi  especially Crab and Lion bushi  tend to look down on Mizu-do as impractical and pretentious. The form is unusually popular among certain groups of courtiers, who see it as a way to defend themselves without the crude violence of weapons.\n\nCourtiers from other clans, especially from the Unicorn and Phoenix, sometimes exchange favors to be able to train in Mizu-do. If the GM wishes to incorporate this into the campaign, this Path should be made available to any courtier school, subject to suitable negotiations to arrange the training.",
     "type":"Path"
   },
   {
@@ -1721,7 +1721,7 @@
     "name" : "Kaze-Do Fighter",
     "clan": "26",
     "discipline": "Peasant, Monk, Ronin",
-    "requirements":{"rings/traits":"","skills":"Jiujutsu (Kaze-do) 3","other":""},
+    "requirements":{"rings/traits":"","skills":"Jujutsu (Kaze-do) 3","other":""},
     "technique rank":"2",
     "replaces":"Any Rank 2 for a character who qualifies",
     "pathTechniqueTitle":"The Way of Air",
@@ -1734,7 +1734,7 @@
     "name" : "Kaze-Do Fighter",
     "clan": "20",
     "discipline": "Peasant, Monk, Ronin",
-    "requirements":{"rings/traits":"","skills":"Jiujutsu (Kaze-do) 3","other":""},
+    "requirements":{"rings/traits":"","skills":"Jujutsu (Kaze-do) 3","other":""},
     "technique rank":"2",
     "replaces":"Any Rank 2 for a character who qualifies",
     "pathTechniqueTitle":"The Way of Air",
@@ -1817,7 +1817,7 @@
     "replaces":"Any Phoenix shugenja 2",
     "pathTechniqueTitle":"The Veil of the Future",
     "pathTechnique":"The Kawaru Sages have mastered the art of reading the sixty-four hexagrams of kawaru in order to divine what will happen in the near future, enhancing their forecasts with the aid of the kami of Water. At the beginning of each day, you may spend one hour in meditation and make a Divination Skill Roll, at a basic TN of 15. If successful, you gain a +1k0 bonus die, and you may Raise on the roll to gain addition bonus dice up to your Water Ring. You may spend these +1k0 bonus dice on any Spell Casting Rolls made during the rest of the day. Unused dice are lost at nightfall.",
-    "description": "This small sect of shugenja studies and renes the ancient kawaru texts and methods, offering guidance and divination to all who might need it. To these shugenja the ways of kawaru are a sacred art, a gift from the Fortunes, and they often blend the kawaru methods with actual divination magic to get more precise results. They like to wear robes embroidered with the kawaru hexagrams.\n\nKawaru Sages occasionally gain fame as court diviners, although they more often toil in obscurity.",
+    "description": "This small sect of shugenja studies and refines the ancient kawaru texts and methods, offering guidance and divination to all who might need it. To these shugenja the ways of kawaru are a sacred art, a gift from the Fortunes, and they often blend the kawaru methods with actual divination magic to get more precise results. They like to wear robes embroidered with the kawaru hexagrams.\n\nKawaru Sages occasionally gain fame as court diviners, although they more often toil in obscurity.",
     "type":"Path"
   },
   {
@@ -1830,7 +1830,7 @@
     "replaces":"Tonbo Shugenja 2",
     "pathTechniqueTitle":"The Veil of the Future",
     "pathTechnique":"The Kawaru Sages have mastered the art of reading the sixty-four hexagrams of kawaru in order to divine what will happen in the near future, enhancing their forecasts with the aid of the kami of Water. At the beginning of each day, you may spend one hour in meditation and make a Divination Skill Roll, at a basic TN of 15. If successful, you gain a +1k0 bonus die, and you may Raise on the roll to gain addition bonus dice up to your Water Ring. You may spend these +1k0 bonus dice on any Spell Casting Rolls made during the rest of the day. Unused dice are lost at nightfall.",
-    "description": "This small sect of shugenja studies and renes the ancient kawaru texts and methods, offering guidance and divination to all who might need it. To these shugenja the ways of kawaru are a sacred art, a gift from the Fortunes, and they often blend the kawaru methods with actual divination magic to get more precise results. They like to wear robes embroidered with the kawaru hexagrams.\n\nKawaru Sages occasionally gain fame as court diviners, although they more often toil in obscurity.",
+    "description": "This small sect of shugenja studies and refines the ancient kawaru texts and methods, offering guidance and divination to all who might need it. To these shugenja the ways of kawaru are a sacred art, a gift from the Fortunes, and they often blend the kawaru methods with actual divination magic to get more precise results. They like to wear robes embroidered with the kawaru hexagrams.\n\nKawaru Sages occasionally gain fame as court diviners, although they more often toil in obscurity.",
     "type":"Path"
   },
   {
@@ -1843,7 +1843,7 @@
     "replaces":"Kitsune Shugenja 2",
     "pathTechniqueTitle":"The Beauty of the World",
     "pathTechnique":"A master of the Kitsune naturalist art style can craft incredible beauty out of any aspect of the world, be it wood, stone, or whatever can be found in nature. When working with natural materials, you may expend an Earth spell slot to gain a bonus of +1k0 on any Artisan or Craft Skill Roll.\n\nYou may expend a number of spell slots in this manner equal to your School Rank, and this may be used in conjunction with Void Points.",
-    "description": "For much of their history, the Kitsune people have been sequestered in their own small region of the Empire, struggling for survival and attempting to overcome the many deficits of resources that have plagued them since their creation as the Fox Clan a thousand years ago. Because of their struggle for survival, the Kitsune have rarely possessed the resources to devote any time or energy to the pursuit of the arts. Despite this, however, a unique tradition of artistry has arisen among their ranks, a testament to the notion that the soul of a samurai yearns for beauty, no matter his surroundings. Those who have spent time in the forest have learned to see the beauty of their surroundings, appreciating it for exactly what it is, and leave their mark upon it in delicate ways. The most unique aspect of the Kitsune artisan tradition, however, is that in its purest state, it is performed without damaging the materials from which it is created. Living sculptures are created from the trunks of trees that continue to grow and thrive following their creation. Others are crafted from boulders that remain in place, continuing to support whatever lay atop them with no loss of stability. With the increase in the familys profile as part of their incorporation into the Mantis Clan, they were called upon to create more permanent, traditional works of art for the benefit of their clans court endeavors, but the spirit of their work remains the same. The removal of their creations has caused some degree of discomfort to many Kitsune artisans, but the strange nature of their craft is such that it has become an instant sensation in many courts, and the displays found in Broken Wave City are among the most popular in the current court season.",
+    "description": "For much of their history, the Kitsune people have been sequestered in their own small region of the Empire, struggling for survival and attempting to overcome the many deficits of resources that have plagued them since their creation as the Fox Clan a thousand years ago. Because of their struggle for survival, the Kitsune have rarely possessed the resources to devote any time or energy to the pursuit of the arts. Despite this, however, a unique tradition of artistry has arisen among their ranks, a testament to the notion that the soul of a samurai yearns for beauty, no matter his surroundings. Those who have spent time in the forest have learned to see the beauty of their surroundings, appreciating it for exactly what it is, and leave their mark upon it in delicate ways. The most unique aspect of the Kitsune artisan tradition, however, is that in its purest state, it is performed without damaging the materials from which it is created. Living sculptures are created from the trunks of trees that continue to grow and thrive following their creation. Others are crafted from boulders that remain in place, continuing to support whatever lay atop them with no loss of stability. With the increase in the family's profile as part of their incorporation into the Mantis Clan, they were called upon to create more permanent, traditional works of art for the benefit of their clans court endeavors, but the spirit of their work remains the same. The removal of their creations has caused some degree of discomfort to many Kitsune artisans, but the strange nature of their craft is such that it has become an instant sensation in many courts, and the displays found in Broken Wave City are among the most popular in the current court season.",
     "type":"Path"
   },
   {
@@ -1929,7 +1929,7 @@
     "name" : "Bishamon's Chosen",
     "clan": "4",
     "discipline": "Shugenja",
-    "requirements":{"rings/traits":"","skills":"Bttle  3","other":""},
+    "requirements":{"rings/traits":"","skills":"Battle  3","other":""},
     "technique rank":"3",
     "replaces":"Kitsu Shugenja 3",
     "pathTechniqueTitle":"Scion of Strength",
@@ -2122,7 +2122,7 @@
     "name" : "Students of Hitsu-do",
     "clan": "1",
     "discipline": "Monk",
-    "requirements":{"rings/traits":"Fire 3","skills":"Jiujutsu (Hitsu-do) 4","other":"Access to a Hitsu-do dojo"},
+    "requirements":{"rings/traits":"Fire 3","skills":"Jujutsu (Hitsu-do) 4","other":"Access to a Hitsu-do dojo"},
     "technique rank":"2",
     "replaces":"Kuni Witch-Hunter 2",
     "pathTechniqueTitle":"The Way of Fire",
@@ -2135,7 +2135,7 @@
     "name" : "Students of Hitsu-do",
     "clan": "5",
     "discipline": "Monk",
-    "requirements":{"rings/traits":"Fire 3","skills":"Jiujutsu (Hitsu-do) 4","other":"Access to a Hitsu-do dojo"},
+    "requirements":{"rings/traits":"Fire 3","skills":"Jujutsu (Hitsu-do) 4","other":"Access to a Hitsu-do dojo"},
     "technique rank":"2",
     "replaces":"Asako Henshin 2",
     "pathTechniqueTitle":"The Way of Fire",
@@ -2259,6 +2259,383 @@
     "pathTechnique":"A GM who wishes to represent the greater degree of control a Fire Sculptor has over the Element of Fire may opt to allow a Fire Sculptor to gain one Free Raise on a Fire spell once per day.\n\nAn Asahina Fire Sculptor is capable of creating beautiful but fleeting shapes rendered in fire, heat, light, or smoke.\n\nYou may expend a Fire spell slot and make an Artisan (Sculpture) / Fire roll (base TN is 20, adjusted by the GM depending on the complexity of the sculpture being created). The sculpture will last a number of minutes equal to your Fire Ring, but requires full concentration during that time (i.e. you may do nothing except Free Actions).\n\nThe sculpture vanishes instantly when the time elapses or you cease concentrating. The GM should award suitable Glory for a successful Fire sculpture “performance.”",
     "description": "The Asahina family are known both for their devotion to peace and for their appreciation of beautiful things, and it is not uncommon for individuals in the family to pursue the creative arts, including sculpture – many of the Asahina monasteries and temples are filled with splendid and famous statues, with admirers traveling from all over the Empire to look upon them. A lesser-known artistic tradition within the family depends not on the permanence of stone but instead on the fleeting beauty of fire to create its sculptures. The Fire Sculptors are few in number but famed for their work, and they are welcomed in many courts where their talents can be appreciated – for the brief time they exist.",
     "type":"Path"
+  },
+  {
+    "uid" : "303",
+    "name" : "The Thousand",
+    "clan": "20",
+    "discipline": "Bushi",
+    "requirements":{"rings/traits":"Void 3","skills":"Iaijutsu 4","other":""},
+    "technique rank":"2",
+    "replaces":"Any Bushi 2",
+    "pathTechniqueTitle":"Tamedaore's Secret",
+    "pathTechnique":"While you are in the Center Stance and on the Round immediately after you leave the Center Stance, you gain a bonus to your Armor TN equal to 2x your Void Ring.",
+    "description": "The Thousand were formed during the First Yasuki War under the banner of a Crane ronin named Tamedaore who had a knack for both military organization and mercantile commerce. His ronin band peaked at over a thousand men and fought for the Crane during the latter years of the Yasuki War. Afterward, the band remained together but its numbers gradually diminished over the centuries; their last remnants were wiped out by the Unicorn Clan in the year 816.",
+    "type":"Path"
+  },
+  {
+    "uid" : "304",
+    "name" : "The Order of Isashi",
+    "clan": "20",
+    "discipline": "Shugenja",
+    "requirements":{"rings/traits":"","skills":"Medicine 3","other":"Honor Rank 5.0 or better"},
+    "technique rank":"3",
+    "replaces":"Ronin shugenja 3 (any ronin shugenja school)",
+    "pathTechniqueTitle":"Isashi's Mercy",
+    "pathTechnique":"This ronin shugenja order was founded in the wake of the second war with Iuchiban. Its members travel across Rokugan, always going to the most war-torn and disaster-plagued regions, healing the injured and treating the sick with no expectation of payment or reward. They are welcomed in Crab lands but tend to encounter suspicion and hostility in most other regions, since their actions can be perceived as shaming the local clan shugenja for callousness.",
+    "description": "The Order of Isashi devotes itself to healing the sick and the injured. You gain a +1k0 bonus to Medicine Skill rolls and a Free Raise when casting any spell that heals Wounds or cures illness.",
+    "type":"Path"
+  },
+  {
+    "uid" : "305",
+    "name" : "The Order of the Five Weapons",
+    "clan": "20",
+    "discipline": "Shugenja",
+    "requirements":{"rings/traits":"","skills":"At least Rank 3 in the Skills of Kenjutsu, Heavy Weapon, Spears, and Staves","other":"Must be able to cast at least two of the four Elemental Weapon spells (Yari of Air, Katana of Fire, Tetsubo of Earth, Bo of Water)"},
+    "technique rank":"4",
+    "replaces":"Ronin shugenja 4 (any ronin shugenja school)",
+    "pathTechniqueTitle":"Ekuro's Weapons",
+    "pathTechnique":"Founded by a Void shugenja named Ekuro, the Order of Five Weapons teaches mastery of the Elemental weapon spells, and also maintains a secret spell taught to its most trusted members.",
+    "description": "The founder of this order perfected the use of weapons summoned from the Elemental kami. You may cast any of the four Elemental Weapon spells as a Simple Action (rather than a Complex Action). You may spend a Void Point (as a Free Action) to be able to attack with these summoned weapons as a Simple Action for a number of Rounds equal to your Insight Rank.\n\nIf you have the Ishiken-do Advantage, you may learn the secret spell “Dart of Void.”",
+    "type":"Path"
+  },
+  {
+    "uid" : "306",
+    "name" : "Tsuru's Legion",
+    "clan": "1",
+    "discipline": "Bushi",
+    "requirements":{"rings/traits":"","skills":"Horsemanship 3","other":"Admission to Tsuru’s Legion adds a steed (Rokugani pony) to your outfit if you do not already possess one."},
+    "technique rank":"2",
+    "replaces":"Hida Bushi 2, Hiruma Bushi 2",
+    "pathTechniqueTitle":"Overrun",
+    "pathTechnique":"Created a few years prior to the Clan War, this unit was founded by Hida Tsuru, younger brother of Clan Champion Hida Kisada. He created a legion of cavalry trained to combine speed and power, delivering overpowering strikes to enemy lines. Over time this force became known as Tsuru’s Legion, a name it retained after the death of its founder. In modern times the Legion is a semi-independent strike force used by the Clan Champion, and stands outside the normal structure of the Crab armies.",
+    "description": "The cavalry of Tsuru’s Legion are trained to deliver decisive attacks at the critical moment of a battle. When you are mounted, you may perform the Knockdown maneuver for one less Raise and you may spend a Void Point to add +Xk0 to an attack roll with a weapon, where X is your mount’s Strength.",
+    "type":"Path"
+  },
+  {
+    "uid" : "307",
+    "name" : "Yasuki Taskmaster",
+    "clan": "1",
+    "discipline": "Bushi",
+    "requirements":{"rings/traits":"Willpower 4","skills":"Intimidation 5, Battle 3","other":""},
+    "technique rank":"3",
+    "replaces":"Hida Bushi 4, Hida Pragmatist 4, Yasuki Courtier 3",
+    "pathTechniqueTitle":"Overrun",
+    "pathTechnique":"Although the Yasuki family as a whole is known for its mercantile and political role, many individual Yasuki serve in the Crab armies, with such members of the family often gravitating toward logistical and organizational duties. As a result of this role, Yasuki bushi often found themselves in charge of organizing, training, and leading the Crab army’s limited ashigaru forces. Eventually, this led to the establishment of a specific organization dedicated to that role: the Taskmasters. The dojo of the Taskmasters, located in Sunda Mizu Mura, admits students from any family but still tends to attract a disproportionate number of Yasuki, and the sensei is usually a Yasuki as well.\n\nIt may be noted that while the Taskmasters were originally oriented toward the command of ashigaru, over time their training and role expanded into a more general aspect of supervising lower-ranking soldiers. During the Clan Wars, when the Crab Clan forms a misguided alliance with the Shadowlands, some Taskmasters also find themselves saddled with the unpleasant duty of commanding units of goblin troops.",
+    "description": "The Yasuki long ago concluded the best method to get peasant soldiers to face the horrors of the Shadowlands was to make the ashigaru more frightened of their officers than of their enemies. The Taskmasters embrace Intimidation as a Skill with many more applications than oth-ers might expect. You treat Intimidation as a Bugei Skill rather than a Low Skill. You may use Willpower as your Trait on any Battle Skill roll, and may use your Intimidation Rank in place of your Battle Rank when rolling for Step 2: Determination on the Mass Battle Table. Finally, any soldiers (samurai, peasant, or otherwise) under your military command may add your Intimidation Skill Rank to the total of any rolls they make to resist Fear effects.",
+    "type":"Path"
+  },
+  {
+    "uid" : "308",
+    "name" : "Doji Apologist",
+    "clan": "2",
+    "discipline": "Courtier",
+    "requirements":{"rings/traits":"","skills":"Etiquette (Courtesy) 5","other":""},
+    "technique rank":"4",
+    "replaces":"Doji Courtier 4",
+    "pathTechniqueTitle":"All is Forgiven",
+    "pathTechnique":"Even the most honorable samurai may occasionally commit an error of etiquette or make a misstep in a conversation. The Apologists are a group within the Doji Courtier School who are trained specifically to cover for the errors of less-polished comrades and allies, both within and without the clan. After all, a samurai who has been saved from embarrassment is one who may listen with a friendly ear to other things the Doji have to say.",
+    "description": "The Apologists can smooth over incidents that would ordinarily disgrace other samurai. You can erase the damage done by a Minor Breach of Etiquette (including any associated Glory or Status loss) with a Social Skill Roll of Etiquette (Courtesy) / Awareness at TN 25. You may reduce a Major Breach of Etiquette to a Minor Breach by successfully calling 2 Raises on this roll. With 5 Raises, you can reduce a Blasphemous Breach of Etiquette to a Major Breach – subject to the GM’s permission (some violations are simply too severe to be mitigated).\n\nThe Apologist must act promptly in order to resolve an incident before its consequences become set in stone. In general, a Minor Breach can only be repaired within a number of hours equal to twice your Insight Rank, while a Major Breach must be repaired within that many minutes, and a Blasphemous Breach must be mitigated immediately after it takes place. (The GM may adjust these times if it seems appropriate to the specific circumstances.)\n\nM’s Note: The Apologist can only cover for the errors of others, not for himself. The GM may choose to reduce the Honor loss for a breach of etiquette that has been mitigated, to represent the character recovering a sense of moral worth through the mitigation of the error, but the character should always lose at least 1 point of Honor.",
+    "type":"Path"
+  },
+  {
+    "uid" : "309",
+    "name" : "Dragon's Wind",
+    "clan": "3",
+    "discipline": "Bushi",
+    "requirements":{"rings/traits":"","skills":"Horsemanship 5, Kyujutsu (Dai-Kyu) 5","other":"Joining this Path adds a steed (Rokugani pony) and a bow (Dai-Kyu) to your Outfit if you did not already possess them."},
+    "technique rank":"3",
+    "replaces":"Mirumoto Taoist Swordsman 3, Mirumoto Bushi 4",
+    "pathTechniqueTitle":"Way of the Horse and Bow",
+    "pathTechnique":"The Mirumoto horse archers train with their mounts in the rugged lands of the Dragon, allowing them to ride through territory where other cavalry forces do not dare to tread. While you are mounted, your steed treats Moderate terrain as Basic terrain, and Difficult terrain as Moderate terrain. You may attack with a bow as a Simple Action while you are mounted.",
+    "description": "The Dragon Clan maintains a small force of cavalry archers known as the Dragon’s Wind, a force known for suddenly arriving on the battlefield, striking with powerful arcing volleys of fire, and then withdrawing just as suddenly. Unlike many specialized cavalry and archery forces, the bushi of the Dragon’s Wind are also quite capable on foot or when fighting with other weapons, exhibiting the flexibility and lethality which always characterize Dragon soldiers. The unit is small, due to the clan’s poverty and its difficulty in acquiring strong horses, but its battlefield impact is often well out of proportion to its size.",
+    "type":"Path"
+  },
+  {
+    "uid" : "310",
+    "name" : "Ikoma Tactician",
+    "clan": "4",
+    "discipline": "Bushi",
+    "requirements":{"rings/traits":"","skills":"Battle 4, Warfan 4","other":"Must be at least a Gunso in rank."},
+    "technique rank":"4",
+    "replaces":"Any Lion bushi 4, Ikoma Bard 4",
+    "pathTechniqueTitle":"The Commander's Fan",
+    "pathTechnique":"Lion officers usually carry a war-fan in order to use it for conveying orders on the battlefield. Early on, they discovered the fan could also be used to protect themselves when they came under attack on the battlefield. You gain a +1k1 bonus to Battle (Mass Battle) rolls in any situation where your war-fan makes it easier for you to convey orders (GM’s discretion). While you are carrying a war-fan (regardless of which hand you are using), you may add half your Warfans Skill Rank (rounded up) to your Armor TN. If you are in the Defense or Full Defense Stance, or you are ONLY carrying a war-fan, you may add your full Skill Rank instead. (These do not stack, and carrying two war-fans does not double the bonus.)",
+    "description": "The Lion Clan’s famous War College is best known for training the brilliant shireikan and generals known as the Akodo Tactical Masters. However, the school also offers specialized training to the most promising lower-ranking officers, such as gunso and chui, to enhance the performance of smaller units in the Lion armies. Through most of the Empire’s history these men are known simply as Lion Tacticians, but in the twelfth century the generation-long disbandment of the Akodo family results in a large number of Ikoma samurai training in this technique, and many Lion take to calling them the Ikoma Tacticians.",
+    "type":"Path"
+  },
+  {
+    "uid" : "311",
+    "name" : "Ikoma Orators",
+    "clan": "4",
+    "discipline": "Courtiers",
+    "requirements":{"rings/traits":"","skills":"Sincerity 4, Lore: Bushido 3, Perform: Oratory 4","other":""},
+    "technique rank":"3",
+    "replaces":"Ikoma Bard 3",
+    "pathTechniqueTitle":"The Voice of Bushido",
+    "pathTechnique":"The Orators use their speechmaking powers to draw attention to the honor of their side and the dishonor of their foes. You must give a speech (suggested of at least five minutes’ length) before a court or similar audience to activate this Technique. If you are targeting an ally with the speech, you roll Perform: Oratory / Awareness at TN 30. If you are targeting an enemy, you either make the same roll (if the enemy does not respond), or make a Contested Social Roll of your Perform: Oratory / Awareness against his Sincerity / Awareness (if he does respond).\n\nA successful speech for an ally grants that ally one of the Paragon of Bushido Advantages for one week, while a successful speech against an enemy inflicts one of the Failure of Bushido Disadvantages on that enemy for one week. (If the enemy character has the corresponding Paragon of Bushido Advantage, you instead deny the use of that Advantage for one week.) You cannot affect the same person with this Technique twice in the same month.\n\nGM’s Options: GMs who wish to add more depth to the Ikoma Orator’s abilities may choose to let the target’s Honor, Glory, and Infamy affect the rolls required to use the Voice of Bushido technique. When targeting an ally, the TN to bestow the Advantage is reduced by the target’s Honor Rank and Glory Rank, but increased by his Infamy Rank (if any). When targeting an enemy, the reverse applies – Honor and Glory increase the TN, while Infamy reduces it.",
+    "description": "Although all traditional Ikoma are trained as battle-criers, inspiring their fellow Lion on the field by recounting the deeds of their ancestors, some in the clan have found ways to adapt such methods for the courts. The Lion historians credit the first Orator as Ikoma Tasuki, a skilled courtier from the time of the Gozoku, whose intense speeches on behalf of the Empress Yugozohime were instrumental in cementing her power and convincing many former Gozoku from the Crane and Phoenix to retire or commit seppuku. After his fortieth birthday, Tasuki was permitted to start a dojo and teach his speech-making methods to other Ikoma.",
+    "type":"Path"
+  },
+  {
+    "uid" : "312",
+    "name" : "Ikoma Scrapper",
+    "clan": "4",
+    "discipline": "Bushi",
+    "requirements":{"rings/traits":"Strength 4","skills":"Jujutsu 5","other":""},
+    "technique rank":"3",
+    "replaces":"Akodo Bushi 4, Matsu Berserker 4, Ikoma Lion’s Shadow 4, Ikoma Bard 4",
+    "pathTechniqueTitle":"Every Scar Has a Name",
+    "pathTechnique":"The Scrapper learns that so long as he can call on the same courage and ruthlessness as Ikoma himself, he is never truly unarmed. You may attack as a Simple Action with unarmed strikes and improvised weapons (if you did not already have the ability to do so). Your vicious attacks can disorient and terrify your opponents. Once per skirmish, if you strike unarmed or with an improvised weapon, you may call two Raises to make your attack inflict a Fear effect on the target, with a Rank equal to your Insight Rank.",
+    "description": "It is sometimes forgotten that Ikoma was not only a storyteller but also a rather vicious hand-to-hand fighter. In modern times, much of Ikoma’s less-reputable legacy is found in the obscure Lion’s Shadow school, but the Lion Clan also maintains a more public and honorable dojo which teaches a simple hand-to-hand technique inspired by Ikoma’s legacy.",
+    "type":"Path"
+  },
+  {
+    "uid" : "313",
+    "name" : "Orochi Rider",
+    "clan": "8",
+    "discipline": "Bushi, Shugenja",
+    "requirements":{"rings/traits":"Water 4","skills":"Athletics 5, Lore: Spirit Realms 5","other":"The character must be specially chosen to become an Orochi Rider and must successfully form a bond with an Orochi"},
+    "technique rank":"5",
+    "replaces":"The Orochi Rider Path can replace any Mantis Basic/Advanced School Technique at Insight Rank 6, or replace a “blank” Insight Rank for a character who has attained Rank 5 in any Mantis Basic School. If you are trained entirely in one of the Mantis Shugenja Schools, you may take this Technique at Rank 5 instead; in that case, this is considered a Shugenja Path.",
+    "pathTechniqueTitle":"The Orochi Pact",
+    "pathTechnique":"The Orochi Riders are taught to form and maintain a spiritual bond with one of the Orochi sea-serpents, and to ride them into battle using the Athletics Skill. You gain an Orochi (Enemies of the Empire, page 252) as a mount; the Orochi is an NPC (controlled by the GM) but will generally obey your commands and fight at your side so long as you do not demand anything suicidal of it. You gain a +2k0 bonus to Athletics rolls, and your bond with the Orochi grants you two special abilities:\n\nou are considered to have two Ranks of Magic Resistance against hostile Water Magic.\n\nWhile riding the Orochi, you may hold your breath underwater for twice the normal amount of time.",
+    "description": "The strange origins and history of the special groups known as the Orochi Riders are explained in the L5R 4th Edition supplements Enemies of the Empire (the Spirits chapter) and The Great Clans (Mantis chapter). In the latter half of the twelfth century, the Orochi Riders are a small but extremely powerful element of the Mantis Clan military, and the closest thing the clan has to a cavalry tradition.",
+    "type":"Path"
+  },
+  {
+    "uid" : "314",
+    "name" : "Shiba Advisor",
+    "clan": "5",
+    "discipline": "Courtier",
+    "requirements":{"rings/traits":"","skills":"Lore: History 3, Lore: War 3","other":"This path is only open to characters from the Shiba family."},
+    "technique rank":"3",
+    "replaces":"Asako Loremaster 3",
+    "pathTechniqueTitle":"Lessons Never Forgotten",
+    "pathTechnique":"The Advisors have the ability to call on their scholarly knowledge of war to enhance their army’s chances of suc-cess. Prior to your side undertaking a military task or duty (such as a patrol, a scouting mission, an attack on an en-emy, or a hunt for bandits), you may review the plans for the task and apply the wisdom of history. You make either a Lore: War / Intelligence roll at TN 25 or a Lore: History / Intelligence roll at TN 35. With a success, you are able to give advice which increases the chances of success on the mission. One allied bushi on the mission gains a single Rank of Luck for the duration of the mission (if unused it disappears at the end of the mission). You may Raise to be-stow the Luck on additional allies (but not on yourself), to a maximum number of allies equal to your School Rank.",
+    "description": "Some Shiba choose to train with the Asako in order to become scholarly historians of war and conflict, a path of study which the Asako family normally frowns upon. These Shiba are able to view contemporary battles and campaigns through the dispassionate eye of history, allowing them to offer potent counsel to their fellow Shiba during times of war. When the Phoenix must fight, every Shiba general makes sure he has an Advisor on his command staff.",
+    "type":"Path"
+  },
+  {
+    "uid" : "315",
+    "name" : "Asako Mediator",
+    "clan": "5",
+    "discipline": "Courtier",
+    "requirements":{"rings/traits":"","skills":"Sincerity (Honesty) 3","other":"Members of the Mediators must swear an oath never to initiate violence against their fellow Rokugani. Violating this oath should entail a major loss of both Glory and Honor (roughly equivalent to a Blasphemous Breach of Etiquette) and will also result in expulsion from the Mediators organization."},
+    "technique rank":"2",
+    "replaces":"Asako Loremaster 2, Shiba Bushi 2, Isawa Shugenja 2",
+    "pathTechniqueTitle":"Stand Down",
+    "pathTechnique":"Any time you are in a situation where samurai are preparing to enter into formal hostilities (examples would include a challenge to a duel, a declaration of Blood Feud, or even a declaration of war), you may approach either or both parties and attempt to persuade them not to follow through. This is a Contested Roll of your Sincerity (Honesty) / Awareness against their Etiquette (Courtesy) / Willpower. With a success, that party in the conflict will agree to back down, and your mediation prevents them from suffering any loss of Glory for doing so.\n\nSpecial GM Considerations for the Asako Mediator Tech-nique: If the parties in a conflict are deeply or honorably committed to their quarrel, the GM may require the Medi-ator to call Raises on the roll (anywhere from 1 to 5 Raises, depending on the depth of their anger or the strength of their Honor). Note that this may result in the Mediator be-ing unable to impose a solution due to being unable to call enough Raises – quite likely when trying to mediate the highly honorable and easily-angered Lion, for example.\n\nHowever, if the Mediator is able to propose an honorable and reasonable solution to the quarrel, the GM may also choose to award a bonus to the roll, ranging from +1k0 to +5k0, depending on the GM’s judgment of how appealing the solution seems to the parties involved.\n\nIn some cases, the scope or severity of a quarrel will be such that it is not possible for a Mediator to actually prevent the conflict. In this case, a successful roll will merely delay the onset of hostilities by a reasonable amount of time (as determined by the GM). In general, the larger the scale of the conflict, the longer the delay – thus a duel might only be delayed for a day or two, while a war might be delayed as much as a month.",
+    "description": "Few among the Phoenix champion the cause of pacifism as devoutly as the specially-trained Mediators, a near-monastic order dedicated to the cause of peace above all. They believe that few if any conflicts are beyond peaceful resolution, and seek to bring opposing parties to a harmonious accord whenever possible.",
+    "type":"Path"
+  },
+  {
+    "uid" : "316",
+    "name" : "Bayushi Distracter",
+    "clan": "6",
+    "discipline": "Courtier",
+    "requirements":{"rings/traits":"","skills":"Sincerity (Deceit) 3","other":""},
+    "technique rank":"3",
+    "replaces":"Bayushi Courtier 3 ",
+    "pathTechniqueTitle":"Smoke Screen",
+    "pathTechnique":"The Distracter specializes in spreading false information in order to confuse and disrupt his opponents. When in conversation with another individual, you may roll Sincerity (Deceit) / Awareness against the target’s Investigation / Awareness to inflict misinformation on a specific topic. (If the target possesses a directly relevant Lore skill, he may substitute Lore / Intelligence for the Investigation roll.) If successful, the target’s future discussions of that topic are weakened by his false information; he must call a Raise for no effect any time he makes a Social Roll involving that topic. You may call Raises on the Contested Roll to increase the number of non-effect Raises the target must call.\n\nIf the target fails to call the Raises (or is unable to call them due to insufficient Void Rank) he is considered to automatically fail the Social Skill Roll. At the GM’s option, a character who calls the Raises and then fails his Social Skill Roll due solely to those Raises may embarrass himself in public due to his display of false information, resulting in a loss of 1-5 points of Glory (depending on the importance of the topic).\n\nThe effects of this Technique last one week, and it cannot target the same person within the same week.",
+    "description": "The Scorpion Clan often approaches court, like war, as a domain where misdirection and confusion are its most potent allies. Although the Bayushi Courtier School focuses primarily on blackmail as its favored weapon, the school’s sensei also teach specialized techniques in spreading false information. The more rumors and confused gossip suffuse a court, the easier it is for the Masters of Secrets to prevail.",
+    "type":"Path"
+  },
+  {
+    "uid" : "317",
+    "name" : "Scorpion Elite Guard",
+    "clan": "6",
+    "discipline": "Bushi",
+    "requirements":{"rings/traits":"","skills":"Lore (selected clan) 3, Kenjutsu 5","other":"At the GM’s option, characters may substitute “Heart of Vengeance [Selected Clan]” for the Lore requirement."},
+    "technique rank":"3",
+    "replaces":"Bayushi Bushi 3, Shosuro Actor 3",
+    "pathTechniqueTitle":"The Eyes of My Enemy",
+    "pathTechnique":"You select a specific Great Clan when you learn this Technique (this choice cannot be changed). You may attack as a Simple Action when targeting a samurai from this clan. When fighting a Skirmish against a samurai from this clan, as a Simple Action you may spend a Void Point to prevent that samurai from using his School Techniques for his next two Turns.  (This Technique cannot be used in iaijutsu duels.\n\nHistorical Note: In the twelfth century, the Scorpion Clan is exiled for a time in the Burning Sands. During that period, a warrior named Bayushi Eiyo encounters one of the legendary Ashalan and learns a fighting technique that also disrupts the enemy’s fighting style; Eiyo later teaches this technique to a number of successors, and the members of this group also call themselves “Violators.” Mechanically, the GM can use this Path to represent both the Elite Guard and Eiyo’s later group.",
+    "description": "Most clans and families maintain a highly skilled force known as an Elite Guard or House Guard, usually tasked with protection of the Clan Champion and/or of key clan holdings. Appointment to such a force is a privilege and reward, a mark of great trust from the clan’s rulers.\n\nThe Scorpion Elite Guard, however, is a very different sort of force. Each member of the Scorpion Clan’s Elite Guard trains to adapt his fighting style to that of a specific enemy clan, becoming an intimidating opponent to any members of that clan – and also gaining the ability to pose as one of that clan’s samurai if necessary. Of course, this is a secret largely unknown outside of the Scorpion Clan, and most opponents believe the Scorpion Elite Guard is merely a highly proficient bushi unit like the comparable force of other families and clans. Within the ranks of the Scorpion Clan itself, the warriors of the Elite Guard are sometimes called “Violators.”",
+    "type":"Path"
+  },
+  {
+    "uid" : "318",
+    "name" : "Shinjo Magistrate",
+    "clan": "7",
+    "discipline": "Bushi",
+    "requirements":{"rings/traits":"","skills":"Investigation 3, Lore: Law 3","other":""},
+    "technique rank":"2",
+    "replaces":"Shinjo Bushi 2, Utaku Battle Maiden 2, Moto Bushi 2, Moto Vindicator 2",
+    "pathTechniqueTitle":"Eyes of the Vigilant",
+    "pathTechnique":"The Magistrates are charged with rooting out and destroying criminals, traitors, and law-breakers of all sorts. When using Investigation to try to locate clues or to test another person’s truthfulness, you gain a +1k0 bonus. When tracking known criminals or traitors you gain a +1k0 to Hunting Skill rolls, and when attacking such persons you gain a +1k0 to all Weapon Skill Rolls.\n\nGM’s Option:The Unicorn Vigilant – In games set after the Hidden Emperor era, the GM can reflect the Unicorn Clan’s efforts to purge Kolat influence by increasing the Investigation bonus to +1k1 when opposing Kolat activities or agents.",
+    "description": "Even since its return to the Empire, the Unicorn Clan has established a tradition of upholding the law and protecting the common folk, a tradition which often puts it into conflict with groups like the Scorpion Clan and the Empire’s various criminal groups. The Shinjo family dominate this tradition and develop a Technique in support of it – somewhat ironic given that the Shinjo family was also heavily infiltrated by the Kolat. After the exposure and purging of the Kolat by Lady Shinjo herself, the Shinjo Magistrates remade themselves to be especially skillful at rooting out and purging the Kolat influence, later assisting the Ox Clan in establishing the order known as the Vigilant.",
+    "type":"Path"
+  },
+  {
+    "uid" : "319",
+    "name" : "War-Dog Master",
+    "clan": "7",
+    "discipline": "Bushi",
+    "requirements":{"rings/traits":"Awareness 3, Willpower 4","skills":"Animal Handling (War-Dogs) 5","other":"Enrolling in this Path grants you a pack of Unicorn War-Dogs. The total number of war-dogs you can have in your pack is equal to your Awareness"},
+    "technique rank":"4",
+    "replaces":"Shinjo Bushi 4, Utaku Mounted Infantry 4, Moto Bushi 4",
+    "pathTechniqueTitle":"Ferocity of the Ki-Rin",
+    "pathTechnique":"The War-Dog Masters learn how to train an entire pack of war-dogs and how to control and direct the pack in combat. As a Complex Action, you can roll Animal Handling (War Dogs) / Willpower at TN 20 to give your entire pack of War-Dogs a simple command (such as “Attack” or “Track” or “Hold Position”). You can Raise on this roll to convey more sophisticated commands, subject to the GM’s judgment and limitations. Also, when your War-Dogs carry out attacks which you have ordered them to make, they gain a +1k0 bonus to their attack and damage rolls.",
+    "description": "During their time wandering the gaijin lands, the Unicorn tame and train a breed of dog unknown within Rokugan, eventually bringing it back with them to the Empire. These fierce and loyal animals are capable of fighting alongside their human masters, and the Unicorn maintain a small dojo which specifically trains bushi in the art of commanding and mastering their war-dogs.",
+    "type":"Path"
+  },
+  {
+    "uid" : "320",
+    "name" : "The Rising Sun",
+    "clan": "9",
+    "discipline": "Bushi",
+    "requirements":{"rings/traits":"Strength 4","skills":"Horsemanship 5, Spears 5","other":"Joining this Path adds a steed (Rokugani pony or Unicorn riding horse, GM’s choice) to your outfit if you do not already possess one"},
+    "technique rank":"5",
+    "replaces":"Seppun Guardsman 5 (with the GM’s permission, any bushi Basic School 5 if the character is enrolled in the Imperial Legions)",
+    "pathTechniqueTitle":"The Storm of Heaven's Wrath",
+    "pathTechnique":"The bushi of the Rising Sun are trained in the true mastery of cavalry tactics and call on their devotion to their Imperial duty to make them a terrifying force on the battlefield. While you are mounted and in the Attack Stance, you may add your Honor Rank to your Armor TN and may spend a Void Point to add half your Honor Rank (rounded up) in kept dice to your attack roll.",
+    "description": "After the Unicorn Clan’s return, the Seppun family began aggressively training cavalry forces of its own. Only the most elite members of the already legendary Imperial military are allowed to seek admission to the unit known as the Rising Sun. These men and women receive endless training from the finest mounted combatants to be found in the rest of the Empire – making them masters of tactics the Great Clans do not share with one another. While the Unicorn are the undisputed masters of cavalry warfare, even they hold the Rising Sun legion in extremely high regard.",
+    "type":"Path"
+  },
+  {
+    "uid" : "321",
+    "name" : "Imperial Influencer",
+    "clan": "9",
+    "discipline": "Courtier",
+    "requirements":{"rings/traits":"Awareness 4","skills":"Etiquette 5, Sincerity 5","other":"You must have at least Status 4.0 to be admitted to this elite dojo"},
+    "technique rank":"3",
+    "replaces":"Otomo Courtier 3",
+    "pathTechniqueTitle":"Follow My Lead",
+    "pathTechnique":"At any courtly event you are hosting (such as a moon-viewing party, a musical performance, or a dinner party), you may roll Courtier (Manipulation) / Awareness at TN 30 to set the dominant tone of the event. This tone may be broadly positive or negative and can also have a specific flavor such as friendly, hostile, hedonistic, suspicious, conciliatory, competitive, or anything else which suits your needs. Anyone who makes a Social Skill Roll during this event while acting against the tone of the event must call two Raises to no effect – if they fail the roll due to those Raises, they are considered to have committed a Minor Breach of Etiquette. Conversely, anyone who makes a Social Skill Roll while acting in concert with the flavor of the event (including yourself) gains a +2k0 bonus to their rolls. These effects last until the end of the event.\n\nIf you are not the host of the event, you may still attempt to set the tone, but your Courtier (Manipulation) rolls is now a Contested Roll against the host. Also, whether you are the host or not, other guests at the event may opt to oppose your setting of tone by making Contested Rolls of Courtier (Manipulation) against you. For all such Contested Rolls, the character with the higher Status Rank gains a +1k0 bonus for every such Rank of Status.\n\nIf you lose the Contested Roll, you are unable to set the tone for this event. However, if lower-Status characters fail such a Contested Roll against you, they have committed a Minor Breach of Etiquette. Likewise, if you fail to overcome the host with this Technique, you have committed a Minor Breach of Etiquette.",
+    "description": "The Imperial families exert control over the Empire in many ways both obvious and subtle. Although the Otomo family is best known for its ability to overawe and crush rivals through the sheer weight of Imperial favor, some of the family’s greatest masters follow a subtler path, shaping entire courts through things as deceptively simple as hosting dinner parties. The Influencer Technique is sometimes credited to Otomo Madoka, the author of The Subtlety of the Court, but whether it was devised by her or by some more ancient Otomo master courtier, its subtle but relentless power cannot be denied.",
+    "type":"Path"
+  },
+  {
+    "uid" : "322",
+    "name" : "Imperial Observer",
+    "clan": "9",
+    "discipline": "Courtier",
+    "requirements":{"rings/traits":"","skills":"Battle 4 or Lore: War 4, Sincerity 4,","other":"Status Rank 3.0 or higher"},
+    "technique rank":"4",
+    "replaces":"Otomo Courtier 4, Miya Courtier 4. Optionally, any Courtier 4 (see Special Note below) ",
+    "pathTechniqueTitle":"Pierce the Fog of War",
+    "pathTechnique":"The Imperial Observer is trusted to deliver news of the battlefield to the Imperial Court. When reporting on the events or conduct of a war, you are considered to have the Sacrosanct Advantage. In your report you may choose to praise or damn a commander on either side. This is a Sincerity / Awareness Roll at a TN of 5 x the Glory Rank of the commander. With a success, you may increase or decrease that commander’s Glory by 1 Rank. By calling Raises on this roll, you may instead inflict or remove Infamy on the commander, at the rate of a half-Rank plus an additional half-Rank per Raise. No individual may be affected by this Technique more than once for each battle you report.\n\nSpecial Note: At the GM’s option, this Path may be made available to courtiers from the clans, provided they gain the sponsorship of the Imperial families.",
+    "description": "Observers are assigned by the Imperial Bureaucracy to oversee the honorable conduct of war. It is an Observer’s duty to monitor the strategies of each side, reporting both honorable and shameful activity back to the Imperial Court. (The Great Clans assign their own battlefield observers, of course, but only those with Imperial authority are empowered to deliver unquestioned reports to the Throne.) The Technique of the Observers is an Imperial secret and is taught in the Ruby Dojo (best known for training the Emerald Magistrates).",
+    "type":"Path"
+  },
+  {
+    "uid" : "323",
+    "name" : "Crane Elite Spearman",
+    "clan": "2",
+    "discipline": "Bushi",
+    "requirements":{"rings/traits":"","skills":"Spears 3","other":""},
+    "technique rank":"2",
+    "replaces":"Daidoji Iron Warrior 2 or Daidoji Scout 2",
+    "pathTechniqueTitle":"Talons of the Daidoji",
+    "pathTechnique":"The ferocity of the Crane spearmen is well known upon the battlefield, as is their ability to pin and immobilize those who would threaten the clan. When using a spear to attack an opponent, if you strike an opponent who has not yet acted this round, he must make two Raises to successfully attack you for the remainder of this Round.",
+    "description": "The Crane Clan has always had a strong tradition of yarijutsu among its ranks, particularly the Daidoji. Given that the Crane military forces are typically fewer in number than their traditional enemies, any advantage that can be exploited on the battlefield is ruthlessly put to good use. While there are other groups within the clan who excel in this field, such as the Tsume vassal family, it is the Daidoji who supply the clan with its most numerous and proficient spearmen.",
+    "type":"Path"
+  },
+  {
+    "uid" : "324",
+    "name" : "Ikoma Warden",
+    "clan": "4",
+    "discipline": "Bushi",
+    "requirements":{"rings/traits":"","skills":"Horsemanship 3","other":""},
+    "technique rank":"2",
+    "replaces":"Akodo Bushi 2 or Ikoma Lions Shadow 2",
+    "pathTechniqueTitle":"To Race the Wind",
+    "pathTechnique":"A true warden understands that mounted warfare is as natural as fighting among the glorious Lion infantry. When Mounted, you gain a bonus of +1k0 to all Bugei Skill Rolls. Additionally, when spending a Void Point to augment a Horsemanship or Investigation Skill Roll, you gain a bonus of +2k2 instead of +1k1.",
+    "description": "Although it was not until the Unicorn Clan returned to the Empire that the armies of the Great Clans truly embraced the value of cavalry forces, the Lion had maintained a small cavalry force for centuries before that, dating back almost to the time of the Empire’s founding. While the Akodo and the Matsu have always prepared for war, the Ikoma have often been relegated to ensuring the security and lawfulness of the Lion provinces. For this reason, the Ikoma Wardens were created. The wardens exist to patrol the perimeter and interior of the Lion provinces, traditionally moving along well-traveled and carefully controlled routes throughout the land. They hold magistrate status within the clan, although if they attempt to use this authority outside the rather limited parameters of their normal activities they can be called upon to explain themselves by virtually anyone. The wardens are easily the most capable horsemen in the Lion Clan, and are frequently called upon to supply cavalry forces not only for the Ikoma army, but the Akodo and Matsu forces as well. For this reason, those families often send individuals to train with their Ikoma cousins, and the number of wardens serving the clan at any one time is much larger than one would expect from a group intended for patrol and law enforcement.",
+    "type":"Path"
+  },
+  {
+    "uid" : "325",
+    "name" : "Lioness Legion",
+    "clan": "4",
+    "discipline": "Bushi",
+    "requirements":{"rings/traits":"","skills":"Athletics 3","other":""},
+    "technique rank":"2",
+    "replaces":"Matsu Berserker 2, Akodo Bushi 2, or Matsu Beastmaster 2",
+    "pathTechniqueTitle":"Charge of the Pride",
+    "pathTechnique":"The Lioness Legion is feared for many reasons, but the greatest among them is their fleetness on the field of battle. When in the Full Attack Stance, any movement you make during the course of the Round gains an additional 5 feet (this benefit is only gained once per Round). Additionally, as a Complex Move Action, you may move your Water Ring x25 feet.",
+    "description": "Founded centuries ago by a legendary Matsu sensei, the Lioness Legion has since its inception been feared by the clan’s enemies for the sheer speed with which it can assault any enemy fortification, no matter how distant. Indeed, it is said by those who have had the grave misfortune of facing the Lioness Legion in battle that they combine the peed of cavalry with the unbridled ferocity of the Matsu, a combination that would give nightmares to any rational enemy commander. The Lioness Legion is typically composed of very young warriors, women in the prime of their physical condition, who are chosen for their natural athleticism and trained ruthlessly to exploit that advantage, as well as to combine it with advanced martial training. Although males are not permitted to join the unit, the techniques used in their training have been granted to lesser sensei among the family and a male equivalent unit, the Lion’s Mane, have begun to take the field of battle in certain engagements.",
+    "type":"Path"
+  },
+  {
+    "uid" : "326",
+    "name" : "Doji Warrior-Poet",
+    "clan": "2",
+    "discipline": "Bushi",
+    "requirements":{"rings/traits":"","skills":"Iaijutsu 2, Perform: Poetry 2","other":""},
+    "technique rank":"2",
+    "replaces":"Kakita Bushi 2",
+    "pathTechniqueTitle":"Fan & Sword",
+    "pathTechnique":"A warrior-poet understands that focus is the one and only key to not only victory, but enlightenment as well. When you spend a Void Point to augment an Iaijutsu Skill Roll or a Perform: Poetry Skill Roll, you gain a bonus of +2k1 instead of +1k1. Additionally, whenever you are victorious in a duel or a poetry contest, you gain one additional point of Glory. If you were championing someone else, that person also gains one additional point of Glory. This is in addition to any normal amount being rewarded.",
+    "description": "The Kakita are generally regarded as the Crane Clan’s finest artists with a blade, and for exceptionally good reason. The Doji, on the other hand, are generally regarded as courtiers, with both families having a strong tradition of artisans within them as well. However, despite the general stereotype, the truth is that the Kakita produce a significant number of courtiers as well, and the Doji are just as likely to have a scion of the blade among their ranks as any other Crane family. One need look no farther than the Thunders of the Crane Clan, Doji Yasurugi, a brilliant orator, swordsman, and blacksmith, or his later reincarnation Doji Hoturi, one of the finest duelists in the history of the Empire, to see the full potential of the Doji line manifested. Unlike many other families in the Empire, the Doji consider pursuit of the blade and the arts of equal value, and the Doji are more likely to produce individuals gifted in both domains than perhaps even the other Crane families. ",
+    "type":"Path"
+  },
+  {
+    "uid" : "327",
+    "name" : "Fading Shadows",
+    "clan": "6",
+    "discipline": "Shugenja",
+    "requirements":{"rings/traits":"Void 4,","skills":"Spellcraft 5","other":"Forbidden Knowledge: Lying Darkness, Must be inducted into the Hidden Moon Dojo (exact circumstances up to the GM, but only Scorpion characters of irreproachable loyalty and discretion will even be considered)"},
+    "technique rank":"5",
+    "replaces":"Any Scorpion shugenja 5",
+    "pathTechniqueTitle":"Unravel he Shadow",
+    "pathTechnique":"The shugenja of the Fading Shadows are trained to perceive the lies and distortions of the Nothing and to disrupt the powers of the Shadowspawn by exploiting their vulnerability to the Void. As a Simple Action, you may spend a Void Point to try to strip away the false identity of any Shadowspawn and other minions of the Nothing within your sight, revealing them for what they are. This requires a Contested Roll of your Void against their Willpower. With a success, the creatures are revealed as what they truly are, and are unable to reassume a false identity as long as they remain in your sight.\n\nAs a Free Action, you may spend a Void Point when you cast a spell or make a physical attack. That spell/attack will have full effect on a minion of the Nothing, regardless of normal resistances or immunities.",
+    "description": "The Fading Shadows are a tiny sect operating out of the Hidden Moon Dojo, the secretive Scorpion organization devoted to studying the Nothing and its manifestations in Rokugan. The Fading Shadows recognize that a link may exist between the Nothing and the Void, a disturbing idea but one that provides useful means of defeating the Nothing’s machinations. They are predominantly Soshi, but the Hidden Moon Dojo does not hesitate to recruit shugenja from other Scorpion families if it seems advantageous to do so.",
+    "type":"Path"
+  },
+  {
+    "uid" : "328",
+    "name" : "Dragon Channeler",
+    "clan": "3",
+    "discipline": "Shugenja",
+    "requirements":{"rings/traits":"At least one Ring at Rank 5 or higher, at least two other Rings at Rank 4 or higher","skills":"Meditation 5, Spellcraft 5, Lore: Theology 5","other":" character can only become a Dragon Channeler if he or she is either personally chosen by the Elemental Dragons or personally trained by an existing Dragon Channeler."},
+    "technique rank":"6",
+    "replaces":"N/A (must be a Rank 5 shugenja)",
+    "pathTechniqueTitle":"Beseech the Dragons",
+    "pathTechnique":"You lose any Affinities and Deficiencies you had prior to becoming a Dragon Channeler, instead gaining an Affinity for Dragon spells. Your normal spell slots are reduced by 2 in each Ring; in return, you gain three “Dragon Spell Slots” which can only be used to invoke the powers of the Dragons via Dragon Spells (see below). You may spend Void Points to cast additional Dragon spells when your slots are exhausted. Dragon spell slots do not recover from rest – you may only regain them by sustained meditation (two hours of uninterrupted meditation and Meditation/Void at TN 30 to regain one slot).\n\nGM’s Option: Some GMs may wish to create a connection between the Dragon Channelers and the Chosen by the Oracles Advantage (due to the link between the Oracles and the Dragons). If this is desired, a character with Chosen by the Oracles starts with four Dragon Spell slots rather than three.",
+    "description": "Founded by Agasha Miyoshi, the Dragon Channelers are an elite order of shugenja who are able to directly channel the power of the Celestial Dragons. This not only grants them access to new and unique abilities but also affects the way in which all the kami answer their prayers; even the “normal” spells of a Dragon Channeler are visually distinct from those cast by other shugenja.\n\nThis Path is solely restricted to the Phoenix Clan in the canonical timeline. GMs may choose to change this in their own campaigns, of course.\n\nDragon Spells\nThese are not really “spells” as such, but rather are direct releases of the power of the Dragons, channeled through the limited capacities of a mortal. A character who becomes a Dragon Channeler gains the ability to cast three of these spells, without requiring a scroll to cast; the character may learn additional Dragon spells at the rate of one spell per 15 Experience Points.\n\nFor mechanical purposes, all Dragon spells are considered to be Mastery 6 spells in their respective Elements (the Thunder Dragon and Celestial Dragon spells are treated as Multi-Element spells). The Channeler may cast the spells with the Void Element even if he does not have the Ishiken-do Advantage. All of these are personal spells (e.g. no range, targeting only the caster). Their durations and effects cannot be changed with Raises.\n\nCourage of the Thunder Dragon (Air, Fire)\nDuration one hour. You are filled with the unstoppable spirit of Thunder. For the duration of the spell you are immune to Fear and all of your Traits are treated as one Rank higher for the purpose of Skill rolls and Trait rolls.\n\nFerocity of the Fire Dragon (Fire)\nDuration 5 Rounds. You are filled with the aggressive spirit of Fire and wreathed in searing flames of destructive power. Anyone you strike in melee suffers an additional XkX Wounds (where X is your Fire Ring); anyone striking you in melee suffers the same damage.\n\nMystery of the Void Dragon\nDuration 10 Rounds. The enigmatic power of the Void, everything and nothing at the same time, infuses you completely. Your awesome aura creates a Fear 5 effect on anyone who sees you (Fear 10 for minions of The Nothing). You gain a number of additional Void Points equal to your Void Ring (if not used by the end of the spell these are lost). Your melee attacks are considered to be Crystal for the purpose of harming creatures of the Shadow.\n\nPerfection of the Celestial Dragon (Air, Earth, Fire, Water, Void)\nDuration 1 hour. The most powerful of all Dragons (and the most difficult to channel) infuses your actions with the ideal perfection of Tengoku. A number of times equal to your lowest Ring + Insight Rank, you may automatically succeed on a Skill Roll or Spell Casting Roll with the maximum possible number of Raises you could call (including Free Raises if you have them).\n\nProtection of the Earth Dragon (Earth)\nDuration 10 Rounds. The unyielding power of the Earth grants you Reduction 10 and the creature ability of Invulnerability.\n\nTranquillity of the Water Dragon\nDuration 5 Rounds. You are immediately healed of all Wounds, poisons, and diseases. For the duration of the spell, you may heal other persons in the same way by touching them; this as a Complex Action.\n\nWhim of the Air Dragon\nDuration 1 hour. The power of Air lifts up your spirit and frees you from the bonds of earth. For the duration of this spell you gain +1k1 to all rolls for Social Skills, and you may fly at a speed equal to three times your normal ground movement.",
+    "type":"Path"
+  },
+  {
+    "uid" : "329",
+    "name" : "Scorpion Maskmakers",
+    "clan": "6",
+    "discipline": "Courtier, Artisan",
+    "requirements":{"rings/traits":"","skills":"Craft: Maskmaking 5, Sincerity (Deceit) 3","other":""},
+    "technique rank":"2",
+    "replaces":"Bayushi Courtier 2, Soshi Shugenja 2, Yogo Shugenja 2",
+    "pathTechniqueTitle":"Conceal the Eyes",
+    "pathTechnique":"The artisans who craft masks for Scorpion samurai know how to direct attention away from the wearer’s face (and any social cues it might reveal) to the distracting mask itself. Once every three months, you may craft a mask which is especially effective at concealing thoughts and emotions; this mask matches the abilities of the Inheritance Advantage with the Sincerity Skill (L5R 4th Edition Core rulebook, page 150-151), and creating it requires two Raises on your Craft: Maskmaking roll. Also, your experience at using masks to conceal emotions teaches you how to read others’ intentions without relying on facial expressions. You gain a +2k0 bonus on any Social Skill roll to detect falsehood or concealed intentions in others.",
+    "description": "Although every clan has artisans who specialize in the creation of courtly masks, the Scorpion Clan takes such artistry to a much higher level. This is hardly surprising given the importance of masks to Scorpion culture.",
+    "type":"Path"
+  },
+  {
+    "uid" : "330",
+    "name" : "Susumu Courtier",
+    "clan": "23",
+    "discipline": "Courtier",
+    "requirements":{"rings/traits":"","skills":"","other":""},
+    "technique rank":"1",
+    "replaces":"Daigotsu Courtier 1",
+    "pathTechniqueTitle":"The Way of Victory",
+    "pathTechnique":"",
+    "description": "Benefit : +1 Willpower\nHonor : 1.5\nSkills : Courtier (Manipulation), Etiquette, Sincer-ity (Deceit), Temptation, Lore: Shourido, Investiga-tion, any one Low or High skill\n\nSusumu courtiers learn how to use the Code of Shourido to strengthen their own efforts in court and to ferret out and intensify the selfish impulses of other samurai. You gain the Student of Shourido Advantage for free (if for some reason you already possess this Advantage, the Experience Point cost is refunded). After a few minutes’ conversation with another samurai, you may make a Contested Social roll of your Temptation/Willpower against your opponent’s Etiquette/Willpower; with a success, you detect whether the character has any personal flaws which would make him amenable to the appeal of Shourido. (You do not learn the specific nature of the flaws, merely whether they exist. From the GM’s viewpoint, in addition to role-played flaws, this could also detect the presence of Disadvantages such as Brash, Compulsion, Consumed, Contrary, Disbeliever, Driven, Failure of Bushido, Cast Out, Dark Paragon, Forbidden Knowledge, and Perceived Honor.)",
+    "type":"Path"
+  },
+  {
+    "uid" : "331",
+    "name" : "Shimada Skirmisher",
+    "clan": "4",
+    "discipline": "Bushi",
+    "requirements":{"rings/traits":"","skills":"Horsemanship 3","other":""},
+    "technique rank":"2",
+    "replaces":"Any Lion Bushi 2",
+    "pathTechniqueTitle":"The Wind Sweep Through the Plain",
+    "pathTechnique":"The character can mount or dismount as a Free Action, and you do not suffer any terrain penalties while mounted. He also adds his horsemanship rank to his Armor TN OR to his initiative (only in skirmishes), as well as to his Battle roll (in mass battle) when mounted. Finally, the Yari is considered as a Samurai weapon for all other school Techniques.",
+    "description": "From their study of the Unicorn Cavalry and their maneuvers, supported by the military experience and the specificity of their family, the Shimada have developed a martial way embraced by most of their Bushi. On the battlefield, speed and maneuverability are king, as is adaptability to the terrain. And in that sense, horses are a valuable asset to any unit. But for the Shimada Bushi, his horse is much more than a simple tool: it is an extension of his body in combat - rider and mount moving together. During their first battles against the Ki-Rin, the Shimada dragged their enemies into terrain that the nomadic people knew only too little. A mounted position, while advantageous whether on the plain or in the steppes, is no longer necessarily so on uneven ground or in the middle of the forest. Shimada riders have learned to adapt to the conditions of the terrain on which they fight, even if it means depriving themselves of their mount temporarily if necessary.",
+    "type":"Path"
   }
-
+  
 ]

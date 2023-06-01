@@ -35,7 +35,8 @@ class KatasAdapter: RecyclerView.Adapter<KatasAdapter.KatasViewHolder>() {
     }
 
     fun setDataList(katas: List<Katas>) {
-        this.dataset= katas.toMutableList() as ArrayList<Katas>
+        val sortedList = katas.sortedBy { it.name }
+        this.dataset= sortedList.toMutableList() as ArrayList<Katas>
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): KatasViewHolder {

@@ -160,3 +160,20 @@ data class AdvDis(
     @ColumnInfo(name = "points") var points: String,
     @ColumnInfo(name = "description") var description: String,
 )
+
+@Entity(tableName = "Stations")
+data class Stations(
+    @PrimaryKey var uid: Int,
+    @ColumnInfo(name = "name") var name: String,
+    @ColumnInfo(name = "content") var content: String
+)
+
+@Entity(tableName = "Okuden")
+data class Okuden(
+    @PrimaryKey var uid: Int,
+    @ColumnInfo(name = "name") var name: String,
+    @ColumnInfo(name = "prerequisite") var prerequisite: String,
+    @ColumnInfo(name = "rank1") var rank1: String,
+    @ColumnInfo(name = "rank2") var rank2: String,
+    @ColumnInfo(name = "rank3") var rank3: String
+)

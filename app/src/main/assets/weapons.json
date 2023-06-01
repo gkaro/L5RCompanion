@@ -447,7 +447,7 @@
     "range" : "",
     "price" : "30 koku",
     "special" : "",
-    "description" : "The no-dachi is perhaps the largest weapon commonly wielded by samurai. It is similar in most respects to the katana, save that it is 5 to 7 feet in length. It was conceived as primarily an anti-cavalry weapon, at which it excels. Brash or highlytrained bushi also wield it in melee, however, which is difficult but highly effective when mastered."
+    "description" : "The no-dachi is perhaps the largest weapon commonly wielded by samurai. It is similar in most respects to the katana, save that it is 5 to 7 feet in length. It was conceived as primarily an anti-cavalry weapon, at which it excels. Brash or highly trained bushi also wield it in melee, however, which is difficult but highly effective when mastered."
   },{
     "uid" : "41",
     "name" : "Parangu",
@@ -527,14 +527,14 @@
     "description" : ""
   },{
     "uid" : "49",
-    "name" : "Pichfork",
+    "name" : "Pitchfork",
     "type" : "Staves",
     "keywords" : "Large, Peasant",
     "dr" : "1k2",
     "strength" : "",
     "range" : "",
     "price" : "3 bu",
-    "special" : "If a picthfork deals more than 20 damage in a single blow, it breaks.",
+    "special" : "If a pitchfork deals more than 20 damage in a single blow, it breaks.",
     "description" : ""
   },{
     "uid" : "50",
@@ -561,7 +561,7 @@
   },{
     "uid" : "52",
     "name" : "Cannon",
-    "type" : "Cannon",
+    "type" : "Firearms",
     "keywords" : "Gaijin",
     "dr" : "10k10",
     "strength" : "",
@@ -578,7 +578,7 @@
     "strength" : "",
     "range" : "30'",
     "price" : "",
-    "special" : "Craft: Explosives / Intelligence at TN 25, and requires access to jaijin pepper and alchemical supplies. Making nageteppo is a touchy business; failing to hit TN 10 when doing so results in  a small explosion, inflicting 2k1 damage for smoke nageteppo.",
+    "special" : "Craft: Explosives / Intelligence at TN 25, and requires access to gaijin pepper and alchemical supplies. Making nageteppo is a touchy business; failing to hit TN 10 when doing so results in  a small explosion, inflicting 2k1 damage for smoke nageteppo.",
     "description" : "Explosives of the sort depicted here are normally restricted to members of the Scorpion shinobi organizations (the Infiltrators, Actors, and Saboteurs) and the Daidoji Harriers, and only in games set subsequent to the White Stag Era. After White Stag but prior to the War Against the Darkness, the covert connection between the Shosuro family and the Lying Darkness means that Goju and Ninube Shadowspawn can also have access to explosives.\n\n(It is up to the GM whether the Goju and Ninube can still gain access to this material after the defeat of the Lying Darkness. It is possible the Shadow Dragon might be able to steal the knowledge of manufacturing gaijin pepper in order to let his minions continue to use explosives.) In game terms, explosives take two basic forms: nageteppo (egg grenades) and demolition charges. Nageteppo are widely and readily used by ninja of all sorts and the GM should not hesitate to allow “ninja” PCs to make or use them. Demolition charges, however, are used much more sparingly, since their effects are far more blatant and the connection to forbidden gunpowder is quite obvious.\n\nThe GM should consider carefully whether to allow PCs to gain access to them.\n\nStandard smoke nageteppo are used to confuse enemies during an ambush or to cover a retreat. They are small and relatively fragile egg-shaped devices containing a mixture of gunpowder and alchemical substances.\n\nThrowing a nageteppo is a Simple Action. When they are broken (either by accident, crushing, or most commonly by being thrown against a hard surface) the contents ignite and emit a thick cloud of choking white smoke. The smoke covers an area roughly 15’ diameter and obscures all vision within (those inside the smoke are considered to be Blind). The smoke normally lasts five Rounds before it disperses, although it can be blown away in a single Round by a strong wind.\n\nIf a smoke nageteppo directly strikes a person, the burning smoke charge inflicts 1k1 damage per Round for two Rounds (or until extinguished with dousing, smothering, etc)."
   },{
     "uid" : "54",
@@ -625,6 +625,66 @@
     "price" : "1 koku",
     "special" : "",
     "description" : "Fire Arrows explode when they land. Their damage ignores all forms of Reduction."
+  },
+  {
+    "uid" : "58",
+    "name" : "Kakiyari (Fire Lance)",
+    "type" : "Firearms",
+    "keywords" : "Large, Firearm",
+    "dr" : "3k2",
+    "strength" : "",
+    "range" : "50 feet",
+    "price" : "8 koku",
+    "special" : "The Fire Lance can be wielded in melee as a Yari. If so, its DR is 1k1 and it cannot be thrown accurately. A normal Fire Lance such as this can only be fired once.",
+    "description" : ""
+  },
+  {
+    "uid" : "59",
+    "name" : "Hand-Cannon",
+    "type" : "Firearms",
+    "keywords" : "Large, Firearm, Heavy Weapon",
+    "dr" : "4k3",
+    "strength" : "",
+    "range" : "20 feet",
+    "price" : "25 koku",
+    "special" : "The Hand-Cannon ignores Reduction from natural toughness. It can only be fired once. The Hand-Cannon can be wielded in melee as a Tetsubo",
+    "description" : ""
+  },
+  {
+    "uid" : "60",
+    "name" : "Bajozutsu",
+    "type" : "Firearms",
+    "keywords" : "Small, Firearm, Samurai",
+    "dr" : "3k2",
+    "strength" : "",
+    "range" : "20 feet",
+    "price" : "Due to the sacred nature of the Bajozutsu and the complexity of the weapon’s manufacture, they are not normally available for sale",
+    "special" : "The Bajozutsu can be drawn from its sheath with the Iaijutsu skill.",
+    "description" : ""
+  },
+  {
+    "uid" : "61",
+    "name" : "Teppo",
+    "type" : "Firearms",
+    "keywords" : "Large, Firearm, Samurai",
+    "dr" : "3k3",
+    "strength" : "",
+    "range" : "150 feet",
+    "price" : "30 koku",
+    "special" : "At half range or less, the Teppo ignores Reduction from natural toughness.",
+    "description" : ""
+  },
+  {
+    "uid" : "62",
+    "name" : "Magari-Yari",
+    "type" : "Spears",
+    "keywords" : "Large",
+    "dr" : "3k2",
+    "strength" : "",
+    "range" : "",
+    "price" : "7 koku",
+    "special" : "The magari-yari may be thrown a maximum range of 30’, and has a DR of 2k2 when thrown.",
+    "description" : "The so-called magari-yari is an unusual type of spear used almost exclusively by the Lion Clan and particularly by  the  Matsu  Elite  Spearmen.  It  is  easily  recognized by  its  triple-bladed  head,  which  sets  it  apart  from  the standard  single-headed  Rokugani  yari.  Although  the Matsu  family  as  a  whole  favors  the  katana,  a  number of  famous Matsu warriors have employed the magari-yari, such as the notorious Clan War hero Matsu “the Butcher” Gohei"
   }
   
 ]

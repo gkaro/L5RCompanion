@@ -37,7 +37,8 @@ class PathsAdapter: RecyclerView.Adapter<PathsAdapter.PathsViewHolder>() {
     }
 
     fun setDataList(schools: List<Paths>) {
-        this.dataset = schools.toMutableList() as ArrayList<Paths>
+        val sortedList = schools.sortedBy { it.name }
+        this.dataset = sortedList.toMutableList() as ArrayList<Paths>
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PathsViewHolder {

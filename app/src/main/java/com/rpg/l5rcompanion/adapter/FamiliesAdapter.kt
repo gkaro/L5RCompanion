@@ -7,7 +7,6 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.rpg.l5rcompanion.R
-import com.rpg.l5rcompanion.database.Clans
 import com.rpg.l5rcompanion.database.Families
 
 
@@ -26,7 +25,7 @@ class FamiliesAdapter: RecyclerView.Adapter<FamiliesAdapter.FamiliesViewHolder>(
      }*/
 
 
-    class FamiliesViewHolder(view: View, ) : RecyclerView.ViewHolder(view) {
+    class FamiliesViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val textView: TextView = view.findViewById(R.id.item_title)
         //val bonusView: TextView = view.findViewById(R.id.item_bonus)
         init{

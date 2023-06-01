@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.rpg.l5rcompanion.MainActivity"
+    app:iconTint="@color/white">
+
+    <item android:id="@+id/listClansFragment"
+        android:title="Schools"/>
+    <item android:id="@+id/listSkillsFragment"
+        android:title="Skills"/>
+    <item android:id="@+id/listRulesFragment"
+        android:title="Rules"/>
+    <item android:id="@+id/ringsSpellsFragment"
+        android:title="Spells"/>
+    <item android:id="@+id/katasKihosFragment"
+        android:title="Katas &amp; Kihos"/>
+    <item android:id="@+id/listOkudenFragment"
+        android:title="Okuden"/>
+    <item android:id="@+id/listArmorsWeaponsFragment"
+        android:title="Armors &amp; Weapons"/>
+    <item android:id="@+id/advDisFragment"
+        android:title="Advantages &amp; Defaults"/>
+</menu>

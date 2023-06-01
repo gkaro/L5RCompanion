@@ -34,6 +34,49 @@
                 android:textSize="28sp"
                 android:text="name rule"
                 />
+
+            <Button
+                android:id="@+id/ambassadorStation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ambassador"
+                android:layout_marginTop="36dp"
+                />
+            <Button
+                android:id="@+id/governorStation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Governor"
+                android:layout_marginTop="8dp"
+                />
+            <Button
+                android:id="@+id/keeperTempleStation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Keeper of the Temple"
+                android:layout_marginTop="8dp"
+                />
+            <Button
+                android:id="@+id/masterSenseiStation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Master Sensei"
+                android:layout_marginTop="8dp"
+                />
+            <Button
+                android:id="@+id/merchantPatronStation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Merchant Patron"
+                android:layout_marginTop="8dp"
+                />
+            <Button
+                android:id="@+id/warlordStation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Warlord"
+                android:layout_marginTop="8dp"
+                />
             <TextView
                 android:id="@+id/content"
                 android:layout_width="match_parent"
@@ -47,7 +90,6 @@
                 android:layout_marginBottom="15dp"
                 android:text="content"
                 />
-
         </LinearLayout>
     </ScrollView>
 

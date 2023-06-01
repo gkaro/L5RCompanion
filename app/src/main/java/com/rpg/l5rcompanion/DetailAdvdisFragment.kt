@@ -2,18 +2,15 @@ package com.rpg.l5rcompanion
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.NavArgs
+import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.navArgs
 import androidx.room.Room
-import com.rpg.l5rcompanion.adapter.AdvdisAdapter
 import com.rpg.l5rcompanion.database.AdvDis
-import com.rpg.l5rcompanion.database.Armors
 import com.rpg.l5rcompanion.database.MyDatabase
 import com.rpg.l5rcompanion.databinding.FragmentDetailAdvdisBinding
 

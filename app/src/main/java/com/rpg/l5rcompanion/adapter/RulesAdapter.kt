@@ -7,7 +7,6 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.rpg.l5rcompanion.R
-import com.rpg.l5rcompanion.database.CategoriesRules
 import com.rpg.l5rcompanion.database.Rules
 
 class RulesAdapter: RecyclerView.Adapter<RulesAdapter.RulesViewHolder>() {
@@ -34,7 +33,8 @@ class RulesAdapter: RecyclerView.Adapter<RulesAdapter.RulesViewHolder>() {
     }
 
     fun setDataList(rules: List<Rules>) {
-        this.dataset= rules.toMutableList() as ArrayList<Rules>
+        val sortedList = rules.sortedBy { it.name }
+        this.dataset= sortedList.toMutableList() as ArrayList<Rules>
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RulesViewHolder {

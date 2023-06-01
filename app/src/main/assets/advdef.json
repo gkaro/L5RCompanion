@@ -165,7 +165,7 @@
     "type" : "advantage",
     "subtype" : "Mental",
     "points" : "5 points",
-    "description" : "There is a subject about which you possess considerable knowledge and insight. The problem is that this subject is forbidden, and considered grossly socially inappropriate if not outright illegal. Anyone who discovers your expertise in this area might rightly wonder how you came upon it. The benefits of the Advantage vary depending upon the nature of the information, and players should discuss with their GM how this Advantage will work. The most common examples of Forbidden Knowledge include:\n\n* Gaijin Pepper: You possess firsthand knowledge of gunpowder, both how to create it and how to use it.\nYou gain one rank in Craft: Explosives, and possess a small pouch of gaijin pepper that you may carry with you if you so choose.\n* Gozoku: You possess an intricate knowledge of the Gozoku conspiracy against the throne, either in its first or second incarnation, and may in fact be a member of that organization. You gain one rank in Lore: Gozoku and gain a bonus of +1k1 on Social Skill rolls with known members of the Gozoku.\n* Kolat: You are intimately familiar with the nature and operations of the blasphemous Kolat order, and may be a member of that organization. You gain one rank in Lore: Kolat and gain a bonus of +1k1 on Social Skill rolls with known members of the Kolat.\n* Lying Darkness: You are familiar with the entity known as the Lying Darkness, its methods, and its minions. You may have come into conflict with it in the past, and perhaps it hunts you still. You gain one rank of Lore: Lying Darkness, and you may observe an individual and make a Lore: Lying Darkness / Perception Roll (TN 30) to determine if he has been corrupted by the Lying Darkness.\n* Maho: You are familiar with the forbidden and blasphemous magic known as maho, and may in fact be a practicing maho-tsukai (black sorcerer) yourself. You gain 1 rank in Lore: Maho and, at the GM’s discretion, might begin play knowing a maho spell."
+    "description" : "There is a subject about which you possess considerable knowledge and insight. The problem is that this subject is forbidden, and considered grossly socially inappropriate if not outright illegal. Anyone who discovers your expertise in this area might rightly wonder how you came upon it. The benefits of the Advantage vary depending upon the nature of the information, and players should discuss with their GM how this Advantage will work. The most common examples of Forbidden Knowledge include:\n\n* Gaijin Pepper: You possess firsthand knowledge of gunpowder, both how to create it and how to use it.\nYou gain one rank in Craft: Explosives, and possess a small pouch of gaijin pepper that you may carry with you if you so choose.\n* Gozoku: You possess an intricate knowledge of the Gozoku conspiracy against the throne, either in its first or second incarnation, and may in fact be a member of that organization. You gain one rank in Lore: Gozoku and gain a bonus of +1k1 on Social Skill rolls with known members of the Gozoku.\n* Kolat: You are intimately familiar with the nature and operations of the blasphemous Kolat order, and may be a member of that organization. You gain one rank in Lore: Kolat and gain a bonus of +1k1 on Social Skill rolls with known members of the Kolat.\n* Lying Darkness: You are familiar with the entity known as the Lying Darkness, its methods, and its minions. You may have come into conflict with it in the past, and perhaps it hunts you still. You gain one rank of Lore: Lying Darkness, and you may observe an individual and make a Lore: Lying Darkness / Perception Roll (TN 30) to determine if he has been corrupted by the Lying Darkness.\n* Maho: You are familiar with the forbidden and blasphemous magic known as maho, and may in fact be a practicing Maho-Tsukai (black sorcerer) yourself. You gain 1 rank in Lore: Maho and, at the GM’s discretion, might begin play knowing a maho spell."
   },
   {
     "uid" : "22",
@@ -445,7 +445,7 @@
     "type" : "advantage",
     "subtype" : "Material",
     "points" : "Variable",
-    "description" : "You possess a special weapon created by the master weapon-smiths of your Clan, and considered to be an icon of all who bear the mon of your Clan. The cost of each individual weapon is denoted by the number after its name.\n* Crab Kaiu Blade(6): 3k3 katana; unbreakable; -2 to target’s Reduction.\n* Crane Kakita: Blade (5) 4k2 katana; may reroll damage once per Iaijutsu duel.\n* Dragon Twin Sister Blades(3): Daisho; +5 to the TNof all Disarm Maneuversagainst you.\n* Lion Akodo Blade (6): 4k2 katana; Honor Rank considered at +1 while carried.\n* Mantis Storm Kama (pair) (6): 2k2 kama; +1k0 to attack rolls when wielding both.\n* Phoenix Inquisitor’s Strike(6):3k2 wakizashi; considered jade against targets with Taint.\n* Scorpion Shosuro Blade (5): 4k2 katana; add +5 to TN to resist poisons applied to blade.\n* Spider Black Steel Blade (6): 4k2 katana; any exploding damage dice require target to make an Earth Ring Roll (TN 15) or gain 1 point of Shadowlands Taint.\n* Unicorn Moto Scimitar (6): 3k3 scimitar; +3 to Damage Rolls made while on horseback"
+    "description" : "You possess a special weapon created by the master weapon-smiths of your Clan, and considered to be an icon of all who bear the mon of your Clan. The cost of each individual weapon is denoted by the number after its name.\n* Crab Kaiu Blade(6): 3k3 katana; unbreakable; -2 to target’s Reduction.\n* Crane Kakita: Blade (5) 4k2 katana; may reroll damage once per Iaijutsu duel.\n* Dragon Twin Sister Blades(3): Daisho; +5 to the TNof all Disarm Maneuvers against you.\n* Lion Akodo Blade (6): 4k2 katana; Honor Rank considered at +1 while carried.\n* Mantis Storm Kama (pair) (6): 2k2 kama; +1k0 to attack rolls when wielding both.\n* Phoenix Inquisitor’s Strike(6):3k2 wakizashi; considered jade against targets with Taint.\n* Scorpion Shosuro Blade (5): 4k2 katana; add +5 to TN to resist poisons applied to blade.\n* Spider Black Steel Blade (6): 4k2 katana; any exploding damage dice require target to make an Earth Ring Roll (TN 15) or gain 1 point of Shadowlands Taint.\n* Unicorn Moto Scimitar (6): 3k3 scimitar; +3 to Damage Rolls made while on horseback"
   },
   {
     "uid" : "57",
@@ -457,7 +457,7 @@
   },
   {
     "uid" : "58",
-    "name" : "Sacrosant ",
+    "name" : "Sacrosanct ",
     "type" : "advantage",
     "subtype" : "Social",
     "points" : "4 points",
@@ -485,7 +485,7 @@
     "type" : "advantage",
     "subtype" : "Material",
     "points" : "5 points",
-    "description" : "A servant has been assigned to assist you by your family, or possibly one whose help you purchased with your own resources in order to make life a little bit easier. You may have a maximum number of servants equal to twice your Status Rank. Different kinds of servants have different useful abilities and can more easily be supplied by different Clans. Typically, a servant has all Traits at rank 2 and a single Skill at rank 3. You may add additional Skill Ranks or Emphases to a servant at the time the Advantage is purchased by paying 3 additional points per Skill Rank or Emphasis. Consult the following table for sample servants and their costs: * Artisan One Artisan Skill at 3; -2 points for Crane.\n\n* Attendant Etiquette (Conversation) 3; -2 points for Scorpion.\n* Budoka One Weapon Skill at 3; -2 points for Lion.\n* Craftsman One Craft Skill at 3; -2 points for Dragon.\n* Eta Attendant Lore: Anatomy 3; -2 points for Crab.\n* Groom Animal Handling (Horses) 3; -2 points for Unicorn.\n* Merchant Commerce (Appraisal) 3; -2 points for Mantis\n* Scribe One Lore Skill at 3; -2 points for Phoenix.\n* Sohei Jiujutsu 3; -2 points for Spider"
+    "description" : "A servant has been assigned to assist you by your family, or possibly one whose help you purchased with your own resources in order to make life a little bit easier. You may have a maximum number of servants equal to twice your Status Rank. Different kinds of servants have different useful abilities and can more easily be supplied by different Clans. Typically, a servant has all Traits at rank 2 and a single Skill at rank 3. You may add additional Skill Ranks or Emphases to a servant at the time the Advantage is purchased by paying 3 additional points per Skill Rank or Emphasis. Consult the following table for sample servants and their costs: * Artisan One Artisan Skill at 3; -2 points for Crane.\n\n* Attendant Etiquette (Conversation) 3; -2 points for Scorpion.\n* Budoka One Weapon Skill at 3; -2 points for Lion.\n* Craftsman One Craft Skill at 3; -2 points for Dragon.\n* Eta Attendant Lore: Anatomy 3; -2 points for Crab.\n* Groom Animal Handling (Horses) 3; -2 points for Unicorn.\n* Merchant Commerce (Appraisal) 3; -2 points for Mantis\n* Scribe One Lore Skill at 3; -2 points for Phoenix.\n* Sohei Jujutsu 3; -2 points for Spider"
   },
   {
     "uid" : "62",
@@ -649,7 +649,7 @@
   },
   {
     "uid" : "82",
-    "name" : "Bitter Bethrotal",
+    "name" : "Bitter Betrothal",
     "type" : "disadvantage",
     "subtype" : "Social",
     "points" : "2 points",
@@ -757,7 +757,7 @@
     "type" : "disadvantage",
     "subtype" : "Social",
     "points" : "Variable",
-    "description" : "Someone who is largely incapable of defending himself or herself requires you to look after them. This may be an elderly relative, a naïve spouse, or a small child. The point value of this Disadvantage varies depending upon how helpless the individual is and how frequently they appear in the campaign.\n\nA small child completely dependant upon you for everything might cost 5 or 6 points, while a spouse who is independent but whom you must consider before all major decisions might be worth 2 or 3 points."
+    "description" : "Someone who is largely incapable of defending himself or herself requires you to look after them. This may be an elderly relative, a naive spouse, or a small child. The point value of this Disadvantage varies depending upon how helpless the individual is and how frequently they appear in the campaign.\n\nA small child completely dependant upon you for everything might cost 5 or 6 points, while a spouse who is independent but whom you must consider before all major decisions might be worth 2 or 3 points."
   },
   {
     "uid" : "96",
@@ -869,7 +869,7 @@
     "type" : "disadvantage",
     "subtype" : "Mental",
     "points" : "4 points",
-    "description" : "Your trust is given easily and you place tremendous faith in those whom you trust, unfortunately making it very simple for others to take advantage of your naïve nature. Opponents attempting to use Sincerity (Deceit) against you gain a bonus of +1k1 to the total of their rolls."
+    "description" : "Your trust is given easily and you place tremendous faith in those whom you trust, unfortunately making it very simple for others to take advantage of your naive nature. Opponents attempting to use Sincerity (Deceit) against you gain a bonus of +1k1 to the total of their rolls."
   },
   {
     "uid" : "110",
@@ -893,7 +893,7 @@
     "type" : "disadvantage",
     "subtype" : "Mental",
     "points" : "2 points",
-    "description" : "You adhere closely to the code of Bushido, perhaps too closely, and you have a hopelessly naïve view of the world and how things work. You have impossible standards that not even the most heroic individual could hope to meet, much less you. Whenever you lose Honor, the loss is increased by 1 point. This Disadvantage is worth 3 points to Lion characters."
+    "description" : "You adhere closely to the code of Bushido, perhaps too closely, and you have a hopelessly naive view of the world and how things work. You have impossible standards that not even the most heroic individual could hope to meet, much less you. Whenever you lose Honor, the loss is increased by 1 point. This Disadvantage is worth 3 points to Lion characters."
   },
   {
     "uid" : "113",
@@ -1141,6 +1141,78 @@
     "type" : "disadvantage",
     "subtype" : "Mental",
     "points" : "2 points",
-    "description" : "You get lost easily. Even with written directions in hand you never seem to be able to find the place youre looking for. You practically cant get anywhere  even in a city you know well  without a guide. You suffer a 15 penalty when using the Navigation emphasis."
+    "description" : "You get lost easily. Even with written directions in hand you never seem to be able to find the place you're looking for. You practically cant get anywhere  even in a city you know well  without a guide. You suffer a 15 penalty when using the Navigation emphasis."
+  },
+  {
+    "uid" : "144",
+    "name" : "The World of the Daimyo",
+    "type" : "advantage",
+    "subtype" : "Social",
+    "points" : "5 points",
+    "description" : "You continue your path into a dangerous part of Rokugan : high society. You gain 5 Duty Points which may be used to purchase any Station's Features.\n\nThis Advantage may be purchased multiple times; the Experience cost increases by three for every additional level of this Advantage."
+  },
+  {
+    "uid" : "145",
+    "name" : "The Daimyo's Path",
+    "type" : "advantage",
+    "subtype" : "Social",
+    "points" : "10 points",
+    "description" : "Your continued efforts have gained you respect and trust from your superiors. You gian 8 Duty Points, which may be used to purchase any Station's Features. Additionally, you may purchase level Three Features of your primary Station. You may not ever purchase  Level Three Features from Stations that are not your primary Station.\n\nYou may only purchase this Advantage if you already possess The World of the Daimyo advantage."
+  },
+  {
+    "uid" : "146",
+    "name" : "Sage of the Sword and Fan",
+    "type" : "advantage",
+    "subtype" : "Mental",
+    "points" : "7 points",
+    "description" : "This Advantage may be purchased (with the GM’s permission) after reading an original copy of the Book of Sun Tao or the original copy of The Subtlety of the Court. Reading this work allows the character to realize that war and politics are fundamentally one and the same. You gain the Mastery benefits of both the Battle and Courtier Skills, based on whichever of the two skills you have at a higher Rank. A number of times per day equal to your Insight Rank, you may use the higher Rank in those Skills when making a Contested Skill Roll with either of them.\n\nThis Advantage costs 1 less point for courtiers."
+  },
+  {
+    "uid" : "147",
+    "name" : "Strategist",
+    "type" : "advantage",
+    "subtype" : "Mental",
+    "points" : "5 points",
+    "description" : "You have studied the key strategic treatises such as The Book of Sun Tao and Akodo’s Leadership and gained an instinctive grasp of their philosophies regarding strategy in war. You understand the necessity of maintaining focus on the larger picture, of seeing each battle as part of a greater campaign, and how these will contribute to achieving your strategic objectives. If your character is the commander of an army or one of its senior subordinate commanders (for example, the commander of the Vanguard, or of an entire wing of the Main Body), or is part of the commander’s staff, then your side receives a +2k0 bonus to the Battle (Mass Combat)/Perception Roll made to determine who is Winning each Battle Turn. You also receive a +1k0 bonus to any other Battle Skill Roll you make during a Mass Battle Turn.\n\nLion characters may purchase this Advantage for 4 Points."
+  },
+  {
+    "uid" : "148",
+    "name" : "Inheritance : Trained Falcon",
+    "type" : "advantage",
+    "subtype" : "Material",
+    "points" : "2 points (1pt for Toritaka character)",
+    "description" : "You are in possession of a trained hunting falcon, the most recent of a long line of carefully bred hunting animals maintained by your family’s falconry experts. This falcon is an exceptional specimen, and increases the number of Wounds it can sustain at each level by 5. It also rolls one additional die when making an attack. (The stats for a falcon can be found in the Book of the Void of the Legend of the Five Rings Role-playing Game, 4th Edition.)"
+  },
+  {
+    "uid" : "149",
+    "name" : "Imperial Scribe",
+    "type" : "advantage",
+    "subtype" : "Social",
+    "points" : "4 points",
+    "description" : "Requirements: Status 2+, Calligraphy 4+\n\nYou have been trained as a scribe in the Imperial City, which is both a recognition of your considerable skill at calligraphy and a means of ensuring that you remain among the most respected calligraphers hereafter. You gain a bonus of +1k0 on all Social Skill Rolls made against shugenja and artisans, who have a great appreciation for your skill and position. Additionally, you gain a Free Raise on Calligraphy Skill Rolls."
+  },
+  {
+    "uid" : "150",
+    "name" : "Battle Healing",
+    "type" : "advantage",
+    "subtype" : "Mystical",
+    "points" : "5 points",
+    "description" : "Some of the most ardent and militant shugenja of the Empire, including the Kuni family and Bishamon’s Chosen among the Kitsu, understand that the essence of all Elements can be used to suffuse the broken \u001Eesh of an honorable warrior and make it whole. Water is superior for such things, of course, but the other Elements can suf\u001Fce when necessary. Once per day per person, you may expend one Water spell slot or two spell slots in any other Element(s) to heal one Wound Rank of a Rokugani you are touching."
+  },
+  {
+    "uid" : "151",
+    "name" : "Well-Connected",
+    "type" : "advantage",
+    "subtype" : "Social",
+    "points" : "3 points / rank",
+    "description" : "Choose one court when you purchase this Advantage. One time each session per level of the Advantage, you may roll Courtier / Awareness at TN 20. If successful, you gain the benefit of one minor favor from someone else at court. This favor should not be something that inconveniences the benefactor, and it will only be a small piece of information (e.g. “the daimyo intends to go hunting tomorrow”) or a simple bit of assistance (“I assigned you to a later guard shift”). The favor, however, will always be useful to some task you are currently pursuing.\n\nCourtiers may purchase this Advantage for one point less."
+  },
+  {
+    "uid" : "152",
+    "name" : "Debt",
+    "type" : "disadvantage",
+    "subtype" : "Material, Social",
+    "points" : "2/4/8 points",
+    "description" : "Whether through bad luck or simple imprudence, at some point you found yourself short of money and “solved” this problem by taking out a loan, either from a wealthy commoner or a fellow samurai. You are expected to repay this loan, and until you do, the shame of your indebted state hangs over you. For 2 points, your debt is equivalent to one quarter of your yearly stipend – a small amount, but you will have to save carefully to repay it. For 4 points, you owe your entire yearly stipend, and for 8 points, you owe substantially more than that. If others learn about your debt, you will at a minimum lose Glory (probably at least a Rank, more if your debt is large) and your fellow samurai may come to look down on you; your lord may also disapprove of your irresponsibility. In the long term, a persistently indebted samurai may be publicly shamed, losing Status or worse. Moreover, even if you keep the debt secret, your creditor may decide to use it to pressure you into doing things on his behalf (this should be handled by the GM through role-play).\n\nThis Disadvantage is worth one additional point for courtiers."
   }
 ]
