@@ -13,7 +13,6 @@ import androidx.navigation.findNavController
 import androidx.navigation.fragment.navArgs
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.room.Room
-import com.rpg.l5rcompanion.R.id.clanDescription
 import com.rpg.l5rcompanion.adapter.FamiliesAdapter
 import com.rpg.l5rcompanion.database.Clans
 import com.rpg.l5rcompanion.database.MyDatabase
@@ -58,25 +57,24 @@ class DetailClanFragment : Fragment(R.layout.fragment_detail_clan) {
         val name: TextView = view.findViewById(R.id.clanName)
         name.text = nameClan
         val image: ImageView = view.findViewById(R.id.image)
-        val description: TextView = view.findViewById(clanDescription)
+        val description : TextView = view.findViewById(R.id.clanDescription)
         description.text = descriptionClan
         val int = resources.getIdentifier(imageItem,"drawable", "com.rpg.l5rcompanion")
         image.setImageResource(int)
 
         /**display or hide description*/
-        val seeDesc :TextView = view.findViewById(clanDescription)
-        seeDesc.visibility = View.GONE
+        description.visibility = View.GONE
         val show: Button = view.findViewById(R.id.seemore)
         val hide: Button = view.findViewById(R.id.seeless)
         hide.visibility = View.GONE
 
         show.setOnClickListener {
-            seeDesc.visibility = View.VISIBLE
+            description.visibility = View.VISIBLE
             hide.visibility = View.VISIBLE
             show.visibility = View.GONE
         }
         hide.setOnClickListener {
-            seeDesc.visibility = View.GONE
+            description.visibility = View.GONE
             hide.visibility = View.GONE
             show.visibility = View.VISIBLE
         }

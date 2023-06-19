@@ -22,7 +22,7 @@
             app:layout_constraintStart_toStartOf="parent"
             tools:ignore="UselessParent">
             <TextView
-                android:id="@+id/advName"
+                android:id="@+id/advTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:layout_constraintTop_toTopOf="parent"
@@ -31,7 +31,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="15dp"
                 android:textSize="28sp"
-                android:text="Title Armor"
+                android:text="Title"
                 />
             <TextView
                 android:id="@+id/subtype"

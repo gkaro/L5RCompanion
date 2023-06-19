@@ -11,7 +11,6 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.fragment.navArgs
 import androidx.room.Room
-import com.rpg.l5rcompanion.R.id.advSchoolDescription
 import com.rpg.l5rcompanion.database.MyDatabase
 import com.rpg.l5rcompanion.database.Schools
 import com.rpg.l5rcompanion.databinding.FragmentDetailAdvSchoolBinding
@@ -29,7 +28,7 @@ class DetailAdvSchoolFragment : Fragment() {
         return binding.root
     }
 
-    @SuppressLint("SetTextI18n")
+    @SuppressLint("SetTextI18n", "CutPasteId")
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         /**list of items from database */
         val uid = args.uid
@@ -66,7 +65,7 @@ class DetailAdvSchoolFragment : Fragment() {
         discipline.text = "Type : $disciplineSchool"
         if(disciplineSchool == ""){discipline.visibility = View.GONE}
 
-        val description: TextView = view.findViewById(advSchoolDescription)
+        val description = view.findViewById<TextView>(R.id.advDescription)
         description.text = descriptionSchool
         val titleRank1 = view.findViewById<TextView>(R.id.schoolTitleRank1)
         titleRank1.text = titleRank1School
@@ -82,19 +81,18 @@ class DetailAdvSchoolFragment : Fragment() {
         rank3.text = rank3School
 
         /**display or hide description*/
-        val seeDesc :TextView = view.findViewById(advSchoolDescription)
-        seeDesc.visibility = View.GONE
+        description.visibility = View.GONE
         val show: Button = view.findViewById(R.id.seemore)
         val hide: Button = view.findViewById(R.id.seeless)
         hide.visibility = View.GONE
 
         show.setOnClickListener {
-            seeDesc.visibility = View.VISIBLE
+            description.visibility = View.VISIBLE
             hide.visibility = View.VISIBLE
             show.visibility = View.GONE
         }
         hide.setOnClickListener {
-            seeDesc.visibility = View.GONE
+            description.visibility = View.GONE
             hide.visibility = View.GONE
             show.visibility = View.VISIBLE
         }

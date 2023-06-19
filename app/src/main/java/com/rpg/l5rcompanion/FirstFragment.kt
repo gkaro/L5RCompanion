@@ -44,7 +44,7 @@ class FirstFragment : Fragment() {
         }
 
         binding.skills.setOnClickListener {
-            findNavController().navigate(R.id.action_firstFragment_to_listSkillsFragment,null, options)
+            findNavController().navigate(R.id.action_firstFragment_to_skillsFragment,null, options)
         }
 
         binding.spells.setOnClickListener {
@@ -66,14 +66,6 @@ class FirstFragment : Fragment() {
         binding.advDisadv.setOnClickListener {
             findNavController().navigate(R.id.action_firstFragment_to_advDisFragment,null, options)
         }
-
-
         return binding.root
     }
-
-
-
-
-
-
 }

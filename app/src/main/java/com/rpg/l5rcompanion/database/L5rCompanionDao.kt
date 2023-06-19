@@ -70,14 +70,21 @@ interface L5rCompanionDao{
     @Query("SELECT * FROM Rules WHERE uid= :uid")
     fun getRulesById(uid: Int): List<Rules>
 
+
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertSkills(vararg skills: Skills)
 
     @Query("SELECT * FROM Skills WHERE category= :uid")
     fun getSkillsByCategory(uid: Int): List<Skills>
 
+    @Query("SELECT * FROM Skills")
+    fun getAllSkills():List<Skills>
+
     @Query("SELECT * FROM Skills WHERE uid= :uid")
     fun getSkillsById(uid: Int): List<Skills>
+
+
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertSpells(vararg spells: Spells)
@@ -91,6 +98,8 @@ interface L5rCompanionDao{
     @Query("SELECT * FROM Spells WHERE uid= :uid")
     fun getSpellsById(uid: Int): List<Spells>
 
+
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertKatas(vararg katas: Katas)
 
@@ -99,6 +108,11 @@ interface L5rCompanionDao{
 
     @Query("SELECT * FROM Katas WHERE uid= :uid")
     fun getKatasById(uid: Int): List<Katas>
+
+    @Query("SELECT * FROM Katas WHERE ring= :ring")
+    fun getKatasByRing(ring: String): List<Katas>
+
+
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertKihos(vararg kihos: Kihos)
@@ -109,6 +123,11 @@ interface L5rCompanionDao{
     @Query("SELECT * FROM Kihos WHERE uid= :uid")
     fun getKihosById(uid: Int): List<Kihos>
 
+    @Query("SELECT * FROM Kihos WHERE ring= :ring")
+    fun getKihosByRing(ring: String): List<Kihos>
+
+
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertArmors(vararg armors: Armors)
 
@@ -117,6 +136,8 @@ interface L5rCompanionDao{
 
     @Query("SELECT * FROM Armors WHERE uid= :uid")
     fun getArmorsById(uid: Int): List<Armors>
+
+
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertWeapons(vararg weapons: Weapons)
@@ -130,6 +151,8 @@ interface L5rCompanionDao{
     @Query("SELECT * FROM Weapons WHERE uid= :uid")
     fun getWeaponsById(uid: Int): List<Weapons>
 
+
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertAdvDis(vararg advDis: AdvDis)
 
@@ -139,11 +162,15 @@ interface L5rCompanionDao{
     @Query("SELECT * FROM AdvDis WHERE uid= :uid")
     fun getAdvDisById(uid: Int): List<AdvDis>
 
+
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertStations(vararg stations: Stations)
 
     @Query("SELECT * FROM Stations WHERE uid= :uid")
     fun getStationById(uid: Int): List<Stations>
+
+
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insertOkuden(vararg okuden: Okuden)

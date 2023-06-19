@@ -1,3 +1,39 @@
 <resources>
     <string name="app_name">L5RCompanion</string>
+    <string-array name="skills">
+        <item>Filter by type : </item>
+        <item>High Skills</item>
+        <item>Bugei Skills</item>
+        <item>Merchants Skills</item>
+        <item>Low Skills</item>
+        <item>All Skills</item>
+    </string-array>
+    <string-array name="spells">
+        <item>Filter by Mastery level : </item>
+        <item>Mastery level 1</item>
+        <item>Mastery level 2</item>
+        <item>Mastery level 3</item>
+        <item>Mastery level 4</item>
+        <item>Mastery level 5</item>
+        <item>Mastery level 6</item>
+        <item>All Spells</item>
+    </string-array>
+    <string-array name="katas">
+        <item>Filter by ring : </item>
+        <item>Air</item>
+        <item>Earth</item>
+        <item>Fire</item>
+        <item>Void</item>
+        <item>Water</item>
+        <item>All Katas</item>
+    </string-array>
+    <string-array name="kihos">
+        <item>Filter by ring : </item>
+        <item>Air</item>
+        <item>Earth</item>
+        <item>Fire</item>
+        <item>Void</item>
+        <item>Water</item>
+        <item>All Kihos</item>
+    </string-array>
 </resources>

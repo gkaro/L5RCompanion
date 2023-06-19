@@ -17,9 +17,6 @@
             android:id="@+id/action_firstFragment_to_listRulesFragment"
             app:destination="@id/listRulesFragment" />
         <action
-            android:id="@+id/action_firstFragment_to_listSkillsFragment"
-            app:destination="@id/listSkillsFragment" />
-        <action
             android:id="@+id/action_firstFragment_to_ringsSpellsFragment"
             app:destination="@id/ringsSpellsFragment" />
         <action
@@ -34,6 +31,9 @@
         <action
             android:id="@+id/action_firstFragment_to_katasKihosFragment"
             app:destination="@id/katasKihosFragment" />
+        <action
+            android:id="@+id/action_firstFragment_to_skillsFragment"
+            app:destination="@id/skillsFragment" />
     </fragment>
     <fragment
         android:id="@+id/listClansFragment"
@@ -175,18 +175,6 @@
             app:argType="integer" />
     </fragment>
     <fragment
-        android:id="@+id/listSkillsFragment"
-        android:name="com.rpg.l5rcompanion.ListSkillsFragment"
-        android:label="fragment_list_skills"
-        tools:layout="@layout/fragment_list_skills" >
-        <action
-            android:id="@+id/action_listSkillsFragment_to_skillsFragment"
-            app:destination="@id/skillsFragment" />
-        <argument
-            android:name="uid"
-            app:argType="integer" />
-    </fragment>
-    <fragment
         android:id="@+id/skillsFragment"
         android:name="com.rpg.l5rcompanion.SkillsFragment"
         android:label="fragment_skills"
@@ -212,24 +200,12 @@
         android:name="com.rpg.l5rcompanion.RingsSpellsFragment"
         android:label="fragment_rings_spells"
         tools:layout="@layout/fragment_rings_spells" >
-        <action
-            android:id="@+id/action_ringsSpellsFragment_to_masterySpellsFragment"
-            app:destination="@id/masterySpellsFragment" />
         <argument
             android:name="ring"
             app:argType="integer" />
-    </fragment>
-    <fragment
-        android:id="@+id/masterySpellsFragment"
-        android:name="com.rpg.l5rcompanion.MasterySpellsFragment"
-        android:label="fragment_mastery_spells"
-        tools:layout="@layout/fragment_mastery_spells" >
         <action
-            android:id="@+id/action_masterySpellsFragment_to_listSpellsFragment"
+            android:id="@+id/action_ringsSpellsFragment_to_listSpellsFragment"
             app:destination="@id/listSpellsFragment" />
-        <argument
-            android:name="ring"
-            app:argType="integer" />
     </fragment>
     <fragment
         android:id="@+id/listSpellsFragment"
@@ -239,9 +215,7 @@
         <argument
             android:name="ring"
             app:argType="integer" />
-        <argument
-            android:name="mastery"
-            app:argType="integer" />
+
         <action
             android:id="@+id/action_listSpellsFragment_to_detailSpellsFragment"
             app:destination="@id/detailSpellsFragment" />
@@ -253,6 +227,9 @@
         tools:layout="@layout/fragment_detail_spells" >
         <argument
             android:name="uid"
+            app:argType="integer" />
+        <argument
+            android:name="ring"
             app:argType="integer" />
     </fragment>
     <fragment

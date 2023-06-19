@@ -37,7 +37,7 @@ class DetailAdvdisFragment : Fragment() {
         val pointsAdv = item.first().points
         val descriptionAdv = item.first().description
 
-        val name: TextView = view.findViewById(R.id.advName)
+        val name: TextView = view.findViewById(R.id.advTitle)
         name.text = nameAdv
         val subtype: TextView = view.findViewById(R.id.subtype)
         subtype.text = "Type : $subtypeAdv / Cost : $pointsAdv"

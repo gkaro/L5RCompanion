@@ -10,7 +10,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.navArgs
 import androidx.room.Room
-import com.rpg.l5rcompanion.R.id.schoolDescription
 import com.rpg.l5rcompanion.database.MyDatabase
 import com.rpg.l5rcompanion.database.Schools
 import com.rpg.l5rcompanion.databinding.FragmentDetailSchoolBinding
@@ -62,7 +61,7 @@ class DetailSchoolFragment : Fragment(R.layout.fragment_detail_school) {
         discipline.text = "Type : $disciplineSchool"
         val skills: TextView = view.findViewById(R.id.schoolSkills)
         skills.text = "Skills : $skillsSchool"
-        val description: TextView = view.findViewById(schoolDescription)
+        val description: TextView = view.findViewById(R.id.schoolDescription)
         description.text = descriptionSchool
         val honor: TextView = view.findViewById(R.id.schoolHonor)
         honor.text = "Honor : $honorSchool"
@@ -114,19 +113,18 @@ class DetailSchoolFragment : Fragment(R.layout.fragment_detail_school) {
         if(rank5.length() == 0){rank5.visibility = View.GONE}
 
         /**display or hide description*/
-        val seeDesc :TextView = view.findViewById(schoolDescription)
-        seeDesc.visibility = View.GONE
+        description.visibility = View.GONE
         val show: Button = view.findViewById(R.id.seemore)
         val hide: Button = view.findViewById(R.id.seeless)
         hide.visibility = View.GONE
 
         show.setOnClickListener {
-            seeDesc.visibility = View.VISIBLE
+            description.visibility = View.VISIBLE
             hide.visibility = View.VISIBLE
             show.visibility = View.GONE
         }
         hide.setOnClickListener {
-            seeDesc.visibility = View.GONE
+            description.visibility = View.GONE
             hide.visibility = View.GONE
             show.visibility = View.VISIBLE
         }

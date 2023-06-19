@@ -42,7 +42,7 @@ class MainActivity: AppCompatActivity() {
                     true
                 }
                 R.id.listSkillsFragment->{
-                    navController.navigate(R.id.listSkillsFragment)
+                    navController.navigate(R.id.skillsFragment)
                     true
                 }
                 R.id.listRulesFragment->{
